@@ -1,0 +1,69 @@
+---
+
+layout: basic
+title: Explore
+class: explore
+nav-order: 2
+
+banner-supertitle: Explore
+banner-title: Greece
+
+intro: >
+  <p class="p--lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+---
+
+
+<section class="bg--light-grey">
+  <div class="row row--padding guides-row">
+    {% assign guides = site.html_pages | where:'layout','guide' | sort:'guide-order' %}
+    {% for guide in guides %}
+      {% include guide.html %}
+    {% endfor %}
+  </div>
+</section>
+
+
+<section>
+
+  <div class="row row--padding align-center">
+    <h2 class="title title--medium title--upper title--expanded">Top Highlights</h2>
+  </div>
+
+  <div class="row row--padding row--columns-4-4-4-gutters">
+
+    {% assign highlights = site.data.highlights | where:"feature","true" %}
+    {% for highlight in highlights %}
+      {% include highlights/normal.html %}
+    {% endfor %}
+
+  </div>
+
+</section>
+
+
+
+
+<section class="bg--light-grey">
+
+  <div class="row row--padding align-center">
+    <h2 class="title title--medium title--upper title--expanded">Offers</h2>
+  </div>
+
+  <div class="row row--padding">
+    {% assign offers = site.data.offers %}
+    {% for offer in offers limit:3 %}
+      {% include offers/small.html %}
+    {% endfor %}
+  </div>
+
+  <div class="row row--padding align-center">
+    <a href="{{ site.baseurl }}/offers" class="btn btn--large">View all offers</a>
+  </div>
+
+</section>
+
+
+
+
+{% include highlights/modal.html %}

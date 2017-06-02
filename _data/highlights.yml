@@ -1,0 +1,115 @@
+
+##  ===========================================================================
+##  ATHENS
+##  morning, afternoon, evening
+##  ===========================================================================
+
+##  ==== MORNING ====
+
+- title: Highlight 1
+  feature: true
+  location: Location
+  guide: athens
+  guide-section: morning
+  content: Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+- title: Highlight 1
+  feature: true
+  location: Location
+  guide: athens
+  guide-section: morning
+  content: Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+- title: Highlight 1
+  feature: true
+  location: Location
+  guide: athens
+  guide-section: morning
+  content: Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+- title: Highlight 1
+  feature: true
+  location: Location
+  guide: athens
+  guide-section: morning
+  content: Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+##  ==== AFTERNOON ====
+
+- title: Highlight 2
+  location: Location
+  guide: athens
+  guide-section: afternoon
+  content: Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+##  ==== EVENING ====
+
+- title: Highlight 3
+  location: Location
+  guide: athens
+  guide-section: evening
+  content: Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+
+
+
+##  ===========================================================================
+##  CRETE AND THE DODECANESE
+##  crete, rhodes, kos, symi, nisyros, kalymnos
+##  ===========================================================================
+
+##  ==== CRETE ====
+
+- title: Highlight 3
+  location: Location
+  guide: crete-and-the-dodecanese
+  guide-section: crete
+  content: Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+
+
+
+##  ===========================================================================
+##  CYCLADES
+##  santorini, mykonos, paros, tinos, naxos, milos
+##  ===========================================================================
+
+##  ==== SANTORINI ====
+
+- title: Highlight 3
+  location: Location
+  guide: cyclades
+  guide-section: santorini
+  content: Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+
+
+
+##  ===========================================================================
+##  IONIAN ISLANDS
+##  corfu, lefkada, kefalonia, zakynthos, ithaca, paxos
+##  ===========================================================================
+
+##  ==== CORFU ====
+
+- title: Highlight 3
+  location: Location
+  guide: ionian-islands
+  guide-section: corfu
+  content: Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+
+
+
+##  ===========================================================================
+##  THE MAINLAND
+##  halkidiki, peloponnese, mountains
+##  ===========================================================================
+
+##  ==== HALKIDIKI ====
+
+- title: Highlight 3
+  location: Location
+  guide: the-mainland
+  guide-section: halkidiki
+  content: Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.

@@ -1,0 +1,21 @@
+
+<div class="intro {% if page.sections %}has-nav{% endif %}">
+
+  <section class="intro__content align-center">
+    <div class="row row--padding">
+      {{ page.intro }}
+    </div>
+  </section>
+
+  {% if page.sections %}
+  <section class="intro__nav section--padding-none align-center">
+    <ul class="list--horizontal row row--padding">
+      {% for section in page.sections %}
+      <li><a href="#section-{{ section.class }}" class="p--expanded p--upper p--small p--bold">{{ section.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+</div>
+

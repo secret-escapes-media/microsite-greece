@@ -1,0 +1,74 @@
+---
+layout: default
+---
+{% assign highlights = site.data.highlights | where:"guide",page.class %}
+
+
+
+{% for section in page.sections %}
+  {% assign section-highlights = highlights | where: 'guide-section', section.class %}
+
+  <section class="section--padding-large bg--{% cycle 'white', 'light-grey'%}" id="section-{{ section.class }}">
+
+    <div class="row row--padding align-center">
+      <h2 class="title title--medium">{{ section.title }}</h2>
+      <hr class="hr--center">
+      {{ section.content }}
+    </div>
+
+
+    {% if section-highlights.size > 0 %}
+    <div class="row align-center">
+      <div class="row--padding row--columns-3-3-3-3-gutters highlights {% if section-highlights.size > 4 %} highlights--tease{% endif %}" id="highlights-{{ section.class }}">
+        {% for highlight in section-highlights %}
+          {% include highlights/normal.html %}
+        {% endfor %}
+      </div>
+      {% if section-highlights > 4 %}
+        <a href="#highlights-{{ section.class }}" data-target="highlights-{{ section.class }}" class="highlights__btn btn btn--solid" data-label="View all highlights" data-alt-label="Hide highlights">View all {{ section.title }} highlights</a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+
+  </section>
+
+{% endfor %}
+
+
+
+
+
+<section id="offers">
+
+  <div class="row row--padding align-center">
+    <h3 class="title title--medium">Offers</h3>
+  </div>
+
+  <div class="row align-center">
+    <div class="row--padding">
+      {% assign offers = site.data.offers | where: 'category', page.class %}
+      {% for offer in offers %}
+        {% include offers/small.html %}
+      {% endfor %}
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+<section class="section--padding-large bg--partner-primary invert-text align-center">
+  <div class="row row--padding">
+    <h2 class="title title--medium">Continue exploring</h2>
+    <p class="p--lead">But wait there's more! Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla.</p>
+    <a href="{{ site.baseurl }}/explore" class="btn btn--solid btn--large">Keep exploring</a>
+  </div>
+</section>
+
+
+
+{% include highlights/modal.html %}

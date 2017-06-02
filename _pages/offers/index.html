@@ -1,0 +1,29 @@
+---
+
+layout: basic
+title: Offers
+class: offers
+nav-order: 4
+
+banner-supertitle: The very best
+banner-title: Philippines offers
+
+intro: >
+  <p class="p--lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+---
+
+
+
+<section class="section">
+  <div class="row row--padding">
+    {% assign offers = site.data.offers | sort: 'saved' | reverse %}
+    {% for offer in offers %}
+      {% include offers/small.html %}
+    {% endfor %}
+  </div>
+</section>
+
+
+
+{% include offers/banner.html %}

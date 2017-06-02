@@ -1,0 +1,76 @@
+---
+
+layout: basic
+title: Overview
+class: overview
+nav-order: 1
+
+banner-supertitle: Discover
+banner-title: Greece
+
+intro: >
+  <p class="p--lead">Greece, a mythical and enchanting destination that deserves a lifetime of exploration. From kicking back on famous beaches, with soft golden sands and iconic azure waters, to indulging in delicious Greek cuisine in a host of charming tavernas, a holiday to Greece caters easily to all tastes. A myriad of islands, bastions of their unique traditions, cultures, landscapes and flavours, act as stepping stones on an itinerary framed by diversity and intrepid adventuring. </p>
+
+image-divide: A mythical and enchanting destination
+
+
+
+sections:
+
+  - title: Island Outposts
+    class: island-outposts
+    link:
+    content: >
+      <p>A country scattered across the Aegean and Ionian offers a sprawl of islands to explore, each harbouring a unique identity amongst the rocky outcrops that dot the seas. From volcanic landscapes to hidden private coves with crystal-clear waters, Greece’s islands are breathtaking in their beauty and endless in their charms. Pick an island that matches your mood, or island hop on the extensive ferry network for a truly intrepid experience.</p>
+
+  - title: Mediterranean Feasts
+    class: mediterranean-feasts
+    link:
+    content: >
+      <p>Fresh octopus on Mykonos, Feta from Kefalonia, healthy splashes of olive oil and acclaimed wine in Santorini – Greece is a terrific foodie destination. Each island harbours its own flavours, styles and tastes, governed by location, produce and tradition. The famed Mediterranean diet permeates island life, from fresh salads packed with local olives, cheeses and delicious tomatoes, to fresh fish brought in on the trailers each day. Richer dishes like spanakopita and moussaka are set to indulge, whilst souvlaki and gyros still prove to be some of the best street food bites in the world.</p>
+
+  - title: Myths & Legends
+    class: myths-legends
+    link:
+    content: >
+      <p>From Socrates to Alexander the Great and from Odysseus to the Minotaur, ancient Greece is steeped in a myriad of legends and myths that still permeate the stories in our modern world. A remarkable collection of oft warring city states gave us the greatest civilization of ancient times, one that has left an indelible mark on history. Explore breathtaking archaeology that helps bring the ancient Greeks to life – whether it’s the stunning Mount Parnassus ruins of Delphi, home to the famous oracle, or the thick ancient walls and Lion’s Gate of Mycenae, home of Agamemnon, leader of the Greek army during the Trojan War, the myths and legends whisper across the crumbling edifices of these ancient cities.</p>
+
+---
+
+
+
+
+<section class="section--padding-xxlarge bg--image-fixed align-center invert-text" style="background-image: url('{{site.baseurl}}/img/content/overview/divide.jpg');">
+  <div class="row row--padding">
+    <h2 class="title title--medium title--upper title--expanded">{{ page.image-divide }}</h2>
+  </div>
+</section>
+
+
+
+<section class="section--padding-large">
+  <div class="row row--padding">
+
+    {% for section in page.sections %}
+    <div class="bob" id="section-{{section.class}}">
+      <a href="{{ site.baseurl }}/{{ section.link }}" class="bob__image bg-image bg-image--ratio bg-image--ratio-4-3 bg-image--border bg-image--shadow" style="background-image:url('{{ site.baseurl }}/img/content/overview/{{ section.class }}.jpg');"></a>
+      <div class="bob__text">
+        <h2 class="title title--small title--light title--upper title--expanded">{{ section.title }}</h2>
+        {{ section.content }}
+        <a href="{{ site.baseurl }}/{{ section.link }}" class="btn">Find out more</a>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</section>
+
+
+
+<section class="section--padding-large bg--light-grey align-center">
+  <div class="row row--padding">
+    <h2 class="title title--medium title--upper title--expanded">Get exploring</h2>
+    <a href="{{ site.baseurl }}/explore" class="btn btn--solid btn--large">Start now</a>
+  </div>
+</section>
+
