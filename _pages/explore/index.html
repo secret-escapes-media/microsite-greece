@@ -15,11 +15,13 @@ intro: >
 
 
 <section class="bg--light-grey">
-  <div class="row row--padding guides-row">
-    {% assign guides = site.html_pages | where:'layout','guide' | sort:'guide-order' %}
-    {% for guide in guides %}
-      {% include guide.html %}
-    {% endfor %}
+  <div class="row row--thin row--padding guides-row">
+
+      {% assign guides = site.html_pages | where:'layout','guide' | sort:'guide-order' %}
+      {% for guide in guides %}
+        {% include guides/large.html %}
+      {% endfor %}
+
   </div>
 </section>
 
@@ -27,7 +29,7 @@ intro: >
 <section>
 
   <div class="row row--padding align-center">
-    <h2 class="title title--medium title--upper title--expanded">Top Highlights</h2>
+    <h2 class="title title--medium title--upper title--light title--expanded title--color">Top Highlights</h2>
   </div>
 
   <div class="row row--padding row--columns-4-4-4-gutters">
@@ -47,11 +49,11 @@ intro: >
 <section class="bg--light-grey">
 
   <div class="row row--padding align-center">
-    <h2 class="title title--medium title--upper title--expanded">Offers</h2>
+    <h2 class="title title--medium title--upper title--light title--expanded title--color">Offers</h2>
   </div>
 
   <div class="row row--padding">
-    {% assign offers = site.data.offers %}
+    {% assign offers = site.data.offers | sort: 'saved' | reverse %}
     {% for offer in offers limit:3 %}
       {% include offers/small.html %}
     {% endfor %}

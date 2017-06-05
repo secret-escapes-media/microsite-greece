@@ -42,7 +42,7 @@ sections:
 
 <section class="section--padding-xxlarge bg--image-fixed align-center invert-text" style="background-image: url('{{site.baseurl}}/img/content/overview/divide.jpg');">
   <div class="row row--padding">
-    <h2 class="title title--medium title--upper title--expanded">{{ page.image-divide }}</h2>
+    <span class="title title--medium title--upper title--expanded title--serif">{{ page.image-divide }}</span>
   </div>
 </section>
 
@@ -53,9 +53,9 @@ sections:
 
     {% for section in page.sections %}
     <div class="bob" id="section-{{section.class}}">
-      <a href="{{ site.baseurl }}/{{ section.link }}" class="bob__image bg-image bg-image--ratio bg-image--ratio-4-3 bg-image--border bg-image--shadow" style="background-image:url('{{ site.baseurl }}/img/content/overview/{{ section.class }}.jpg');"></a>
+      <a href="{{ site.baseurl }}/{{ section.link }}" class="bob__image bg-image bg-image--ratio bg-image--ratio-1-1 bg-image--border bg-image--shadow" style="background-image:url('{{ site.baseurl }}/img/content/overview/{{ section.class }}.jpg');"></a>
       <div class="bob__text">
-        <h2 class="title title--small title--light title--upper title--expanded">{{ section.title }}</h2>
+        <h2 class="title title--large title--upper title--expanded title--overlap-left">{{ section.title }}</h2>
         {{ section.content }}
         <a href="{{ site.baseurl }}/{{ section.link }}" class="btn">Find out more</a>
       </div>
@@ -67,10 +67,10 @@ sections:
 
 
 
-<section class="section--padding-large bg--light-grey align-center">
+<section class="section--padding-large bg--pattern bg--partner-primary invert-text align-center">
   <div class="row row--padding">
-    <h2 class="title title--medium title--upper title--expanded">Get exploring</h2>
-    <a href="{{ site.baseurl }}/explore" class="btn btn--solid btn--large">Start now</a>
+    <h2 class="title title--large title--upper title--expanded title--light title--serif">Get exploring</h2>
+    <a href="{{ site.baseurl }}/explore" class="btn btn--invert btn--large">Start now</a>
   </div>
 </section>
 

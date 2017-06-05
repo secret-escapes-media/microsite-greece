@@ -94,16 +94,15 @@
     background-color: transparent;
     text-align: center;
     padding: 2em 1em;
-
     @include min-bp(large) {
       padding: 2em;
-      .flexbox & {
-        display: -webkit-flex;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      }
+    }
+    .flexbox & {
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
 
     &__title,

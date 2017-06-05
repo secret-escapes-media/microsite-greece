@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body id="top" {% if page.title %}class="{{ page.title | slugify }} {{ page.layout }}" data-current-page="{{ page.title | slugify }}"{% endif %}>
+  <body id="top" {% if page.title %}class="{{ page.title | slugify }}" data-current-page="{{ page.title | slugify }}"{% endif %}>
 
     {% include tracking.html %}
 
@@ -14,6 +14,8 @@
     {% include page-intro.html %}
 
     {{ content }}
+
+    {% include mamma-mia-banner.html %}
 
     {% include footer.html %}
 

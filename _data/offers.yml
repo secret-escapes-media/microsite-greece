@@ -1,17 +1,17 @@
 
 
 
-  - title: An offer
+  - title: Cressa Ghitonia Vintage Hotel
     category: athens
-    location: Region, Country
+    location: Crete, Greece
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
     price: 999999
     price-description: per room per night
-    saved: 10
+    saved: 30
     expires: 2016-03-23
     link: #
 
-  - title: An offer
+  - title: Another offer
     category: athens
     location: Region, Country
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
@@ -21,7 +21,7 @@
     expires: 2016-03-23
     link: #
 
-  - title: An offer
+  - title: A third offer
     category: cyclades
     location: Region, Country
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
@@ -31,7 +31,7 @@
     expires: 2016-03-23
     link: #
 
-  - title: An offer
+  - title: A third offer
     category: cyclades
     location: Region, Country
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
@@ -41,7 +41,7 @@
     expires: 2016-03-23
     link: #
 
-  - title: An offer
+  - title: A third offer
     category: ionian-islands
     location: Region, Country
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.

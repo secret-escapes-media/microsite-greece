@@ -47,7 +47,8 @@ layout: default
 
   <div class="row align-center">
     <div class="row--padding">
-      {% assign offers = site.data.offers | where: 'category', page.class %}
+
+      {% assign offers = site.data.offers | where: 'category', page.class | sort: 'saved' | reverse %}
       {% for offer in offers %}
         {% include offers/small.html %}
       {% endfor %}

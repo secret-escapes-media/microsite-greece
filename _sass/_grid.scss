@@ -159,6 +159,7 @@ section,.section {
     max-width: $large;
     margin-left: auto;
     margin-right: auto;
+    z-index: -1;
   }
   &__text { padding-top: $margin; }
   & + & { margin-top: ($margin*2); }

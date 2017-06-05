@@ -8,6 +8,7 @@
 $core-font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 $main-font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 $title-font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+$serif-font-family: 'Crimson Text', 'Helvetica Neue', sans-serif;
 
 
 html { font-size: 62.5%; }
@@ -43,6 +44,7 @@ input, textarea, keygen, select, button {
     &-none + * { margin-top: 0; }
   }
 
+  &--super-heading { margin-top: 0 !important; }
   &--sub-heading { margin-top: 0 !important; }
 
   &--light     { font-weight: 200; }
@@ -75,6 +77,20 @@ input, textarea, keygen, select, button {
     &--smaller     { font-size: 2em; }
     &--smallest     { font-size: 1.75em; }
   }
+
+  // STYLISTIC
+  &--serif { font-family: $serif-font-family; }
+  &--color { color: $partner-secondary; }
+
+  @include bp(xxlarge){
+    &--overlap-left, &--overlap-right {
+      color: #c1cde6;
+      line-height: 1;
+    }
+    &--overlap-left { text-align: left; margin-left: -20%; }
+    &--overlap-right { text-align: right; margin-right: -20%; }
+  }
+
 }
 
 
@@ -228,7 +244,12 @@ a {
     &.btn--invert { color: $se-orange; background-color: $white; }
   }
 
-  &--small { font-size: 0.85em; letter-spacing: 0.05em; text-transform: none; padding: .4em 2em; }
+  &--small { font-size: 0.85em; padding: .4em 2em; }
   &--large { font-size: 1em; padding: .7em 3em; }
+
+  &--subtle {
+    background-color: $light-grey; color: $dark-grey;
+    &:hover { background-color: darken($light-grey, 10); }
+  }
 
 }

@@ -29,6 +29,9 @@ body { background-color: $white; }
 
   &--image { @include background-attributes(); }
   &--image-fixed { background-size: cover; background-attachment: fixed; background-repeat: no-repeat; }
+
+  &--pattern { background-image: url('../img/bg/bg-pattern.png'); background-position: center; }
+  &--pattern-white { background-image: url('../img/bg/bg-pattern--white.png'); background-position: center; }
 }
 
 // -- Page intro sections --
@@ -113,10 +116,29 @@ body { background-color: $white; }
   }
 
   &__item {
+    &-content {
+      padding: 2em;
+      margin-top: 0 !important;
+    }
+  }
+
+  &__item {
     overflow: hidden;
     margin-bottom: $margin;
     @include bp(xxlarge){
       @include gallery($gutters 4);
+    }
+  }
+
+  &__item--large {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: $margin;
+    @include bp(large){
+      .flexbox & {
+        display: flex;
+        align-items: center;
+      }
     }
   }
 }
