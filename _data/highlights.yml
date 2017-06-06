@@ -54,6 +54,66 @@
 
 
 ##  ===========================================================================
+##  CYCLADES
+##  santorini, mykonos, paros, tinos, naxos, milos
+##  ===========================================================================
+
+##  ==== SANTORINI ====
+
+- title: Oia & Ammoudi
+  location: Santorini
+  guide: cyclades
+  guide-section: santorini
+  content: A picture-postcard perfect Cycladic village where tavernas offer views over the caldera and the stark white homesteads peppered with blue domes frames this place in effortless Greek charms. Take the endless stairs down to Ammoudi Bay to discover a colourful fishing village with waterside tavernas framed by blood-red cliffs.
+
+- title: Santo Winery
+  location: Santorini
+  guide: cyclades
+  guide-section: santorini
+  content: Try the finest wine Santorini has to offer. Perched high in the cliffs, the winery is a stunning spot for catching the sunset, so book in for a wine tasting and enjoy sublime views of the Mediterranean.
+
+- title: Fira Trail
+  location: Santorini
+  guide: cyclades
+  guide-section: santorini
+  content: For the chance to catch some of the most stunning views Santorini offers, hike from Oia to Fira. At a leisurely three-hours, consider walking early evening, for a chance to catch a breathtaking sunset and arrive in Fira in time for dinner and a deserved drink.
+
+- title: Akrotiri
+  location: Santorini
+  guide: cyclades
+  guide-section: santorini
+  content: Buried deep beneath the volcanic ash at Akrotiri, archaeologists discovered a timewarp Minoan village that fell victim to the infamous eruption of 1613 BC. The remarkable preservation reveals three-story buildings built over 3000 years ago. An unmissable treat so ancient it makes one’s head spin.
+
+##  ==== MYKONOS ====
+
+- title: Hora
+  location: Mykonos
+  guide: cyclades
+  guide-section: mykonos
+  content: Mykonos town is a white labyrinth that offers up classy eateries and stellar boutiques. Find socialites strut their wares up and down the flat cobbled streets that lead past small galleries, photogenic churches and a small collection of museums. Head down to Little Venice for inspired dining on over-the-water terraces and endless photo opportunities as the sun casts its orange glow over the stark white buildings.
+
+- title: LGBT Mykonos
+  location: Mykonos
+  guide: cyclades
+  guide-section: mykonos
+  content: For a long time Mykonos has been the premiere LGBT Greek retreat. It’s a welcoming, friendly island that has fostered a caring community ready to show the beauty of a Cycladic escape. With a network of bars, clubs and beaches, Mykonos is a firm favourite of the LGBT community.
+
+- title: Ano Mera
+  location: Mykonos
+  guide: cyclades
+  guide-section: mykonos
+  content: For a break from the lively atmosphere of Hora, be sure to stop off at Ano Mera – an effortlessly charming Cycladic village. A smattering of tavernas line the main street offering great local bites, including the must-try local sweet-treat galaktompoureko. Don’t miss the Tourliani Monastery, a 16th century spiritual centre packed with remarkable relics and breathtakingly ornate interiors.
+
+- title: Party ‘til the early hours
+  location: Mykonos
+  guide: cyclades
+  guide-section: mykonos
+  content: It’s no secret that Mykonos has some great late-night venues. From designer hot-spots to mega-clubs, Mykonos caters to all revellers. C-Bar, Cavo Paradiso and Space Dance are all household names on the clubbing circuit, so if you fancy dancing ‘til sunrise, hit these places up. 
+
+
+
+
+##  ===========================================================================
 ##  CRETE AND THE DODECANESE
 ##  crete, rhodes, kos, symi, nisyros, kalymnos
 ##  ===========================================================================
@@ -64,22 +124,6 @@
   location: Location
   guide: crete-and-the-dodecanese
   guide-section: crete
-  content: Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-
-
-
-##  ===========================================================================
-##  CYCLADES
-##  santorini, mykonos, paros, tinos, naxos, milos
-##  ===========================================================================
-
-##  ==== SANTORINI ====
-
-- title: Highlight 3
-  location: Location
-  guide: cyclades
-  guide-section: santorini
   content: Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
 
 

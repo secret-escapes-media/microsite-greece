@@ -26,27 +26,9 @@ intro: >
 </section>
 
 
-<section>
-
-  <div class="row row--padding align-center">
-    <h2 class="title title--medium title--upper title--light title--expanded title--color">Top Highlights</h2>
-  </div>
-
-  <div class="row row--padding row--columns-4-4-4-gutters">
-
-    {% assign highlights = site.data.highlights | where:"feature","true" %}
-    {% for highlight in highlights %}
-      {% include highlights/normal.html %}
-    {% endfor %}
-
-  </div>
-
-</section>
 
 
-
-
-<section class="bg--light-grey">
+<section class="bg--white">
 
   <div class="row row--padding align-center">
     <h2 class="title title--medium title--upper title--light title--expanded title--color">Offers</h2>

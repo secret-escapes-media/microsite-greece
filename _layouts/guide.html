@@ -5,35 +5,28 @@ layout: default
 
 
 
-{% for section in page.sections %}
+
+
+{% assign sections = page.sections | sort: 'hierarchy' %}
+{% for section in sections %}
   {% assign section-highlights = highlights | where: 'guide-section', section.class %}
-
-  <section class="section--padding-large bg--{% cycle 'white', 'light-grey'%}" id="section-{{ section.class }}">
-
-    <div class="row row--padding align-center">
-      <h2 class="title title--medium">{{ section.title }}</h2>
-      <hr class="hr--center">
-      {{ section.content }}
-    </div>
-
-
-    {% if section-highlights.size > 0 %}
-    <div class="row align-center">
-      <div class="row--padding row--columns-3-3-3-3-gutters highlights {% if section-highlights.size > 4 %} highlights--tease{% endif %}" id="highlights-{{ section.class }}">
-        {% for highlight in section-highlights %}
-          {% include highlights/normal.html %}
-        {% endfor %}
-      </div>
-      {% if section-highlights > 4 %}
-        <a href="#highlights-{{ section.class }}" data-target="highlights-{{ section.class }}" class="highlights__btn btn btn--solid" data-label="View all highlights" data-alt-label="Hide highlights">View all {{ section.title }} highlights</a>
-      {% endif %}
-    </div>
-    {% endif %}
-
-
-  </section>
-
+  {% if section.hierarchy == 1 %}
+    {% include guides/sections/large.html %}
+  {% elsif section.hierarchy == 2 %}
+    {% include guides/sections/medium.html %}
+  {% endif %}
 {% endfor %}
+
+
+<section class="section--padding-large bg--light-grey">
+  <div class="row row--padding">
+    {% for section in sections %}
+      {% if section.hierarchy == 3 %}
+        {% include guides/sections/small.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
 
 
 

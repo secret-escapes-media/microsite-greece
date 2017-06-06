@@ -147,6 +147,21 @@ section,.section {
 }
 
 
+.object {
+  &--1of2 { @include gallery(6); }
+  &--1of3 { @include gallery(4); }
+  &--1of4 { @include gallery(3); }
+  &--1of6 { @include gallery(2); }
+  &--1of12 { @include gallery(1); }
+  // with gutters
+  &--1of2-gutters { @include gallery($gutters 6); }
+  &--1of3-gutters { @include gallery($gutters 4); }
+  &--1of4-gutters { @include gallery($gutters 3); }
+  &--1of6-gutters { @include gallery($gutters 2); }
+  &--1of12-gutters { @include gallery($gutters 1); }
+}
+
+
 // Bob is a type of layout that we use frequently for featured content. We
 // couldn't think of an accurate and concise name so we called it Bob. Its
 // columns with a feature image and copy that swap columns in alternating order.
@@ -159,9 +174,9 @@ section,.section {
     max-width: $large;
     margin-left: auto;
     margin-right: auto;
-    z-index: -1;
+    z-index: 0;
   }
-  &__text { padding-top: $margin; }
+  &__text { z-index: 1; padding-top: $margin; }
   & + & { margin-top: ($margin*2); }
   @include bp(xxlarge){
     text-align: left;
@@ -196,7 +211,6 @@ section,.section {
 .harvey {
   @include container(100%);
   @include layout(12 0);
-  text-align: center;
   &__image {
   }
   &__text {
@@ -210,16 +224,16 @@ section,.section {
       align-items: center;
     }
     &__image {
-      @include span(6);
+      @include span(5);
       min-height: 420px;
     }
     &__text {
-      @include span(6 last);
+      @include span(7 last);
       padding: $margin*2;
     }
     &:nth-child(odd){
-      .harvey__image { @include span(6 last); }
-      .harvey__text { @include span(6); }
+      .harvey__image { @include span(5 last); }
+      .harvey__text { @include span(7); }
       .flexbox & {
         display: flex;
         align-items: center;

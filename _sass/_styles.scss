@@ -57,7 +57,7 @@ body { background-color: $white; }
 
     &.stuck {
       position: fixed; top: 0; bottom: auto;
-      z-index: $z-nav;
+      z-index: $z-nav-upper;
       box-shadow: 0 0 5px 0 rgba($black, 0.2);
     }
   }
@@ -75,7 +75,8 @@ body { background-color: $white; }
   position: relative;
   &--hide {
     margin-bottom: -20px;
-    height: 320px;
+    height: 220px;
+    padding: 1px; // so the borders don't get clipped
     &:after {
       content: "";
       position: absolute;
@@ -143,3 +144,31 @@ body { background-color: $white; }
   }
 }
 
+
+/* ===============================================
+ *     GUIDE PAGE
+ * =============================================== */
+
+.guide-section {
+  position: relative;
+
+  &--large {}
+  &--medium {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+.js-bg-fade {
+  position: relative;
+  & * { z-index: 1; }
+  &__overlay {
+    position: absolute;
+    top:0; left:0; bottom:0; right:0;
+    background-color: rgba($dark-grey,0.7);
+    opacity: 1;
+    z-index: 0;
+  }
+}
