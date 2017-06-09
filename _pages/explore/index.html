@@ -17,7 +17,7 @@ intro: >
 <section class="bg--light-grey">
   <div class="row row--thin row--padding guides-row">
 
-      {% assign guides = site.html_pages | where:'layout','guide' | sort:'guide-order' %}
+      {% assign guides = site.html_pages | where: 'layout', 'guide' | sort:'guide-order' %}
       {% for guide in guides %}
         {% include guides/large.html %}
       {% endfor %}

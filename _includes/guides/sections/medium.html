@@ -1,6 +1,9 @@
 <section class="guide-section guide-section--medium section--padding-xxlarge js-bg-fade" id="section-{{ section.class }}" style="background-image: url('{{site.baseurl}}/img/content/{{page.class}}/{{section.class}}.jpg');">
 
   <div class="row row--padding align-center invert-text">
+    {% if section.supertitle %}
+      <h2 class="title title--smallest title--upper title--expanded title--serif title--lined title--margin-small">{{ section.supertitle }}</h2>
+    {% endif %}
     <h2 class="title title--medium title--upper title--expanded">{{ section.title }}</h2>
     <hr class="hr--center hr--margin">
     {{ section.content }}

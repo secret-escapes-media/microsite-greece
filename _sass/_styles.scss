@@ -172,3 +172,16 @@ body { background-color: $white; }
     z-index: 0;
   }
 }
+
+
+/* ===============================================
+ *     MEMBER PAGE
+ * =============================================== */
+
+.members {
+  &__image {
+    margin-bottom: 2em;
+  }
+  margin-bottom: -2em;
+}
+

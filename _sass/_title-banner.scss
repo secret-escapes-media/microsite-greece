@@ -38,20 +38,7 @@
   }
 
   &__subtitle,
-  &__supertitle {
-    position: relative;
-    &:before, &:after {
-      content: "";
-      width: 100px; height: 4px;
-      margin: 0 $margin/2;
-      position: absolute;
-      top: 50%; margin-top: -2px;
-      border-top: 1px solid rgba($white,0.5);
-      border-bottom: 1px solid rgba($white,0.5);
-    }
-    &:before { right: 100%; }
-    &:after { left: 100%; }
-  }
+  &__supertitle {}
 
   &__overlay {
     content: "";

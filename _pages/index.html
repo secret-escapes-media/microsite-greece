@@ -40,10 +40,11 @@ sections:
 
 
 
-<section class="section--padding-xxlarge bg--image-fixed align-center invert-text" style="background-image: url('{{site.baseurl}}/img/content/overview/divide.jpg');">
+<section class="section--padding-xxlarge bg--image-fixed align-center invert-text js-bg-fade" style="background-image: url('{{site.baseurl}}/img/content/overview/divide.jpg');">
   <div class="row row--padding">
     <span class="title title--medium title--upper title--expanded title--serif">{{ page.image-divide }}</span>
   </div>
+  <div class="js-bg-fade__overlay"></div>
 </section>
 
 
@@ -53,7 +54,7 @@ sections:
 
     {% for section in page.sections %}
     <div class="bob" id="section-{{section.class}}">
-      <a href="{{ site.baseurl }}/{{ section.link }}" class="bob__image bg-image bg-image--ratio bg-image--ratio-1-1 bg-image--border bg-image--shadow" style="background-image:url('{{ site.baseurl }}/img/content/overview/{{ section.class }}.jpg');"></a>
+      <a href="{{ site.baseurl }}/{{ section.link }}" class="bob__image bg-image bg-image--ratio bg-image--ratio-1-1 bg-image--border-radius bg-image--shadow" style="background-image:url('{{ site.baseurl }}/img/content/overview/{{ section.class }}.jpg');"></a>
       <div class="bob__text">
         <h2 class="title title--large title--upper title--expanded title--overlap-left">{{ section.title }}</h2>
         {{ section.content }}

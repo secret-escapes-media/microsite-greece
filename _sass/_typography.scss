@@ -84,11 +84,31 @@ input, textarea, keygen, select, button {
 
   @include bp(xxlarge){
     &--overlap-left, &--overlap-right {
-      color: #c1cde6;
+      color: $partner-tertiary;
       line-height: 1;
     }
     &--overlap-left { text-align: left; margin-left: -20%; }
     &--overlap-right { text-align: right; margin-right: -20%; }
+  }
+
+  &--lined {
+    display: inline-block;
+    position: relative;
+    &:before, &:after {
+      content: "";
+      width: 100px; height: 4px;
+      margin: 0 1em;
+      position: absolute;
+      top: 50%; margin-top: -2px;
+      border-top: 1px solid rgba($black,0.1);
+      border-bottom: 1px solid rgba($black,0.1);
+      .invert-text & {
+        border-top: 1px solid rgba($white,0.5);
+        border-bottom: 1px solid rgba($white,0.5);
+      }
+    }
+    &:before { right: 100%; }
+    &:after { left: 100%; }
   }
 
 }

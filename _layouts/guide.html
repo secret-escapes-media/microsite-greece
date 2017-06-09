@@ -17,35 +17,33 @@ layout: default
   {% endif %}
 {% endfor %}
 
+{% assign small-sections = page.sections | where: 'hierarchy','3' %}
+{% if small-sections.size > 0 %}
+<section class="section--padding-large">
 
-<section class="section--padding-large bg--light-grey">
   <div class="row row--padding">
-    {% for section in sections %}
-      {% if section.hierarchy == 3 %}
-        {% include guides/sections/small.html %}
-      {% endif %}
+    {% for section in small-sections %}
+      {% include guides/sections/small.html %}
     {% endfor %}
   </div>
 </section>
+{% endif %}
 
 
 
 
 
-<section id="offers">
+<section class="bg--light-grey" id="offers">
 
   <div class="row row--padding align-center">
-    <h3 class="title title--medium">Offers</h3>
+    <h3 class="title title--medium title--serif title--upper title--expanded title--color title--lined">Offers</h3>
   </div>
 
-  <div class="row align-center">
-    <div class="row--padding">
-
-      {% assign offers = site.data.offers | where: 'category', page.class | sort: 'saved' | reverse %}
-      {% for offer in offers %}
-        {% include offers/small.html %}
-      {% endfor %}
-    </div>
+  <div class="row row--padding">
+    {% assign offers = site.data.offers | where: 'category', page.class | sort: 'saved' | reverse %}
+    {% for offer in offers %}
+      {% include offers/normal.html %}
+    {% endfor %}
   </div>
 
 </section>
@@ -55,11 +53,11 @@ layout: default
 
 
 
-<section class="section--padding-large bg--partner-primary invert-text align-center">
+<section class="section--padding-large bg--partner-primary bg--pattern invert-text align-center">
   <div class="row row--padding">
-    <h2 class="title title--medium">Continue exploring</h2>
-    <p class="p--lead">But wait there's more! Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla.</p>
-    <a href="{{ site.baseurl }}/explore" class="btn btn--solid btn--large">Keep exploring</a>
+    <h2 class="title title--medium title--upper title--expanded title--light title--serif">Continue exploring</h2>
+    <p class="p--lead">Discover more of the incredible variety that Greece has to offer with our other guides, and selection of things you absolutely can't miss!</p>
+    <a href="{{ site.baseurl }}/explore" class="btn btn--solid btn--large btn--invert">Keep exploring</a>
   </div>
 </section>
 

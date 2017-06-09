@@ -6,20 +6,26 @@ class: members
 nav-order: 3
 
 intro: >
-  <p class="p--lead">Photo collage. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+  <p class="p--lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
   <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
 
 ---
 
 
 <section class="bg--light-grey">
-  <div class="row row--padding row--columns-3-3-3-3-gutters">
+  <div class="row row--padding row--columns-3-3-3-3-gutters members">
 
-    {% for image in site.static_files %}
-      {% if image.path contains 'img/members' %}
-      <div class="row__column bg-image bg-image--ratio bg-image--ratio-1-1" style="background-image: url({{site.baseurl}}{{ image.path }});"></div>
-      {% endif %}
-    {% endfor %}
+    {% directory path: img/members %}
+      <div class="row__column">
+        <div class="bg-image bg-image--ratio bg-image--ratio-1-1 members__image" style="background-image: url({{site.baseurl}}{{ file.url }});"></div>
+        <!--
+          {{ file.slug | replace: '-',' ' | capitalize }}<br />
+          {{ file.date | date_to_long_string }}<br />
+          {{ file.name }}<br />
+          {{ file.url }}
+        -->
+      </div>
+    {% enddirectory %}
 
   </div>
 </section>
