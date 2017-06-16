@@ -5,22 +5,36 @@ title: Explore
 class: explore
 nav-order: 2
 
-banner-supertitle: Explore
-banner-title: Greece
+banner-title: Explore
+banner-subtitle: Greece
 
 intro: >
-  <p class="p--lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+  <p class="title title--smallest title--serif ">Discover the best of Greece with our curated guides to unmissable destinations across the island sprawl. </p>
 
 ---
 
 
 <section class="bg--light-grey">
-  <div class="row row--thin row--padding guides-row">
+  <div class="row row--padding guides-row">
 
-      {% assign guides = site.html_pages | where: 'layout', 'guide' | sort:'guide-order' %}
-      {% for guide in guides %}
-        {% include guides/large.html %}
-      {% endfor %}
+    {% assign guides = site.html_pages | where:'guide','true' | sort:'guide-order' %}
+    {% for guide in guides %}
+
+      {% if forloop.index == 1 or forloop.index == 2 %}
+
+        {% include guides/normal.html %}
+        {% if forloop.index == 2 %}
+          </div>
+          <div class="row row--padding guides-row">
+        {% endif %}
+
+      {% else %}
+
+        {% include guides/small.html %}
+
+      {% endif %}
+
+    {% endfor %}
 
   </div>
 </section>
@@ -31,10 +45,10 @@ intro: >
 <section class="bg--white">
 
   <div class="row row--padding align-center">
-    <h2 class="title title--medium title--upper title--light title--expanded title--color">Offers</h2>
+    <h2 class="title title--medium title--upper title--expanded title--color title--serif title--lined">Offers</h2>
   </div>
 
-  <div class="row row--padding">
+  <div class="row row--padding row--margin-none">
     {% assign offers = site.data.offers | sort: 'saved' | reverse %}
     {% for offer in offers limit:3 %}
       {% include offers/small.html %}

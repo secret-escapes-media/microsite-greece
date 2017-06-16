@@ -1,11 +1,28 @@
 
 <div class="intro {% if page.sections %}has-nav{% endif %}">
 
-  <section class="intro__content align-center">
-    <div class="row row--padding">
+
+
+  <section class="intro__content">
+    <div class="row row--padding align-center">
       {{ page.intro }}
     </div>
+
+    {% if page.expert-intro %}
+    <div class="intro__expert row row--padding row--xthin">
+
+      <span class="intro__expert-image bg-image bg-image--border bg-image--ratio-1-1" style="background-image:url('{{site.baseurl}}/img/content/expert.jpg');"></span>
+
+      <div class="intro__expert-content">
+        {{ page.expert-intro }}
+      </div>
+
+    </div>
+    {% endif %}
+
   </section>
+
+
 
   {% if page.sections %}
   <section class="intro__nav section--padding-none align-center">
@@ -16,6 +33,8 @@
     </ul>
   </section>
   {% endif %}
+
+
 
 </div>
 

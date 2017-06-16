@@ -13,11 +13,11 @@
   &__image { }
   &__title {
     padding: 1em 1.5em;
-    border-bottom: 1px solid $light-grey;
     .card--small & { padding: 1em; }
   }
   &__content {
     padding: 1em 1.5em;
+    border-top: 1px solid $light-grey;
     .card--small & { padding: 1em; }
   }
 
@@ -26,8 +26,9 @@
     line-height: 1.5;
     text-indent: -0.1em;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
     font-weight: 600;
+    margin-top: 0.5em;
     .card--small & { margin-top: 0.25em; }
     &:before {
       content: "";

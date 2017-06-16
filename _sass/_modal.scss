@@ -58,18 +58,22 @@
     border-radius: 5px;
     overflow: hidden;
     display: block;
-    .flexbox & {
-      display: block;
-      @include bp(large) {
-        display: flex;
+    &-flex {
+      .flexbox & {
+        display: block;
+        @include bp(large) {
+          display: flex;
+        }
       }
     }
     &-inactive { display: none !important; }
     &__content {
-      padding: 0 1.5em 1.5em;
+      margin-top:  0 !important;
+      padding: 1.5em;
       @include bp(large) {
         padding: 1.5em 2em;
       }
+      &--padding { padding: 2.5em 2em; }
     }
     &.modal__expert {
       display: block;

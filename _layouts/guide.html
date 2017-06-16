@@ -1,55 +1,33 @@
 ---
 layout: default
 ---
-{% assign highlights = site.data.highlights | where:"guide",page.class %}
 
 
 
-
-
-{% assign sections = page.sections | sort: 'hierarchy' %}
-{% for section in sections %}
-  {% assign section-highlights = highlights | where: 'guide-section', section.class %}
-  {% if section.hierarchy == 1 %}
-    {% include guides/sections/large.html %}
-  {% elsif section.hierarchy == 2 %}
-    {% include guides/sections/medium.html %}
-  {% endif %}
-{% endfor %}
-
-{% assign small-sections = page.sections | where: 'hierarchy','3' %}
-{% if small-sections.size > 0 %}
-<section class="section--padding-large">
-
-  <div class="row row--padding">
-    {% for section in small-sections %}
-      {% include guides/sections/small.html %}
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
+{{ content }}
 
 
 
-
-
+{% assign offers = site.data.offers | where: 'category', page.class | sort: 'saved' | reverse %}
+{% if offers.size > 0 %}
 <section class="bg--light-grey" id="offers">
 
   <div class="row row--padding align-center">
     <h3 class="title title--medium title--serif title--upper title--expanded title--color title--lined">Offers</h3>
   </div>
 
-  <div class="row row--padding">
-    {% assign offers = site.data.offers | where: 'category', page.class | sort: 'saved' | reverse %}
+  <div class="row row--padding row--margin-none">
     {% for offer in offers %}
       {% include offers/normal.html %}
     {% endfor %}
   </div>
 
+  <div class="row row--padding align-center">
+    <a href="{{ site.baseurl }}/offers" class="btn btn--large">View all offers</a>
+  </div>
+
 </section>
-
-
-
+{% endif %}
 
 
 

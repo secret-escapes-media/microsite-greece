@@ -30,6 +30,18 @@
   guide-section: morning
   content: Head to the seriously chic neighbourhood of Kolonaki for your very own slice of Athenian fashion. Lined with stylish boutiques, this is where the fashionistas of Greece head to pick through up-and-coming designer’s wares, in shops like Luisa World and Bettina. Bring the credit card for this one.
 
+- title: The Poet Sandal Maker
+  location: Athens
+  guide: athens
+  guide-section: morning
+  content: Esteemed sandal maker Melissinos has hand-crafted traditional leather sandals for generations. He’s a memorable character, reciting poetry in Greek or English to those who visit. It adds to the mystique of this white-haired craftsman, who has whipped up pairs of sandals for Sophia Loren, John Lennon, Peter O'Toole and many more. A perfect Athenian souvenir at old-school prices.
+
+- title: Free Thinking Zone
+  location: Athens
+  guide: athens
+  guide-section: morning
+  content: This liberal bookshop serves up thick chunks of philosophy and coffee, as Athens’ intelligentsia ruminate over papers and complex social theorem. For here, you’ll find books, coffee, talks and seminars plus a think tank all squashed into the clean contemporary lines of this shop. No surprise then, from the city of Socrates and Plato...
+
 ##  ==== AFTERNOON ====
 
 - title: The Agora
@@ -56,6 +68,18 @@
   guide-section: afternoon
   content: Surrounded by the lively flea market, this colourful mezedopoleio serves plate after plate of delicious mezedes, the Greek answer to meze. Warm fava and eggplant accompanied by ouzo and raki describe a menu of regional specialities grouped in this boho spot. Great for lunch or dinner, particularly if you can nab a roof spot with views over the Parthenon.
 
+- title: National Archaeological Museum
+  location: Athens
+  guide: athens
+  guide-section: afternoon
+  content: This Athenian gem holds one of the most impressive collections in the world – to little surprise, considering the rich history that this country has hosted. Discover delights like the Artemision Bronze, one of few remaining ancient Greek bronze statues, alongside the golden mask of “Agamemnon” from Mycenae and a collection of Panathenaic amphorae, given to winners of the Panathenaic games centuries ago.
+
+- title: National Museum of Contemporary Art
+  location: Athens
+  guide: athens
+  guide-section: afternoon
+  content: This architecturally imposing building offers a hint at the contemporary verve of its collection. The museum houses a permanent collection of modern art from many disciplines, with plenty of Greek artists at the fore. A city of art since time immemorial, see the latest fold of creativity at this cultural highlight.
+
 ##  ==== EVENING ====
 
 - title: Odeon of Herodes Atticus
@@ -81,6 +105,18 @@
   guide: athens
   guide-section: evening
   content: Another cool rooftop nightspot with obligatory views over the Acropolis. A little out the way, finding this place is an experience. Walk through a nondescript arcade for a simple elevator that signals your arrival at this urban-cool hangout. Colourful cocktails abound – kick-back and enjoy the view amongst Athenian young things.
+
+- title: Brettos Distillery
+  location: Athens
+  guide: athens
+  guide-section: evening
+  content: In the historic heart of Athens lies this fitting, timewarp distillery – the oldest in Athens and the second oldest in Europe. The dark, shady interior is illuminated by a technicolor wall of colourful bottles, a seemingly potion-like mix of ouzos, brandies and lord-knows what else. Prop up amongst the wall of aging cask barrels and order an age-old family recipe that offers a flavour of old Athens.
+
+- title: Beertime
+  location: Athens
+  guide: athens
+  guide-section: evening
+  content: Craft beer has swept the world in a craze of hoppy moreishness. The Mediterranean is particularly keen, with a penchant for strong IPAs and highly experimental brews. Beertime is a great bastion of Greek craft beers, hailing from across the Aegean with brews from Santorini, Corfu, Rhodes, Crete and many more. Hit up this chic hangout and sip on hopped-up brews.
 
 
 
@@ -109,6 +145,30 @@
   guide: cyclades
   guide-section: santorini
   content: For the chance to catch some of the most stunning views Santorini offers, hike from Oia to Fira. At a leisurely three-hours, consider walking early evening, for a chance to catch a breathtaking sunset and arrive in Fira in time for dinner and a deserved drink.
+
+- title: Akrotiri
+  location: Santorini
+  guide: cyclades
+  guide-section: santorini
+  content: Buried deep beneath the volcanic ash at Akrotiri, archaeologists discovered a timewarp Minoan village that fell victim to the infamous eruption of 1613 BC. The remarkable preservation reveals three-story buildings built over 3000 years ago. An unmissable treat so ancient it makes one’s head spin.
+
+- title: Akrotiri
+  location: Santorini
+  guide: cyclades
+  guide-section: santorini
+  content: Buried deep beneath the volcanic ash at Akrotiri, archaeologists discovered a timewarp Minoan village that fell victim to the infamous eruption of 1613 BC. The remarkable preservation reveals three-story buildings built over 3000 years ago. An unmissable treat so ancient it makes one’s head spin.
+
+- title: Akrotiri
+  location: Santorini
+  guide: cyclades
+  guide-section: santorini
+  content: Buried deep beneath the volcanic ash at Akrotiri, archaeologists discovered a timewarp Minoan village that fell victim to the infamous eruption of 1613 BC. The remarkable preservation reveals three-story buildings built over 3000 years ago. An unmissable treat so ancient it makes one’s head spin.
+
+- title: Akrotiri
+  location: Santorini
+  guide: cyclades
+  guide-section: santorini
+  content: Buried deep beneath the volcanic ash at Akrotiri, archaeologists discovered a timewarp Minoan village that fell victim to the infamous eruption of 1613 BC. The remarkable preservation reveals three-story buildings built over 3000 years ago. An unmissable treat so ancient it makes one’s head spin.
 
 - title: Akrotiri
   location: Santorini
@@ -314,7 +374,7 @@
   location: Peloponnese
   guide: the-mainland
   guide-section: peloponnese
-  content: A shame to band these together, but at only a 45-minute drive apart, it would be sacrilege not to give both a mention. Mycenae, the ancient walled citadel once home to famed King Agamemnon, speaks of a remarkably ancient Greece – dating as far back as the 6th millennium BC. Discover the famed mask amongst other stunning finds in the museum. Corinth is a startling mix of Greek and Roman archaeology in remarkable condition, forming the gateway to the Peloponnese. The incredible 5th century BC Doric temple frames the home of philosopher Diogenes (who told Alexander the Great to move out the way of his sunlight whilst living in a barrel), Jason of the Argonauts, and visits from St Paul and Roman traveller Pauselius.  
+  content: A shame to band these together, but at only a 45-minute drive apart, it would be sacrilege not to give both a mention. Mycenae, the ancient walled citadel once home to famed King Agamemnon, speaks of a remarkably ancient Greece – dating as far back as the 6th millennium BC. Discover the famed mask amongst other stunning finds in the museum. Corinth is a startling mix of Greek and Roman archaeology in remarkable condition, forming the gateway to the Peloponnese. The incredible 5th century BC Doric temple frames the home of philosopher Diogenes (who told Alexander the Great to move out the way of his sunlight whilst living in a barrel), Jason of the Argonauts, and visits from St Paul and Roman traveller Pauselius.
 
 - title: Monemvasia
   location: Peloponnese

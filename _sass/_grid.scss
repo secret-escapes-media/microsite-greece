@@ -23,17 +23,18 @@ section,.section {
     padding-bottom: 3.375em;
   }
 }
-@include bp(large) {
-  .section {
-    &--padding {
-      padding-top: 3.375em; padding-bottom: 3.375em;
+.section--padding {
+  padding-top: 3.375em; padding-bottom: 3.375em;
+  &-none { padding-top: 0; padding-bottom: 0; }
+  &-xxlarge, &-xlarge, &-large {
+    padding-top: 4.2em; padding-bottom: 4.2em;
+  }
 
-      &-xxlarge { padding-top: 8em; padding-bottom: 8em; }
-      &-xlarge { padding-top: 5.2em; padding-bottom: 5.2em; }
-      &-large { padding-top: 4.2em; padding-bottom: 4.2em; }
-      &-small { padding-top: 1.6em; padding-bottom: 1.6em; }
-      &-none { padding-top: 0; padding-bottom: 0; }
-    }
+  @include bp(large) {
+    &-xxlarge { padding-top: 8em; padding-bottom: 8em; }
+    &-xlarge { padding-top: 5.2em; padding-bottom: 5.2em; }
+    &-large { padding-top: 4.2em; padding-bottom: 4.2em; }
+    &-small { padding-top: 1.6em; padding-bottom: 1.6em; }
   }
 }
 
@@ -45,10 +46,10 @@ section,.section {
     position: relative;
     @include container( $xxlarge );
   }
-  &--thin {
-    position: relative;
-    @include container( $xxxlarge );
-  }
+  &--thin { @include container( $xxxlarge ); }
+  &--xthin { @include container( $xxlarge ); }
+  &--xxthin { @include container( $xlarge ); }
+  &--xxxthin { @include container( $large ); }
 }
 
 .row--padding {
@@ -65,6 +66,10 @@ section,.section {
   @include bp(medium) {
     margin-left: $margin;
     margin-right: $margin;
+  }
+  &-none {
+    margin: 0 auto;
+    & + .row { margin-top: 0; }
   }
 }
 

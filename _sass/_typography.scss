@@ -47,7 +47,7 @@ input, textarea, keygen, select, button {
   &--super-heading { margin-top: 0 !important; }
   &--sub-heading { margin-top: 0 !important; }
 
-  &--light     { font-weight: 200; }
+  &--light     { font-weight: 300; }
   &--bold      { font-weight: 500; }
   &--bolder    { font-weight: 600; }
   &--expanded  { letter-spacing: .2em; }
@@ -60,14 +60,25 @@ input, textarea, keygen, select, button {
   &--largest {
     font-size: 4.3em;
   }
-  &--larger      { font-size: 3.375em; }
-  &--large       { font-size: 2.986em; }
-  &--medium      { font-size: 2.25em; }
+  &--larger      { font-size: 2.5em; }
+  &--large       { font-size: 2.25em; }
+  &--medium      { font-size: 2em; }
   &--small       { font-size: 2em; }
   &--smaller     { font-size: 1.75em; }
   &--smallest    { font-size: 1.5em; }
   &--tiny        { font-size: 1.44em; }
   &--micro       { font-size: 1.2em; }
+  @include bp(large){
+    &--light     { font-weight: 200; }
+
+    &--largest     { font-size: 6em; }
+    &--larger      { font-size: 4.8em; }
+    &--large       { font-size: 3.4em; }
+    &--medium      { font-size: 2.533em; }
+    &--small       { font-size: 2.367em; }
+    &--smaller     { font-size: 2em; }
+    &--smallest     { font-size: 1.75em; }
+  }
   @include bp(xxlarge){
     &--largest     { font-size: 8em; }
     &--larger      { font-size: 6em; }
@@ -81,15 +92,6 @@ input, textarea, keygen, select, button {
   // STYLISTIC
   &--serif { font-family: $serif-font-family; }
   &--color { color: $partner-secondary; }
-
-  @include bp(xxlarge){
-    &--overlap-left, &--overlap-right {
-      color: $partner-tertiary;
-      line-height: 1;
-    }
-    &--overlap-left { text-align: left; margin-left: -20%; }
-    &--overlap-right { text-align: right; margin-right: -20%; }
-  }
 
   &--lined {
     display: inline-block;
@@ -134,8 +136,8 @@ input, textarea, keygen, select, button {
   &--italic    { font-style: italic; }
   @include bp(large){
     &--lead {
-      font-size: 1.2em;
-      line-height: 1.65;
+      font-size: 1.15em;
+      line-height: 1.6;
     }
   }
 }
@@ -265,7 +267,9 @@ a {
   }
 
   &--small { font-size: 0.85em; padding: .4em 2em; }
-  &--large { font-size: 1em; padding: .7em 3em; }
+  @include bp(large){
+    &--large { font-size: 1em; padding: .7em 3em; }
+  }
 
   &--subtle {
     background-color: $light-grey; color: $dark-grey;

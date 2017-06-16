@@ -1,0 +1,36 @@
+---
+
+layout: basic
+title: Your Stories
+class: stories
+nav-order: 3
+
+intro: >
+  <p class="p--lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+  <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, varius amet non magna.</p>
+
+---
+
+
+<section class="bg--light-grey">
+  <div class="row row--padding row--columns-4-4-4-gutters stories">
+
+    {% assign stories = site.data.stories %}
+    {% if stories.size > 0 %}
+    {% for story in stories %}
+
+      {% if story.content and story.image %}
+        {% include stories/popup.html %}
+      {% elsif story.image %}
+        {% include stories/normal.html %}
+      {% else %}
+          {% include stories/text.html %}
+      {% endif %}
+
+    {% endfor %}
+    {% endif %}
+
+  </div>
+</section>
+
+{% include stories/modal.html %}

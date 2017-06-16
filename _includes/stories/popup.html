@@ -1,0 +1,20 @@
+
+{% capture storytitle %}story-{{forloop.index}}{% if story.title %}-{{story.title | slugify}}{% endif %}{% endcapture %}
+
+<a
+  href="javascript:void(0);"
+  id="{{ storytitle }}"
+  class="story row__column bg--white card js-open-modal"
+  data-modal="stories"
+  data-modal-item="{{ storytitle }}">
+
+  <div class="card__image bg-image bg-image--ratio bg-image--ratio-1-1" style="background-image: url('{{ site.baseurl }}/img/content/stories/{{ story.image }}.jpg');">
+    {% if story.title or story.location %}
+    <div class="bg-image__content invert-text">
+      {% if story.title %}<span class="title title--tiny title--upper title--expanded">{{ story.title }}</span>{% endif %}
+      {% if story.location %}<p class="card__location">{{ story.location }}</p>{% endif %}
+    </div>
+    {% endif %}
+  </div>
+
+</a>

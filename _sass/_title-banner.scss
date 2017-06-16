@@ -35,10 +35,16 @@
 
   &__title {
     margin: 0.1em 0;
+    .overview & {
+      font-size: 3.2em;
+      @include bp(large){ font-size: 5.2em; }
+      @include bp(xlarge){ font-size: 7.2em; }
+    }
   }
 
-  &__subtitle,
-  &__supertitle {}
+  &__subtitle { margin-top: 0; }
+  &__supertitle,
+  &__subtitle {}
 
   &__overlay {
     content: "";

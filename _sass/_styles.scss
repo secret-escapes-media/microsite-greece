@@ -44,6 +44,72 @@ body { background-color: $white; }
     margin-bottom: 50px;
     background-color: $partner-secondary;
     color: $white;
+    & .title { color: $white; }
+  }
+
+  &__expert {
+    margin: 1.5em 1em 0;
+    padding: 1.5em 0 0;
+    border-top: 1px solid rgba($white,0.25);
+    text-align: center;
+    @include bp(large){
+      padding: 1.5em 2em;
+      border-bottom: 1px solid rgba($white,0.25);
+      text-align: left;
+    }
+    @include bp(xlarge){
+      margin: 1.5em auto 0;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      z-index: 0;
+      top: -4px; left: 3px; bottom: -4px; right: 3px;
+      border-top: 3px solid rgba($black,0.25);
+      @include bp(large){
+        border-bottom: 3px solid rgba($black,0.25);
+      }
+    }
+
+    &-image {
+      display: none;
+      @include bp(large){
+        display: block;
+        position: absolute;
+        top: 50%; transform: translateY(-50%);
+        left: 0em;
+        width: 10em;
+        max-width: 30%;
+        z-index: $z-content-upper;
+        &:before { padding-top: 100%; }
+        .overview &:before { padding-top: 133.3333333%; }
+      }
+      @include bp(xxlarge){
+        left: -2em;
+      }
+    }
+    &-content {
+      margin-left: 0;
+      @include bp(large){
+        margin-left: 10em;
+      }
+      @include bp(xxlarge){
+        margin-left: 8em;
+      }
+
+      &:before {
+        content: '“ ';
+        position: absolute;
+        margin-left: -15px;
+        top: 10px;
+        z-index: 0;
+        font-size:6em;
+        font-family: Helvetica, sans-serif;
+        color: rgba($white,0.2);
+      }
+      .overview &:before { content: none; }
+    }
   }
 
   &__nav {
@@ -53,6 +119,7 @@ body { background-color: $white; }
     bottom: 0; left: 0; width: 100%;
     .list--horizontal {
       height: 50px;
+      & a { line-height: 50px; }
     }
 
     &.stuck {
@@ -62,47 +129,34 @@ body { background-color: $white; }
     }
   }
 
+  // // Page specific
+  // .overview &.has-nav &__content { background-color: $partner-primary; }
+  // .overview &__nav { background-color: rgba($partner-primary,0.8); }
+
 }
 
 /* ===============================================
  *     JAVASCRIPT SECTIONS
  * =============================================== */
 
-// -- Highlight slider :: show/hide extra highlights ---
-
-.highlights {
-  overflow: hidden;
-  position: relative;
-  &--hide {
-    margin-bottom: -20px;
-    height: 220px;
-    padding: 1px; // so the borders don't get clipped
-    &:after {
-      content: "";
-      position: absolute;
-      z-index: 1;
-      bottom: 0; left: 0; right: 0;
-      height: 60px;
-      background-image: url('../img/icons/highlights-fade.png');
-      background-position: bottom;
-      background-repeat: repeat-x;
-    }
-    .bg--light-grey &:after { background-image: url('../img/icons/highlights-fade-light-grey.png'); }
-    .bg--grey &:after { background-image: url('../img/icons/highlights-fade-grey.png'); }
-  }
-  &__btn { position: relative; z-index: 10; }
+.accordion {
+  @include clearfix();
+  &__trigger {}
+  &--open {}
+  &--closed {}
 }
 
-// ---------- folding sections ----------
 
-.fold {
-  &-container { position: relative; padding: 2px 0; }
-  &__btn {
+
+.js-bg-fade {
+  position: relative;
+  & * { z-index: 1; }
+  &__overlay {
     position: absolute;
-    z-index: 10;
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
+    top:0; left:0; bottom:0; right:0;
+    background-color: rgba($dark-grey,0.7);
+    opacity: 1;
+    z-index: 0;
   }
 }
 
@@ -112,9 +166,8 @@ body { background-color: $white; }
  * =============================================== */
 
 .guides {
-  &-row {
-    margin-bottom: -$margin;
-  }
+
+  &-row { overflow: hidden; margin-bottom: -$margin; }
 
   &__item {
     &-content {
@@ -124,6 +177,14 @@ body { background-color: $white; }
   }
 
   &__item {
+    overflow: hidden;
+    margin-bottom: $margin;
+    @include bp(xxlarge){
+      @include gallery($gutters 6);
+    }
+  }
+
+  &__item--small {
     overflow: hidden;
     margin-bottom: $margin;
     @include bp(xxlarge){
@@ -161,15 +222,25 @@ body { background-color: $white; }
   }
 }
 
-.js-bg-fade {
-  position: relative;
-  & * { z-index: 1; }
-  &__overlay {
-    position: absolute;
-    top:0; left:0; bottom:0; right:0;
-    background-color: rgba($dark-grey,0.7);
-    opacity: 1;
-    z-index: 0;
+.highlights {
+  &--day-guide {
+
+    @include bp(xlarge){
+      padding-top: 2em;
+      & .highlight {
+        margin-top: -2em;
+        &:nth-child(3n+2) { margin-top: 0; }
+      }
+    }
+
+  }
+}
+
+.highlight {
+  .card__content {
+    border-top: 1px solid $light-grey;
+    display: none;
+    @include bp(large){ display: block; }
   }
 }
 
@@ -178,8 +249,8 @@ body { background-color: $white; }
  *     MEMBER PAGE
  * =============================================== */
 
-.members {
-  &__image {
+.stories {
+  .story {
     margin-bottom: 2em;
   }
   margin-bottom: -2em;

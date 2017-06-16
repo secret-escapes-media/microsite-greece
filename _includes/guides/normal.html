@@ -1,9 +1,9 @@
-<a href="{{site.baseurl}}{{ guide.url }}" class="guides__item bg--light-grey invert-text align-center bg-image bg-image--border bg-image--zoom bg-image--ratio bg-image--ratio-3-4 bg-image--large--ratio-16-9 bg-image--xxlarge--ratio-3-4" style="background-image: url('{{ site.baseurl }}/img/bg/banner-{{ guide.class }}.jpg');">
+<a href="{{site.baseurl}}{{ guide.url }}" class="guides__item bg--light-grey invert-text align-center bg-image bg-image--border bg-image--zoom bg-image--ratio bg-image--ratio-3-4 bg-image--large--ratio-1-1" style="background-image: url('{{ site.baseurl }}/img/bg/banner-{{ guide.class }}.jpg');">
 
   <div class="bg-image__content">
     <span class="title title--micro title--expanded title--upper">Our guide to</span>
     <hr class="hr--center hr--margin" />
-    <h2 class="title title--medium">{{ guide.title }}</h2>
+    <h2 class="title title--medium title--upper title--expanded">{{ guide.title }}</h2>
     <hr class="hr--center hr--margin" />
     <p>
       <strong>See:</strong> {% for section in guide.sections %}{{ section.title }}{% unless forloop.last %}, {% endunless %}{% endfor %} <br />
