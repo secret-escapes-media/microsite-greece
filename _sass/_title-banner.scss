@@ -6,6 +6,7 @@
   height: 75%;
   text-align: center;
   color: white;
+  overflow: hidden;
   @include background-attributes();
 
   &__wrap {

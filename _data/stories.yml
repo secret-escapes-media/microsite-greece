@@ -1,39 +1,51 @@
 
-
-
 ##  ===========================================================================
 ##  STORIES
 ##  member submitted stories, with optional linked image, location and content
 ##  ===========================================================================
 
 - image: se01
-  content: Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+  location: Kasteli of Oia
+  content: Santorini is as alluring as you'd imagine. Narrow paved streets in charming cliff-perched villages and breathtaking views of the Aegean sea abound. Head to Kasteli of Oia at sunset for those unforgettable views.
+  name: Zeena S
 
-- image: se02
-  location: Location
+- image: se02-pythagoreio
+  location: Samos
+  content: If you want pretty island vibes don’t miss Samos. Stay in Pythagoreio and feast al fresco in the beautiful Venetian harbour, after exploring this great island on a scooter.
+  name:
+
+- image:
+  location: Cantina Tropicana, Thessaloniki
+  content: If you’re in Thessaloniki and looking for a drink, you can do alot worse than Cantina Tropicana! A hip, tropical themed bar with excellent live band playing killer funk when we went. A memorable night!
+  name:
 
 - image: se03
-  location: Location
-  content: Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+  location: Arkadi Monastery, Crete
+  content: If you’re in Crete make sure you visit the Arkadi Monastery, the location of a bitter final standoff between the Cretan resistance and the Nazis. Moving, evocative and the best place to understand Crete’s fierce cultural pride!
+  name:
+
+- image:
+  location: Santorini
+  content: In Santorini we were spoilt with local delicacies. One of our favourite pre-dinner snacks were the local Tomato-Keftedes – made with the local Santorini cherry tomatoes, these deep-fried balls are perfect with a beer or wine in a seaview taverna!
+  name:
+
+- image: se04
+  location: Rethymno
+  content: Rethymno is a super destination - beautiful, historical and buzzing! Head toward the Fortezza from the town and find the student hangout that serves up vegan shakes and always has a band on in the evenings for al fresco cocktails!
+  name:
 
 - image: se05
-  location: Location
+  location: Rhodes
+  content: Staying in Rhodes? We took a boat from Rhodes Town to Lindos. Not fancying the hilly climb to the castle, we got on the donkeys that take people up the winding path. Easy peasy!
+  name:
 
 - image: se06
-- image: se07
-- image: se08
+  location: Glyfa, Corfu
+  content: If you’re in Corfu and want an excellent evening of sumptuous food with stellar views over the sea from the terrace, head to Glyfa. We enjoyed excellent fresh seafood and grilled lamb, washed down with plenty of Greek wine!
+  name:
 
-- title: Story title
-  location: Location
-  content: Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+- image: se13-ios
+  location: Free Beach Bar, Ios
+  content: If you want to get away from the busy bars in Ios, head to Free Beach Bar. As the name suggests, it’s right on the beach and a comfy, chic and modern hangout perfect for watching the sunset, cocktail in hand!
+  name: Zeena S
 
-- image: se09
-- image: se10
-- image: se11
-
-- content: Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-
-- image: se12
-
-- location: Location
-  content: Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum.

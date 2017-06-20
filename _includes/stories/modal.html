@@ -1,31 +1,30 @@
+
+
 <div class="js-modal modal modal--vertical-align is-closed" id="modal-stories">
   <div class="modal__wrap row--xxthin row--padding">
     <div class="modal__content" id="modal__slider">
 
       {% for story in stories %}
 
-        {% capture storytitle %}story-{{forloop.index}}{% if story.title %}-{{story.title | slugify}}{% endif %}{% endcapture %}
+        {% capture storytitle %}story-{{forloop.index}}{% if story.location %}-{{story.location | slugify}}{% endif %}{% endcapture %}
 
         <div class="slide modal__item modal__item-inactive bg--black align-center" id="modal__item-{{ storytitle }}">
 
           <div class="js-close-modal modal__close"></div>
+
           {% if story.image %}<div class="bg-image bg-image--ratio-16-9" style="background-image: url('{{ site.baseurl }}/img/content/stories/{{ story.image }}.jpg');"></div>{% endif %}
 
-          {% if story.content or story.title or story.location %}
-            {% if story.image %}
-              <div class="modal__item__content invert-text">
-                {% if story.title %}<h2 class="title title--tiny">{{ story.title }}</h2>{% endif %}
-                {% if story.location %}<p class="card__location">{{ story.location }}</p>{% endif %}
-                <p>{{ story.content }}</p>
-              </div>
-            {% else %}
-              <div class="modal__item__content modal__item__content--padding invert-text">
-                {% if story.title %}<h2 class="title title--small title--serif">{{ story.title }}</h2>{% endif %}
-                {% if story.location %}<p class="card__location">{{ story.location }}</p>{% endif %}
-                <p class="p--lead">{{ story.content }}</p>
-              </div>
-            {% endif %}
-          {% endif %}
+            <div class="modal__item__content invert-text{% unless story.image %} modal__item__content--padding{% endunless %}">
+
+              {% if story.location %}<p class="card__location">{{ story.location }}</p>{% endif %}
+
+              <p class="p--lead">{{ story.content }}</p>
+
+              {% if story.name %}
+                <p class="story__name p--small title--upper title--expanded title--lined">Submitted by <span class="title--bolder">{{ story.name }}</span></p>
+              {% endif %}
+
+            </div>
 
         </div>
 

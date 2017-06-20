@@ -19,27 +19,13 @@
 
 
   {% if section-highlights.size > 0 %}
-  <div class="row row--padding row--columns-3-3-3-3-gutters" id="#hl-{{ section.class }}">
+  <div class="row row--padding {% if section-highlights.size > 4 %}row--columns-4-4-4-gutters{% else %}row--columns-3-3-3-3-gutters{% endif %}" id="#hl-{{ section.class }}">
 
     {% for highlight in section-highlights %}
 
-      {% if forloop.first %}<div class="row">{% endif %}
-
       {% include highlights/normal.html %}
 
-      {% if forloop.index == 4 %}
-        </div><div class="accordion" id="{{ section.class }}-hl-accordion">
-      {% elsif forloop.last %}
-        </div>
-      {% endif %}
-
     {% endfor %}
-
-    {% if section-highlights.size > 4 %}
-    <div class="row row--padding align-center">
-      <a href="#hl-{{ section.class }}" data-target="{{ section.class }}-hl-accordion" class="accordion__trigger btn btn--solid" data-label="View {{ section.title }} highlights" data-alt-label="Hide highlights">View {{ section.title }} highlights</a>
-    </div>
-    {% endif %}
 
   </div>
   {% endif %}

@@ -84,6 +84,9 @@ modalLaunchBtn.click(function(){
   // // open modal
   $('#modal-' + targetModal).fadeIn('250', function(){
     $(this).removeClass('is-closed').addClass('is-open');
+    if(!modalItem){
+      $(this).find('.modal__item').removeClass('modal__item-inactive');
+    }
   });
 
   $('#modal-' + targetModal).find('.decoration').addClass('animate');

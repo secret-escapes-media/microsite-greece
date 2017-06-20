@@ -40,7 +40,7 @@
   location: Athens
   guide: athens
   guide-section: morning
-  content: This liberal bookshop serves up thick chunks of philosophy and coffee, as Athens’ intelligentsia ruminate over papers and complex social theorem. For here, you’ll find books, coffee, talks and seminars plus a think tank all squashed into the clean contemporary lines of this shop. No surprise then, from the city of Socrates and Plato...
+  content: This liberal bookshop serves up thick chunks of philosophy and coffee, as Athens’ intelligentsia ruminate over papers and complex social theorem. For here, you’ll find books, coffee, talks and seminars plus a thinktank all squashed into the clean contemporary lines of this shop. No surprise then, from the city of Socrates and Plato...
 
 ##  ==== AFTERNOON ====
 
@@ -60,7 +60,7 @@
   location: Athens
   guide: athens
   guide-section: afternoon
-  content: No visit to Athens is complete without visiting the most striking and complete set of ancient Greek monuments in the world. The four main sites – the parthenon, the Propylaea, the Erechtheum and the Temple of Athena Nike – constitute the finest examples of classical Greek art. An enchanting site, any trip should be accompanied by a visit to the stellar museum.
+  content: No visit to Athens is complete without visiting the most striking and complete set of ancient Greek monuments in the world. The four main sites – the Parthenon, the Propylaea, the Erechtheum and the Temple of Athena Nike – constitute the finest examples of classical Greek art. An enchanting site, any trip should be accompanied by a visit to the stellar museum.
 
 - title: Café Avyssinia
   location: Athens
@@ -104,13 +104,13 @@
   location: Athens
   guide: athens
   guide-section: evening
-  content: Another cool rooftop nightspot with obligatory views over the Acropolis. A little out the way, finding this place is an experience. Walk through a nondescript arcade for a simple elevator that signals your arrival at this urban-cool hangout. Colourful cocktails abound – kick-back and enjoy the view amongst Athenian young things.
+  content: Another cool rooftop nightspot with obligatory views over the Acropolis. A little out of the way, finding this place is an experience. Walk through a nondescript arcade for a simple elevator that signals your arrival at this urban-cool hangout. Colourful cocktails abound – kick-back and enjoy the view amongst Athenian young things.
 
 - title: Brettos Distillery
   location: Athens
   guide: athens
   guide-section: evening
-  content: In the historic heart of Athens lies this fitting, timewarp distillery – the oldest in Athens and the second oldest in Europe. The dark, shady interior is illuminated by a technicolor wall of colourful bottles, a seemingly potion-like mix of ouzos, brandies and lord-knows what else. Prop up amongst the wall of aging cask barrels and order an age-old family recipe that offers a flavour of old Athens.
+  content: In the historic heart of Athens lies this fitting, timewarp distillery – the oldest in Athens and the second oldest in Europe. The dark, shady interior is illuminated by a technicolour wall of colourful bottles, a seemingly potion-like mix of ouzos, brandies and lord-knows what else. Prop up amongst the wall of aging cask barrels and order an age-old family recipe that offers a flavour of old Athens.
 
 - title: Beertime
   location: Athens
@@ -132,7 +132,7 @@
   location: Santorini
   guide: cyclades
   guide-section: santorini
-  content: A picture-postcard perfect Cycladic village where tavernas offer views over the caldera and the stark white homesteads peppered with blue domes frames this place in effortless Greek charms. Take the endless stairs down to Ammoudi Bay to discover a colourful fishing village with waterside tavernas framed by blood-red cliffs.
+  content: A picture-postcard perfect Cycladic village where tavernas offer views over the caldera, and stark-white homesteads, peppered with blue domes, frame this place in effortless Greek charms. Take the endless stairs down to Ammoudi Bay to discover a colourful fishing village with waterside tavernas bordered by blood-red cliffs.
 
 - title: Santo Winery
   location: Santorini
@@ -144,7 +144,7 @@
   location: Santorini
   guide: cyclades
   guide-section: santorini
-  content: For the chance to catch some of the most stunning views Santorini offers, hike from Oia to Fira. At a leisurely three-hours, consider walking early evening, for a chance to catch a breathtaking sunset and arrive in Fira in time for dinner and a deserved drink.
+  content: For a chance to see some of the finest views in Santorini, hike from Oia to Fira. At a leisurely three hours, consider walking in the early evening, for a chance to catch a breathtaking sunset. Arrive in Fira in time for dinner and a deserved drink.
 
 - title: Akrotiri
   location: Santorini
@@ -152,29 +152,17 @@
   guide-section: santorini
   content: Buried deep beneath the volcanic ash at Akrotiri, archaeologists discovered a timewarp Minoan village that fell victim to the infamous eruption of 1613 BC. The remarkable preservation reveals three-story buildings built over 3000 years ago. An unmissable treat so ancient it makes one’s head spin.
 
-- title: Akrotiri
+- title: Santorini Brewing Company
   location: Santorini
   guide: cyclades
   guide-section: santorini
-  content: Buried deep beneath the volcanic ash at Akrotiri, archaeologists discovered a timewarp Minoan village that fell victim to the infamous eruption of 1613 BC. The remarkable preservation reveals three-story buildings built over 3000 years ago. An unmissable treat so ancient it makes one’s head spin.
+  content: The craft beer craze has swept across Greece, offering hopped-up brews in even the most unlikely places. Santorini’s craft beer brewers have been lauded for creating some of the most interesting IPA in the Med, so stop by for a chinwag and a few free tasters before stocking up on this sensational tipple.
 
-- title: Akrotiri
+- title: Ancient Thira
   location: Santorini
   guide: cyclades
   guide-section: santorini
-  content: Buried deep beneath the volcanic ash at Akrotiri, archaeologists discovered a timewarp Minoan village that fell victim to the infamous eruption of 1613 BC. The remarkable preservation reveals three-story buildings built over 3000 years ago. An unmissable treat so ancient it makes one’s head spin.
-
-- title: Akrotiri
-  location: Santorini
-  guide: cyclades
-  guide-section: santorini
-  content: Buried deep beneath the volcanic ash at Akrotiri, archaeologists discovered a timewarp Minoan village that fell victim to the infamous eruption of 1613 BC. The remarkable preservation reveals three-story buildings built over 3000 years ago. An unmissable treat so ancient it makes one’s head spin.
-
-- title: Akrotiri
-  location: Santorini
-  guide: cyclades
-  guide-section: santorini
-  content: Buried deep beneath the volcanic ash at Akrotiri, archaeologists discovered a timewarp Minoan village that fell victim to the infamous eruption of 1613 BC. The remarkable preservation reveals three-story buildings built over 3000 years ago. An unmissable treat so ancient it makes one’s head spin.
+  content: Stalk the endless switchbacks up the mountain from Kamari to find this ancient city perched high over the surrounding area. Settled by the Dorians in the 9th century BC, you’ll find evidence of Hellenistic, Roman and Byzantine ruins, with simply extraordinary views over the sea to boot.
 
 ##  ==== MYKONOS ====
 
@@ -182,7 +170,7 @@
   location: Mykonos
   guide: cyclades
   guide-section: mykonos
-  content: Mykonos town is a white labyrinth that offers up classy eateries and stellar boutiques. Find socialites strut their wares up and down the flat cobbled streets that lead past small galleries, photogenic churches and a small collection of museums. Head down to Little Venice for inspired dining on over-the-water terraces and endless photo opportunities as the sun casts its orange glow over the stark white buildings.
+  content: Mykonos town is a white labyrinth that offers up classy eateries and stellar boutiques. Find socialites strutting their wares up and down the flat cobbled streets that lead past small galleries, photogenic churches and a small collection of museums. Head down to Little Venice for inspired dining on over-the-water terraces and endless photo opportunities as the sun casts its orange glow over the stark white buildings.
 
 - title: LGBT Mykonos
   location: Mykonos
@@ -234,30 +222,42 @@
   location: Crete
   guide: crete-and-the-dodecanese
   guide-section: crete
-  content: Crete was the home of the first civilization on European soil – the Minoans. Their history is dotted across the island in palaces and settlements of startlingly ancient . From the marvel of Knossos, where myths of the minotaur still reverberate around the palace walls, to the remarkable palace at Phaistos, the Minoans aren’t hard to find on this island.
+  content: Crete was the home of the first civilization on European soil – the Minoans. Their history is dotted across the island in palaces and settlements that are startlingly ancient. From the marvel of Knossos, where myths of the minotaur still reverberate around the palace walls, to the remarkable palace at Phaistos, the Minoans aren’t hard to find on this island.
+
+- title: Balos
+  location: Crete
+  guide: crete-and-the-dodecanese
+  guide-section: crete
+  content: A sublime beauty spot, Balos is an isolated lagoon beach where shallow, translucent waters wash over soft white sands. To reach it, a boat excursion or a trip in a 4x4 along dusty paths is necessary. The journey is worth it – the twisting lagoon makes for a perfect day of beach lounging in idyllic surroundings.
+
+- title: Iraklio Wine Country
+  location: Crete
+  guide: crete-and-the-dodecanese
+  guide-section: crete
+  content: This famed wine region offers a cluster of wine estates, where Cretan grape varieties produce tasty tipples that are slowly being recognised outside of Crete for their refined and sumptuous qualities. Hand in hand with these famed offerings stand an irresistible assortment of restaurants that make for an itinerary of mouth-watering quality.
 
 ##  ==== RHODES ====
 
 - title: Rhodes Old Town
-  location: Crete
+  location: Rhodes
   guide: crete-and-the-dodecanese
   guide-section: rhodes
   content: It’s the largest medieval city in Europe, a famed UNESCO heritage site, and in a word, stunning. Navigate narrow Byzantine alleyways and discover boutiques, restaurants and bars that spill out onto squares filled with dreams of knights and crusades. Walk the ancient walls, or discover sublime churches and breathtaking palaces. A true historical wonderland.
 
 - title: Lindos
-  location: Crete
+  location: Rhodes
   guide: crete-and-the-dodecanese
   guide-section: rhodes
-  content: Take a boat trip to Lindos, a small town with an abundant charm. From the picturesque beach, the colourful houses wrap around the grand Acropolis, crowned by a fortification and ancient temple and breathtaking views. A warren of narrow streets reveal architectural clues of shifting time – find Turkish, Frankish, Byzantine and much older all represented here. Cafes and tavernas hide in the patchwork of cobbled lanes, as you dodge donkeys to find one of many idyllic resting spots.
+  content: Take a boat trip to Lindos, a small town with an abundant charm. From the picturesque beach, the colourful houses wrap around the grand Acropolis, crowned by a fortification and ancient temple plus breathtaking views. A warren of narrow streets reveal architectural clues of shifting time – find Turkish, Frankish, Byzantine and much older all represented here. Cafes and tavernas hide in the patchwork of cobbled lanes, as you dodge donkeys to find one of many idyllic resting spots.
 
 - title: Tsambika Monastery
-  location: Crete
+  location: Rhodes
   guide: crete-and-the-dodecanese
   guide-section: rhodes
   content: Explore this famed pilgrimage site for simply stunning views over the coastline. The Panagia Tsambika Monastery draws female pilgrims, particularly during festivals, to pray for fertility – some of whom will crawl to the top on their hands and knees. The 298 steps offer simply jaw-dropping views crowned by a beautiful 17th century church with incredible fragments of frescoes. After the heady climb, relax on one of the most beautiful beaches in Rhodes.
 
 - title: Valley of the Butterflies
-  location: Crete
+  location: Rhodes
   guide: crete-and-the-dodecanese
   guide-section: rhodes
   content: A ravishing beauty spot lies in the hills just south of Rhodes Town, for inspired outdoor adventuring. This enchanting place, sheltered by trees and dotted with rivers and waterfalls, attracts a colourful collection of butterflies from June until September. A truly magical outing, don’t miss this one.
@@ -296,6 +296,18 @@
   guide-section: corfu
   content: Peering out from its lofty position atop a hilly outcrop, Angelokastro treats any visitor to sublime views over the deep-blue sea and rocky coastline. Climb to the acropolis and wander through the thick defences of this Byzantine castle, a pivotal defender during Turkish invasion. It’s a formidable sight of stoic grandeur, with views to die for.
 
+- title: Paleokastritsa Beach
+  location: Corfu
+  guide: ionian-islands
+  guide-section: corfu
+  content: Some of the finest beaches in Greece are found in Corfu and the collection of Paleokastritsa are the best on the island. This stretch of coast features typically stunning Greek beaches, where transparent waters break onto white sands. Tavernas line the front for refreshing bites in gorgeous surroundings. Check out Lagrotta for diving, a rocky outcrop framed by cliffs that is simply mesmerizing.
+
+- title: Canal d’Amour
+  location: Corfu
+  guide: ionian-islands
+  guide-section: corfu
+  content: Paleokastritsa may have the most gorgeous beaches on Corfu, but Canal d’Amour is so unique it certainly stands to contest that other beach idyll. Two juts of land fling forward into the sea, creating a small canal of water with a quaint beach on one end. The name derives from the tradition that couples who swim down the canal will soon be married. Explore hidden swim-in caves, and relax in the startling beauty of this coastline.
+
 ##  ==== KEFALONIA ====
 
 - title: Argostoli
@@ -320,7 +332,7 @@
   location: Kefalonia
   guide: ionian-islands
   guide-section: kefalonia
-  content: A stupendously charming village that straddles a quiet bay, with delightful restaurants offering superlative waterfront dining. Head to the looming peninsula that juts into the sea and walk to the acropolis along tree-lined paths with stunning views over the deep-blue sea. At the top you’ll find the Castle of Assos, which again offers prime views over the Ionian.
+  content: A stupendously charming village that straddles a quiet bay, with delightful restaurants offering superlative waterfront dining. Head to the looming peninsula that juts into the sea and walk to the acropolis along tree-lined paths with stunning views over the deep-blue waters. At the top you’ll find the Castle of Assos, which again offers prime views over the Ionian.
 
 
 
@@ -329,6 +341,44 @@
 ##  THE MAINLAND
 ##  halkidiki, peloponnese, mountains
 ##  ===========================================================================
+
+##  ==== PELOPONNESE ====
+
+- title: Nafplio
+  location: Peloponnese
+  guide: the-mainland
+  guide-section: peloponnese
+  content: The first capital of the new Greek state, Nafplio is lauded as an effortlessly romantic port town that typifies esteemed Greek charms. Elegant Venetian heritage mixes with neoclassical mansions and smart marbled streets, hosting a plethora of cafes, rich boutiques and fine restaurants. It remains a peaceful, not-too-touristy Peloponnese gem.
+
+- title: Olympia
+  location: Peloponnese
+  guide: the-mainland
+  guide-section: peloponnese
+  content: Birthplace of the Olympics, ancient Olympia saw one-thousand years of the games before the site was sacked by the Romans. Explore the stadium, palaestra and gymnasium, imagining oiled men and shrieking onlookers of the games’ furore – you’ll have to, as there is unfortunately not much left aside from foundations. Helpfully, a few grand columns of the Temple of Zeus have been rebuilt to impart a sense of scale – useful, when picturing one of the seven wonders of the ancient world that used to stand here – the magnificent, gargantuan statue of Zeus, built on-site at Pheidias’ workshop.
+
+- title: Mycenae
+  location: Peloponnese
+  guide: the-mainland
+  guide-section: peloponnese
+  content: Mycenae, the ancient walled citadel once home to famed King Agamemnon, speaks of a remarkably ancient Greece – dating as far back as the 6th millennium BC. Walk through the imposing walls of the citadel, under the iconic Lion Gate. See the ruined palace, the grave circles and the Cult Centre, where remarkably artistic finds now shelter in the local museum.
+
+- title: Monemvasia
+  location: Peloponnese
+  guide: the-mainland
+  guide-section: peloponnese
+  content: A vast, towering spit of rock lies barely off the coast, a magnificent display that pierces the sky and shelters a walled Byzantine town. Cross the narrow causeway from the town of Gefyra and discover Ottoman, Venetian and Byzantine influence in this age-old place. Explore narrow, labyrinthine streets and relax in charming tavernas, with views to die for.
+
+- title: Corinth
+  location: Peloponnese
+  guide: the-mainland
+  guide-section: peloponnese
+  content: Corinth is a startling mix of Greek and Roman archaeology in remarkable condition, forming the gateway to the Peloponnese. The incredible 5th century BC Doric temple frames the home of philosopher Diogenes (who famously told Alexander the Great to move out of the way of his sunlight whilst he was living in a barrel), Jason of the Argonauts, and visits from St Paul and Roman traveller Pauselius. Remarkable preservation brings these myths and legends to life – an unmissable stop.
+
+- title: Theatre of Epidaurus
+  location: Peloponnese
+  guide: the-mainland
+  guide-section: peloponnese
+  content: One of the finest ancient Greek theatres in existence, this vast, sweeping amphitheatre is a 3rd century BC marvel. Its design produces remarkable acoustics, a fact best tried out during the Hellenic Festival, where you can view a performance in this ancient theatre. A must for a truly authentic experience.
 
 ##  ==== HALKIDIKI ====
 
@@ -355,29 +405,3 @@
   guide: the-mainland
   guide-section: halkidiki
   content: A sleepy rural village laden with cobbles and endless charms. A main square offers a colourful selection of tavernas and bars, which make for excellent people watching and romance as the sun sets. The beach is pretty and quiet, making Kriopigi a great stop for relaxed Greek living.
-
-##  ==== PELOPONNESE ====
-
-- title: Nafplio
-  location: Peloponnese
-  guide: the-mainland
-  guide-section: peloponnese
-  content: The first capital of the new Greek state, Nafplio is lauded as an effortlessly romantic port town that typifies esteemed Greek charms. Elegant Venetian heritage mixes with neoclassical mansions and smart marbled streets, hosting a plethora of cafes, rich boutiques and fine restaurants. It remains a peaceful, not-too-touristy Peloponnese gem.
-
-- title: Olympia
-  location: Peloponnese
-  guide: the-mainland
-  guide-section: peloponnese
-  content: Birthplace of the Olympics, ancient Olympia saw one-thousand years of the games before the site was sacked by the Romans. Explore the stadium, palaestra and gymnasium, imagining oiled men and shrieking onlookers of the games’ furore – you’ll have to, as there is unfortunately not much left aside from foundations. Helpfully, a few grand columns of the Temple of Zeus have been rebuilt to impart a sense of scale – useful, when picturing one of the seven wonders of the ancient world that used to stand here – the magnificent, gargantuan statue of Zeus, built on-site at Pheidias’ workshop.
-
-- title: Mycenae & Corinth
-  location: Peloponnese
-  guide: the-mainland
-  guide-section: peloponnese
-  content: A shame to band these together, but at only a 45-minute drive apart, it would be sacrilege not to give both a mention. Mycenae, the ancient walled citadel once home to famed King Agamemnon, speaks of a remarkably ancient Greece – dating as far back as the 6th millennium BC. Discover the famed mask amongst other stunning finds in the museum. Corinth is a startling mix of Greek and Roman archaeology in remarkable condition, forming the gateway to the Peloponnese. The incredible 5th century BC Doric temple frames the home of philosopher Diogenes (who told Alexander the Great to move out the way of his sunlight whilst living in a barrel), Jason of the Argonauts, and visits from St Paul and Roman traveller Pauselius.
-
-- title: Monemvasia
-  location: Peloponnese
-  guide: the-mainland
-  guide-section: peloponnese
-  content: A vast, towering spit of rock lies barely off the coast, a magnificent display that pierces the sky and shelters a walled Byzantine town. Cross the narrow causeway from the town of Gefyra and discover Ottoman, Venetian and Byzantine influence in this age-old place. Explore narrow, labyrinthine streets and relax in charming tavernas, with views to die for.

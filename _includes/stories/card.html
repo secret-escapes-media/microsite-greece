@@ -1,0 +1,32 @@
+
+{% capture storytitle %}story-{{forloop.index}}{% if story.location %}-{{story.location | slugify}}{% endif %}{% endcapture %}
+
+<a
+  href="javascript:void(0);"
+  id="{{ storytitle }}"
+  class="story row__column card js-open-modal"
+  data-modal="stories"
+  data-modal-item="{{ storytitle }}">
+
+  <div class="card__image bg-image bg-image--ratio bg-image--ratio-1-1 bg--dark-grey"{% if story.image %} style="background-image: url('{{ site.baseurl }}/img/content/stories/{{ story.image }}.jpg');"{% endif %}>
+
+    <div class="bg-image__content invert-text">
+
+      {% if story.location %}<p class="card__location{% if story.image %} story__location{% endif %}">{{ story.location }}</p>{% endif %}
+
+      {% if story.content %}
+        {% if story.image %}
+          <p class="p--lead">{{ story.content | truncate:100 }}</p>
+        {% else %}
+          <p class="title title--smallest title--serif">{{ story.content | truncate:95 }}</p>
+        {% endif %}
+      {% endif %}
+
+      {% if story.name %}
+        <p class="story__name p--small title--upper title--expanded title--lined">Submitted by <span class="title--bolder">{{ story.name }}</span></p>
+      {% endif %}
+
+    </div>
+  </div>
+
+</a>

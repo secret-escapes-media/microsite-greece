@@ -5,9 +5,15 @@ title: Your Stories
 class: stories
 nav-order: 3
 
+banner-title: Your Stories
+
 intro: >
-  <p class="p--lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-  <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, varius amet non magna.</p>
+  <p class="title title--smallest title--serif ">We want to hear all about your Greek experiences! </p>
+  <p class="p--lead">With so many islands to explore and a vast mainland full of little-known wonders, we understand that you probably have loads of great tips that you think other people need to know about.
+  We believe it’s the little-known secrets – the cosy locals haunts, secret lookout points and quirky gift shops that can make you truly feel like you’ve experienced a destination. So we want to hear it from you!</p>
+  <p class="p--lead">Find enviable photos and insider knowledge below from other Secret Escapes members, and submit your own Greek story set to inspire burgeoning escapers.</p>
+  <p class="p--lead p--bold">The best entry each week will win £25 Secret Escapes credit!</p>
+  <a href="javascript:void(0);" class="js-open-modal btn btn--large" data-modal="story-form">Submit your story</a>
 
 ---
 
@@ -18,15 +24,7 @@ intro: >
     {% assign stories = site.data.stories %}
     {% if stories.size > 0 %}
     {% for story in stories %}
-
-      {% if story.content and story.image %}
-        {% include stories/popup.html %}
-      {% elsif story.image %}
-        {% include stories/normal.html %}
-      {% else %}
-          {% include stories/text.html %}
-      {% endif %}
-
+      {% include stories/card.html %}
     {% endfor %}
     {% endif %}
 
@@ -34,3 +32,4 @@ intro: >
 </section>
 
 {% include stories/modal.html %}
+{% include stories/form-modal.html %}

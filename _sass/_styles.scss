@@ -101,7 +101,7 @@ body { background-color: $white; }
       &:before {
         content: '“ ';
         position: absolute;
-        margin-left: -15px;
+        margin-left: -20px;
         top: 10px;
         z-index: 0;
         font-size:6em;
@@ -129,10 +129,6 @@ body { background-color: $white; }
     }
   }
 
-  // // Page specific
-  // .overview &.has-nav &__content { background-color: $partner-primary; }
-  // .overview &__nav { background-color: rgba($partner-primary,0.8); }
-
 }
 
 /* ===============================================
@@ -145,8 +141,6 @@ body { background-color: $white; }
   &--open {}
   &--closed {}
 }
-
-
 
 .js-bg-fade {
   position: relative;
@@ -250,9 +244,27 @@ body { background-color: $white; }
  * =============================================== */
 
 .stories {
-  .story {
-    margin-bottom: 2em;
-  }
   margin-bottom: -2em;
 }
 
+.story {
+  @include transition();
+  margin-bottom: 2em;
+  transform: scale(1);
+  &:hover {
+    transform: scale(1.025);
+  }
+
+  &__location {
+    position: absolute;
+    top: 10px; left: 15px;
+  }
+  &__name {
+    &:before, &:after {
+      width: 20px;
+      border-top: 1px solid rgba($white,0.2) !important;
+      border-bottom: 1px solid rgba($white,0.2) !important;
+      .js-modal & { width: 100px; }
+    }
+  }
+}

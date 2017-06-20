@@ -16,6 +16,8 @@ $margin: 2em;
 // -------- grid sections --------
 
 section,.section {
+  width: 100%;
+  overflow-x: hidden;
   padding-top: 2.25em;
   padding-bottom: 2.25em;
   @include bp(large) {
