@@ -21,6 +21,18 @@
         display: table-cell;
         vertical-align: middle;
       }
+
+      .flexbox & {
+        &__wrap {
+          display: flex;
+          align-items: center;
+        }
+        &__content {
+          display: block;
+          height: auto;
+        }
+      }
+
       &__item {
         &-inactive {
           display: none;
@@ -30,15 +42,17 @@
   }
 
   &__wrap {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     cursor: auto;
     margin-top: 0 !important;
     width: 100%;
     height: 100%;
+    .csstransforms.csstransforms3d & {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
   }
 
   &__content {

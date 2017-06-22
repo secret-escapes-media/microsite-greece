@@ -77,13 +77,17 @@ body { background-color: $white; }
       @include bp(large){
         display: block;
         position: absolute;
-        top: 50%; transform: translateY(-50%);
+        top: 0;
         left: 0em;
         width: 10em;
         max-width: 30%;
         z-index: $z-content-upper;
         &:before { padding-top: 100%; }
         .overview &:before { padding-top: 133.3333333%; }
+
+        .csstransforms.csstransforms3d & {
+          top: 50%; transform: translateY(-50%);
+        }
       }
       @include bp(xxlarge){
         left: -2em;
@@ -112,14 +116,30 @@ body { background-color: $white; }
     }
   }
 
+  $pagenav-height: 50px;
   &__nav {
+    height: $pagenav-height;
+    line-height: $pagenav-height;
     background-color: rgba($partner-secondary,0.8);
+    border-top: 0;
+    border-bottom: 0;
     color: #fff;
     position: absolute;
     bottom: 0; left: 0; width: 100%;
-    .list--horizontal {
-      height: 50px;
-      & a { line-height: 50px; }
+    ul {
+      height: $pagenav-height;
+      li {
+        border-left: .5px solid rgba($white,0.1);
+        border-color: rgba($white,0.1) !important;
+
+        &.is-current {
+          color: $white;
+          background-color: $partner-secondary;
+        }
+        &:hover {
+          background-color: $partner-secondary;
+        }
+      }
     }
 
     &.stuck {

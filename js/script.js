@@ -67,7 +67,7 @@
 var modal          = $('.js-modal'),
     modalLaunchBtn = $('.js-open-modal'),
     modalCloseBtn  = $('.js-close-modal'),
-    modalCloseAreas  = $('.modal__content, .js-modal');
+    modalCloseAreas  = $('.modal__content, .modal__wrap, .js-modal');
 
 modalLaunchBtn.click(function(){
 
