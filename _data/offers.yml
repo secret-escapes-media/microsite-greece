@@ -2,56 +2,73 @@
 ## ATHENS // athens
 ## =======================================
 
-  - title: Kalyves Beach Hotel
-    category: crete-and-the-dodecanese
-    location: Crete, Greece
-    description: A bounty of Cretan charm at a traditional hotel set right on the beach, with all-inclusive board
-    price: 68
-    price-description: per room per night
-    saved: 42
-    link: https://www.secretescapes.com/kalyves-beach-hotel-crete-greek-islands-greece/sale?gce_sls=0&utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_kalyves
+  - title: Greek mountain holiday at a panoramic spa retreat
+    category: athens
+    location: Grand Forest Metsovo, Pindus Mountains
+    description: Sublime views at a luxe spa retreat in a breathtaking mountain setting, with car hire
+    price: 619
+    price-description: per person for 5 nights
+    saved: 23
+    link: https://www.secretescapes.com/greek-mountain-holiday-at-a-panoramic-spa-retreat-grand-forest-metsovo-pindus-mountains1/sale?gce_sls=0&utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Metsovo
 
 ## CYCLADES // cyclades
 ## Santorini, Mykonos, Paros, Tinos, Naxos, Milos
 ## =======================================
 
+  - title: Mr & Mrs White New Style Hotel
+    category: cyclades
+    location: Paros, Greek Islands
+    description: A whitewashed stay at a new hotel on the Greek Island of Paros, with one dinner and more
+    price: 102
+    price-description: per room per night
+    saved: 56
+    link: https://www.secretescapes.com/mr-and-mrs-white-new-style-hotel-paros-greek-islands/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Mr%26MrsWhite
+
+  - title: Boutique Mykonos beach holiday with sublime sea views
+    category: cyclades
+    location: Alkistis, Greece
+    description: Glam it up at a chic boutique hotel on the picturesque shores of Mykonos, with all travel
+    price: 249
+    price-description: per person for 4 nights
+    saved: 40
+    link: https://www.secretescapes.com/boutique-mykonos-beach-holiday-with-sublime-sea-views-alkistis-greece/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Alkistis
 
 ## CRETE // crete-and-the-dodecanese
 ## Crete, Rhodes, Kos, Symi, Nisyros, Kalymnos
 ## =======================================
 
-  - title: Blissful all-inclusive Rhodes holiday
+  - title: 5* all-inclusive Crete holiday at a hilltop hideaway
     category: crete-and-the-dodecanese
-    location: SunConnect Evita, Greek Islands
-    description: Enjoy the island treasures of Rhodes from an all-inclusive contemporary resort near the beach
-    price: 299
+    location: Sea Side Resort & Spa, Greek Islands
+    description: Complete peace and relaxation in a heavenly location, with sea views and flights included
+    price: 399
     price-description: per person for 5 nights
-    saved: 21
-    link: https://www.secretescapes.com/blissful-all-inclusive-rhodes-holiday-sunconnect-evita-greek-islands/sale?gce_sls=0&utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Rhodes_SunConnect
+    saved: 33
+    link: https://www.secretescapes.com/5-star-all-inclusive-crete-holiday-at-a-hilltop-hideaway-sea-side-resort-and-spa-greek-islands/sale?gce_sls=0&utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Corfu_imperial
+
+  - title: Peaceful all-inclusive Rhodes holiday
+    category: crete-and-the-dodecanese
+    location: Anavadia Hotel, Greek Islands
+    description: A blissfully chilled, all-inclusive week at a modern, low-key hotel on the stunning Greek Islands
+    price: 449
+    price-description: per person for 7 nights
+    saved: 20
+    link: https://www.secretescapes.com/peaceful-all-inclusive-rhodes-holiday-anavadia-hotel-greek-islands-greece/sale?gce_sls=0&utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Anavadia
+
+  - title: Luxe Crete holiday with a private pool suite
+    category: crete-and-the-dodecanese
+    location: Diamond Village Piskopiano, Greece
+    description: A relaxing Crete holiday with half board, flights and a stylish suite with its own private pool
+    price: 469
+    price-description: per person for 5 nights
+    saved: 36
+    link: https://www.secretescapes.com/luxe-crete-holiday-with-a-private-pool-suite-diamond-village-piskopiano-greece/sale?gce_sls=0&utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Diamond
 
 ## IONIAN ISLANDS // ionian-islands
 ## Corfu, Kefalonia, Zakynthos, Lefkada, Ithaca, Paxos
 ## =======================================
 
-  - title: Corfu Imperial
-    category: ionian-islands
-    location: Corfu, Greece
-    description: A super-chic stay on a private peninsula in Corfu, with dinner and a choice of accommodation
-    price: 124
-    price-description: per room per night
-    saved: 37
-    link: https://www.secretescapes.com/corfu-imperial-corfu-greece/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Corfu_imperial
-
 
 ## THE MAINLAND // the-mainland
 ## Peloponnese, Halkidiki, Mountains, Thessaloniki, Pelion, Delphi
 ## =======================================
-
-  - title: Heavenly Halkidiki holiday by a private beach
-    category: the-mainland
-    location: Athena Pallas Village, Greece
-    description: A relaxing, full-board escape to a well-situated village-style resort with spa - all travel included
-    price: 379
-    price-description: per person for 5 nights
-    saved: 36
-    link: https://www.secretescapes.com/heavenly-halkidiki-holiday-by-a-private-beach-athena-pallas-village-greece/sale?gce_sls=0&utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Halkidiki_Athena
