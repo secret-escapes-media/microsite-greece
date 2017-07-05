@@ -1,0 +1,17 @@
+
+
+.mm {
+
+  &__prod {
+    &-item {
+      @include background-attributes();
+
+      &__details {
+        padding: $margin;
+        background-color: rgba($dark-grey,0.8);
+      }
+      
+    }
+  }
+
+}

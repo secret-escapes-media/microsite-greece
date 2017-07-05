@@ -21,7 +21,7 @@ intro: >
 <section class="bg--light-grey">
   <div class="row row--padding row--columns-4-4-4-gutters stories">
 
-    {% assign stories = site.data.stories %}
+    {% assign stories = site.data.stories | reverse %}
     {% if stories.size > 0 %}
     {% for story in stories %}
       {% include stories/card.html %}

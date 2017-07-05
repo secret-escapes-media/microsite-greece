@@ -1,0 +1,152 @@
+---
+
+layout: basic
+title: Mamma Mia
+class: mamma-mia
+nav-order: 5
+
+banner-title: Mamma Mia
+banner-subtitle: Here I go again...
+
+
+
+story-intro: >
+  <p class="p--lead">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vestibulum id ligula porta felis euismod semper.</p>
+story: >
+  <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla.</p>
+  <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+
+
+details:
+
+  - title: Music
+    class: music
+    content: >
+      <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus.</p>
+
+  - title: Production
+    class: production
+    content: >
+      <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus.</p>
+
+  - title: Show
+    class: show
+    content: >
+      <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus.</p>
+
+
+
+testimonials:
+
+  - by: Hamish
+    content: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.
+
+  - by: Hamish
+    content: Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor.
+
+  - by: Hamish
+    content: Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur.
+
+
+
+---
+
+
+
+<!-- PAGE INTRO -->
+<div class="intro has-nav" id="section-story">
+
+  <section class="intro__content intro--{{ page.class }}">
+    <div class="row row--padding align-center">
+      {{ page.story-intro }}
+    </div>
+    <div class="row row--padding row--columns-6-6-gutters row--columns-vertical-align">
+      <div class="row__column bg-image bg-image--ratio bg-image--ratio-16-9 bg-image--border-radius bg-image--shadow" style="background-image: url('{{site.baseurl}}/img/content/mamma-mia/intro.jpg');"></div>
+      <div class="row__column">
+        {{ page.story }}
+      </div>
+    </div>
+  </section>
+
+  <section class="intro__nav section--padding-none align-center site-nav">
+    <div class="row row--padding">
+      <ul class="site-nav__list">
+        <li class="site-nav__item"><a href="#section-story" class="site-nav__link">The Story</a></li>
+        <li class="site-nav__item"><a href="#section-production" class="site-nav__link">The Production</a></li>
+        <li class="site-nav__item"><a href="#section-testimonials" class="site-nav__link">Our thoughts</a></li>
+        <li class="site-nav__item"><a href="#section-tickets" class="site-nav__link">See the show</a></li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+
+
+
+<!-- DETAILS ACCORDION -->
+<section class="section section--padding-none bg--light-grey mm__prod invert-text" id="section-production">
+
+  {% for detail in page.details %}
+  <div class="section mm__prod-item" id="mm__prod-{{ detail.class }}" style="background-image: url({{site.baseurl}}/img/content/mamma-mia/bg-{{ detail.class }}.jpg);">
+
+
+    <a href="#mm__prod-{{ detail.class }}" class="row row--padding align-center accordion__trigger" data-target="mm__prod-{{ detail.class }}__content">
+      <h2 class="title title--medium title--upper title--expanded">{{ detail.title }}</h2>
+    </a>
+
+
+    <div class="row row--padding row--columns-4-8-gutters accordion mm__prod-item__details" id="mm__prod-{{ detail.class }}__content">
+
+      <div class="row__column bg-image bg-image--ratio bg-image--ratio-16-9 bg-image--border-radius bg-image--shadow" style="background-image: url('{{site.baseurl}}/img/content/mamma-mia/intro.jpg');"></div>
+
+      <div class="row__column">{{ detail.content }}</div>
+
+    </div>
+
+  </div>
+  {% endfor %}
+
+</section>
+
+
+
+<!-- OUR THOUGHTS/TESTIMONIALS -->
+<section class="section" id="section-testimonials">
+  <div class="row row--padding">
+    <h2 class="title title--medium title--upper title--expanded">Our Thoughts</h2>
+  </div>
+  <div class="row row--padding">
+    {% for testimonial in page.testimonials %}
+      <p class="p--lead">{{ testimonial.content }}</p>
+      <p class="title title--bold">– {{ testimonial.by }}</p>
+      <hr />
+    {% endfor %}
+  </div>
+</section>
+
+
+
+<!-- CALL TO ACTION/LINKS -->
+<section class="section section--padding-none bg--dark-grey" id="section-tickets">
+  <div class="row--columns-6-6">
+
+    <div class="row__column bg-image bg-image--ratio bg-image--ratio-4-3">
+      <div class="bg-image__content invert-text">
+        <h2 class="title title--medium title--upper title--expanded">Buy Tickets</h2>
+        <a href="" class="btn btn--large btn--invert">Buy now</a>
+      </div>
+    </div>
+
+    <div class="row__column bg-image bg-image--ratio bg-image--ratio-4-3">
+      <div class="bg-image__content invert-text">
+        <h2 class="title title--medium title--upper title--expanded">Enter the competition</h2>
+        <a href="" class="btn btn--large btn--invert">Enter now</a>
+      </div>
+    </div>
+
+  </div>
+</section>
