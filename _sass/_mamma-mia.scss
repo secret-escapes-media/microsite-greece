@@ -2,16 +2,93 @@
 
 .mm {
 
-  &__prod {
+
+  /* Accordion slides to reveal show details
+   *==================================*/
+
+  &__slides {
     &-item {
+
       @include background-attributes();
+      background-attachment: fixed;
+      padding: 0;
+      position: relative;
+
+      &__trigger {
+        display: block;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        position: relative;
+        z-index: $z-content-upper;
+        width: 100%;
+        height: 33.33vh;
+        display: flex;
+        align-items: center;
+        & * { margin: auto; }
+      }
 
       &__details {
+        position: relative;
+        overflow: hidden;
+        z-index: $z-content-upper;
         padding: $margin;
-        background-color: rgba($dark-grey,0.8);
+        margin-bottom: $margin*2;
+        background-color: rgba($dark-grey,0.75);
+        &:after {
+          content: "";
+          position: absolute;
+          z-index: 0;
+          top: 3px; left: 3px; bottom: 3px; right: 3px;
+          border: 1px solid rgba($white,0.25);
+          box-shadow: 0 0 0px 3px rgba($black,0.25);
+        }
       }
-      
+
+      &__overlay {
+        @include transition();
+        content: "";
+        position: absolute;
+        z-index: $z-content;
+        top:0;bottom:0;left:0;right:0;
+        background-color: $dark-grey;
+        opacity: 0.15;
+        .accordion--open & {
+          opacity: 0.5;
+        }
+      }
+    &:hover &__overlay { opacity: 0.5; }
+
     }
+  }
+
+
+
+  &__testimonial {
+    position: relative;
+    margin: 1.5em 1em 0;
+    padding: 1.5em 0 0;
+    border-top: 1px solid rgba($white,0.25);
+    text-align: center;
+    @include bp(large){
+      padding: 1.5em 2em;
+      border-bottom: 1px solid rgba($white,0.25);
+      text-align: left;
+    }
+    @include bp(xlarge){
+      margin: 1.5em auto 0;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      z-index: 0;
+      top: -4px; left: 3px; bottom: -4px; right: 3px;
+      border-top: 3px solid rgba($black,0.25);
+      @include bp(large){
+        border-bottom: 3px solid rgba($black,0.25);
+      }
+    }
+
   }
 
 }
