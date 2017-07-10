@@ -2,14 +2,14 @@
 ## ATHENS // athens
 ## =======================================
 
-  - title: Greek mountain holiday at a panoramic spa retreat
-    category: athens
-    location: Grand Forest Metsovo, Pindus Mountains
-    description: Sublime views at a luxe spa retreat in a breathtaking mountain setting, with car hire
-    price: 619
-    price-description: per person for 5 nights
-    saved: 23
-    link: https://www.secretescapes.com/greek-mountain-holiday-at-a-panoramic-spa-retreat-grand-forest-metsovo-pindus-mountains1/sale?gce_sls=0&utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Metsovo
+  # - title:
+  #   category: athens
+  #   location:
+  #   description:
+  #   price:
+  #   price-description:
+  #   saved:
+  #   link:
 
 ## CYCLADES // cyclades
 ## Santorini, Mykonos, Paros, Tinos, Naxos, Milos
@@ -24,15 +24,6 @@
     saved: 56
     link: https://www.secretescapes.com/mr-and-mrs-white-new-style-hotel-paros-greek-islands/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Mr%26MrsWhite
 
-  - title: Boutique Mykonos beach holiday with sublime sea views
-    category: cyclades
-    location: Alkistis, Greece
-    description: Glam it up at a chic boutique hotel on the picturesque shores of Mykonos, with all travel
-    price: 249
-    price-description: per person for 4 nights
-    saved: 40
-    link: https://www.secretescapes.com/boutique-mykonos-beach-holiday-with-sublime-sea-views-alkistis-greece/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Alkistis
-
   - title: 5* boutique Mykonos holiday with sea views
     category: cyclades
     location: La Residence, Greek Islands
@@ -41,6 +32,24 @@
     price-description: per person for 5 nights
     saved: 36
     link: https://www.secretescapes.com/5-star-boutique-mykonos-holiday-with-sea-views-la-residence-greek-islands/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_LaResidence
+
+  - title: Impressive One Santorini
+    category: cyclades
+    location: Santorini, Greece
+    description: A boutique design hotel on the Greek island of Santorini
+    price: 88
+    price-description: per person per night
+    saved: 36
+    link: https://www.secretescapes.com/impressive-one-santorini-santorini-greece/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_OneSantorini
+
+  - title: Boutique Mykonos holiday with breathtaking sea views
+    category: cyclades
+    location: Horizon Mykonos, Greece
+    description: A romantic hideaway in Mykonos, with luxe boutique interiors and sea views
+    price: 379
+    price-description: per person for 5 nights
+    saved: 33
+    link: https://www.secretescapes.com/boutique-mykonos-holiday-with-breathtaking-sea-views-horizon-mykonos-greek-islands/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Horizon_Mykonos
 
 ## CRETE // crete-and-the-dodecanese
 ## Crete, Rhodes, Kos, Symi, Nisyros, Kalymnos
@@ -100,18 +109,45 @@
     saved: 20
     link: https://www.secretescapes.com/5-star-crete-holiday-at-a-lush-retreat-filion-suites-resort-and-spa-greek-islands/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Filion
 
+  - title: 5* all-inclusive Crete beach holiday
+    category: crete-and-the-dodecanese
+    location: Rethymno Palace, Greece
+    description: A restful and relaxing, fuss-free stay at a Crete resort exuding class and style - travel included
+    price: 489
+    price-description: per person for 5 nights
+    saved: 21
+    link: https://www.secretescapes.com/5-star-all-inclusive-crete-beach-holiday-rethymno-palace-greece/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Rethymno_Crete
+
+  - title: Porto Elounda Golf & Spa Resort
+    category: crete-and-the-dodecanese
+    location: Crete, Greek Islands
+    description: Stretch out at a five-star Cretan golf and spa resort in scenic Elounda, with optional private pool
+    price: 72
+    price-description: per person per night
+    saved: 61
+    link: https://www.secretescapes.com/porto-elounda-golf-and-spa-resort-crete-greek-islands/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_PortoElounda_Crete
+
+  - title: Chilled all-inclusive Kos holiday
+    category: crete-and-the-dodecanese
+    location: Ammos Resort, Greek Islands
+    description: All-inclusive ease at a fuss-free Kos beach resort with private stretch of sand and freshwater pool
+    price: 379
+    price-description: per person for 7 nights
+    saved: 33
+    link: https://www.secretescapes.com/chilled-all-inclusive-kos-holiday-ammos-resort-greek-islands-greece/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Ammos
+
 ## IONIAN ISLANDS // ionian-islands
 ## Corfu, Kefalonia, Zakynthos, Lefkada, Ithaca, Paxos
 ## =======================================
 
-  - title: Elegance Luxury Executive Suites
-    category: ionian-islands
-    location: Zante, Greece
-    description: Five-star serenity at a suites-only hotel on the dreamy isle of Zante, with optional private pool
-    price: 62
-    price-description: per person per night
-    saved: 37
-    link: https://www.secretescapes.com/elegance-luxury-executive-suites-zante-greece/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Elegance
+  # - title:
+  #   category: ionian-islands
+  #   location:
+  #   description:
+  #   price:
+  #   price-description:
+  #   saved:
+  #   link:
 
 ## THE MAINLAND // the-mainland
 ## Peloponnese, Halkidiki, Mountains, Thessaloniki, Pelion, Delphi
@@ -126,14 +162,11 @@
     saved: 36
     link: https://www.secretescapes.com/5-star-all-inclusive-halkidiki-holiday-porto-carras-sithonia-greece/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_PortoCarras
 
-
-## OTHER
-## =======================================
-
-  - title: 5* luxury Skiathos beach holiday
-    location: Skiathos Princess, Greece
-    description: A five-star, award-winning beachside hotel of Mamma Mia! fame, with half board and travel
-    price: 589
+  - title: Halkidiki holiday at a beachfront hotel
+    category: the-mainland
+    location: Ammon Zeus Hotel, Greece
+    description: Panoramic gulf views and a Blue Flag beach at your doorstep, with half board and travel
+    price: 399
     price-description: per person for 7 nights
-    saved: 21
-    link: https://www.secretescapes.com/5-star-skiathos-beach-holiday-skiathos-princess-greece/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Skiathos
+    saved: 33
+    link: https://www.secretescapes.com/halkidiki-holiday-at-a-beachfront-hotel-ammon-zeus-hotel-greece/sale?utm_source=SE&utm_medium=Hub&utm_campaign=Greece_2017_Ammon_Halkidiki
