@@ -60,7 +60,7 @@ input, textarea, keygen, select, button {
   &--largest {
     font-size: 4.3em;
   }
-  &--larger      { font-size: 2.5em; }
+  &--larger      { font-size: 2.5em; line-height: 1;}
   &--large       { font-size: 2.25em; }
   &--medium      { font-size: 2em; }
   &--small       { font-size: 2em; }
@@ -137,7 +137,7 @@ input, textarea, keygen, select, button {
   @include bp(large){
     &--lead {
       font-size: 1.15em;
-      line-height: 1.6;
+      line-height: 1.7;
     }
   }
 }
@@ -256,8 +256,8 @@ a {
   * + & { margin-top: 1.5em; }
 
   &--invert {
-    background-color: rgba($white,0.8); color: $partner-primary;
-    &:hover { background-color: $white; color: $partner-primary; }
+    background-color: rgba($white,0.8); color: $partner-secondary;
+    &:hover { background-color: $white; color: $partner-secondary; }
   }
 
   &--se {

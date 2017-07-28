@@ -34,6 +34,8 @@ body { background-color: $white; }
   &--pattern-white { background-image: url('../img/bg/bg-pattern--white.png'); background-position: center; }
 }
 
+.image-split { min-height: 380px; }
+
 // -- Page intro sections --
 .intro {
   position: relative;
@@ -46,6 +48,13 @@ body { background-color: $white; }
     color: $white;
     & .title { color: $white; }
   }
+  &--competition,
+  &--entered {
+    background-color: $partner-secondary;
+    color: $white;
+    & .title { color: $white; }
+  }
+
 
   &__expert {
     margin: 1.5em 1em 0;
@@ -285,6 +294,57 @@ body { background-color: $white; }
       border-top: 1px solid rgba($white,0.2) !important;
       border-bottom: 1px solid rgba($white,0.2) !important;
       .js-modal & { width: 100px; }
+    }
+  }
+}
+
+
+
+/* ===============================================
+ *     COMPETITION PAGE
+ * =============================================== */
+
+// YOUTUBE VIDEO
+
+.video {
+  position: relative;
+  height: 0;
+  max-width: 100%;
+  padding-bottom: 56.25%;
+  background-color: #000;
+  overflow: hidden;
+  border-radius: 4px;
+  &__iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &__thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @include background-attributes;
+  }
+  &__play {
+    $button-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: $button-size;
+    width: $button-size;
+    margin-top: -( $button-size / 2 );
+    margin-left: -( $button-size / 2 );
+    background-image: url("../img/icons/play.png");
+    @include background-attributes;
+    background-size: contain;
+    cursor: pointer;
+    @include transition;
+    &:hover {
+      transform: scale( 1.25, 1.25);
     }
   }
 }

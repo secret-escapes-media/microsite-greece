@@ -6,14 +6,80 @@ class: competition
 nav-order: 6
 
 banner-title: Competition
-banner-subtitle: Say I do, I do, I do, I do...
+banner-subtitle: It’s time for you to enjoy your very own Greek island escape!
 
 
 
 intro: >
-  <p class="p--lead">Do you have a dream to catch the most fabulous show in the West End? MAMMA MIA! Is the name of the game, where super troupers and dancing queens line Drury Lane crying SOS for entry to this sun-soaked spectacle of classic ABBA hits. When all is said and done, money money money needn’t get in your way – instead exclaim gimme gimme gimme and be in with the chance to win tickets to the hottest show in London! The winner takes it all, after all…</p>
-  <p class="p--lead">Enter below, for it may be our last summer!</p>
+  <p class="p--lead">Indulge in your very own Greek island love story, with a four-night stay in sublime Santorini. </p>
+  <p>No place encapsulates the beauty and romance seen in MAMMA MIA! better than the gorgeous island of Santorini. Nestled deep in the effortlessly-charming Cyclades, studded with iconic blue-domed and whitewashed buildings that overlook sublime beaches, Santorini is a Greek starlet. A volcanic interior has created technicolour cliffs and beaches, startling sights that make Santorini so beloved.</p>
+  <a href="#enter" class="btn btn--large btn--invert">Enter now</a>
+
+
+
+prizes:
+
+  - title: The MAMMA MIA! experience
+    class: mamma-mia
+    content: >
+      <p class="p--lead">Let MAMMA MIA! inspire your romantic Greek getaway!</p>
+      <p>You will be treated to two top-price tickets to see the global smash hit musical MAMMA MIA!, with a glass of bubbly on arrival and a backstage tour. See the show, watch that scene, and let MAMMA MIA! take you to your own Greek island paradise.</p>
+
+  - title: Amara Suites
+    class: hotel
+    content: >
+      <p>You’ll enjoy an opulent stay at the boutique hotel Amari Suites. The hotel shelters amongst a typically-charming Cycladic landscape, offering sleek modern design that complements the traditional whitewashed dwellings found locally. With private jacuzzis perfect for catching famed Santorini sunsets, lush gardens setting a blissful scene, and luxury found throughout this five-star hideaway,  this is one winning getaway not to be missed... </p>
+
+
+
+image-divide:
 
 
 
 ---
+
+
+
+<section class="section--padding-large">
+  <div class="row row--padding">
+
+    {% for section in page.prizes %}
+    <div class="bob" id="section-{{section.class}}">
+      <a href="#enter" class="bob__image bg-image bg-image--ratio bg-image--ratio-4-3 bg-image--border-radius bg-image--shadow" style="background-image:url('{{ site.baseurl }}/img/content/competition/{{ section.class }}.jpg');"></a>
+      <div class="bob__text">
+        <h2 class="title title--small title--upper title--expanded">{{ section.title }}</h2>
+        {{ section.content }}
+        <a href="#enter" class="btn btn--small">Enter now</a>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</section>
+
+
+
+<section class="section--padding-xxlarge bg--image-fixed align-center invert-text js-bg-fade image-split" style="background-image: url('{{site.baseurl}}/img/content/competition/divide.jpg');">
+</section>
+
+
+
+<section class="align-center" id="enter">
+  <div class="row row--padding row--xthin">
+    <h3 class="title title--smaller title--light title--serif">To enter, watch the video below very carefully and tell us the following: <strong class="title--color">What colour is the groom’s suit?</strong></h3>
+  </div>
+  <div class="row row--padding row--xxthin">
+
+    <div class="video js-youtube-thumbnail" data-thumbnail-img="{{ site.baseurl }}/img/content/competition/video.jpg">
+      <iframe class="video__iframe" src="https://www.youtube.com/embed/-994NjKIDsM?rel=0&amp;showinfo=0" frameborder="0" style="visibility: hidden;"></iframe>
+    </div>
+
+  </div>
+  <div class="row row--padding">
+    <h4 class="title title--smallest title--upper title--expanded">Enter below to be in to win!</h4>
+    <hr class="hr--center">
+    <iframe src="https://promotion3851.strutta.me" width="100%" height="600"> </iframe>
+  </div>
+</section>
+
+
