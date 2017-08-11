@@ -234,16 +234,13 @@ $(document).scroll(function() {
 
 function accordion(target,label,altLabel){
   var targetAccordion = $('#' + target);
-  var btn = $(event.target);
 
   if(targetAccordion.hasClass('accordion--open')){
     targetAccordion.slideUp().removeClass('accordion--open').addClass('accordion--closed');
     targetAccordion.parent().removeClass('accordion--open').addClass('accordion--closed');
-    if(label){ btn.html(label); }
   }else{
     targetAccordion.slideDown().removeClass('accordion--closed').addClass('accordion--open');
     targetAccordion.parent().removeClass('accordion--closed').addClass('accordion--open');
-    if(altLabel){ btn.html(altLabel); }
   }
 }
 

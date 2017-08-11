@@ -16,7 +16,7 @@ intro: >
 
 
 <section class="section bg--light-grey">
-  <div class="row row--padding">
+  <div class="row row--padding offers--center">
     {% assign offers = site.data.offers | sort: 'saved' | reverse %}
     {% for offer in offers %}
       {% include offers/normal.html %}
