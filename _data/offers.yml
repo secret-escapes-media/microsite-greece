@@ -16,24 +16,6 @@
     saved: 33
     link: https://www.secretescapes.com/all-inclusive-holiday-on-the-romantic-island-of-santorini-makarios-hotel-greece/sale?utm_source=SE&utm_medium=Email&utm_campaign=MM!_Greece_2017
 
-  - title: Dreamy Mykonos escape to a luxe pared-back bolthole
-    category: cyclades
-    location: DreamBox Mykonos Suites, Greek Islands
-    description: Modern luxury with a minimalist spin on the island of Mykonos, including a suite option
-    price: 599
-    price-description: per person for 5 nights
-    saved: 36
-    link: https://www.secretescapes.com/dreamy-mykonos-escape-to-a-luxe-pared-back-bolthole-dreambox-mykonos-suites-greek-islands/sale?utm_source=SE&utm_medium=Email&utm_campaign=MM!_Greece_2017
-
-  - title: Cycladic bliss on the Greek Island of Paros
-    category: cyclades
-    location: Porto Naoussa Paros, Greek Islands
-    description: Whitewashed Cycladic style on beautiful Paros, with breakfast, flights and more
-    price: 459
-    price-description: per person for 5 nights
-    saved: 23
-    link: https://www.secretescapes.com/cycladic-bliss-on-the-greek-island-of-paros-porto-naoussa-paros-greek-islands/sale?utm_source=SE&utm_medium=Email&utm_campaign=MM!_Greece_2017
-
 ## CRETE // crete-and-the-dodecanese
 ## Crete, Rhodes, Kos, Symi, Nisyros, Kalymnos
 ## =======================================
@@ -47,41 +29,14 @@
     saved: 43
     link: https://www.secretescapes.com/5-star-all-inclusive-crete-holiday-at-an-adults-only-base-galini-sea-view-hotel-greece1/sale?utm_source=SE&utm_medium=Email&utm_campaign=MM!_Greece_2017
 
-  - title: Chryssana Beach Hotel
+  - title: Out of the Blue Capsis Elite Resort
     category: crete-and-the-dodecanese
-    location: Contemporary comforts in a beachside hotel in Crete
-    description: A simple, stylish beachside stay in a picturesque bay near Chania in Crete
-    price: 22
+    location: Crete, Greece
+    description: The suite life at an ultra-chic beach pad overlooking the Gulf of Heraklion, with superb sea views
+    price: 134
     price-description: per person per night
-    saved: 65
-    link: https://www.secretescapes.com/chryssana-beach-hotel-contemporary-comforts-in-a-beachside-hotel-in-crete/sale?utm_source=SE&utm_medium=MM!_2017
-
-  - title: Diamond Deluxe Hotel
-    category: crete-and-the-dodecanese
-    location: A sleek, adults-only retreat on the Greek Island of Kos
-    description: A five-star, adults-only boutique beach hotel on Kos, with glam whitewashed décor, pools and spa.
-    price: 54
-    price-description: per person per night
-    saved: 58
-    link: https://www.secretescapes.com/diamond-deluxe-hotel-kos-greek-islands1/sale?utm_source=SE&utm_medium=Email&utm_campaign=MM!_Greece_2017
-
-  - title: 5* all-inclusive Rhodes holiday with optional private pool
-    category: crete-and-the-dodecanese
-    location: Esperos Blue Village & Spa, Greek Islands
-    description: Adults-only, all-inclusive bliss at a boutique, five-star hotel on stunning Rhodes, with flights
-    price: 579
-    price-description: per person for 5 nights
-    saved: 33
-    link: https://www.secretescapes.com/5-star-all-inclusive-rhodes-holiday-with-optional-private-pool-esperos-blue-village-and-spa-greek-islands/sale?utm_source=SE&utm_medium=Email&utm_campaign=MM!_Greece_2017
-
-  - title: 5* all-inclusive Crete holiday on a Blue Flag beach
-    category: crete-and-the-dodecanese
-    location: Kiani Beach Resort, Greek Islands
-    description: Luxurious sunning and VIP all-inclusive ease at a five-star resort with private beach, plus travel
-    price: 699
-    price-description: per person for 5 nights
-    saved: 36
-    link: https://www.secretescapes.com/5-star-all-inclusive-crete-holiday-on-a-blue-flag-beach-kiani-beach-resort-greek-islands/sale?utm_source=SE&utm_medium=Email&utm_campaign=MM!_Greece_2017
+    saved: 56
+    link: https://www.secretescapes.com/out-of-the-blue-capsis-elite-resort-crete-greece/sale?gce_urgv3=0&utm_source=SE&utm_medium=Greece&utm_campaign=MM!_2017
 
 ## IONIAN ISLANDS // ionian-islands
 ## Corfu, Kefalonia, Zakynthos, Lefkada, Ithaca, Paxos
@@ -96,15 +51,6 @@
     saved: 23
     link: https://www.secretescapes.com/boutique-greece-beach-holiday-sesa-boutique-hotel-preveza/sale?utm_source=SE&utm_medium=Email&utm_campaign=MM!_Greece_2017
 
-  - title: 5* Corfu holiday at a chic beach resort
-    category: ionian-islands
-    location: MarBella Corfu, Greek Islands
-    description: An idyllic beachfront stay at a stylish five-star hideaway, on an all-inclusive basis
-    price: 499
-    price-description: per person for 5 nights
-    saved: 33
-    link: https://www.secretescapes.com/5-star-corfu-holiday-at-a-chic-beach-resort-marbella-corfu-greek-islands-greece/sale?utm_source=SE&utm_medium=Email&utm_campaign=MM!_Greece_2017
-
 ## THE MAINLAND // the-mainland
 ## Peloponnese, Halkidiki, Mountains, Thessaloniki, Pelion, Delphi
 ## =======================================
@@ -116,7 +62,25 @@
     price: 49
     price-description: per person per night
     saved: 86
-    link: https://www.secretescapes.com/thalatta-seaside-hotel-evia-greek-islands/sale?utm_source=SE&utm_medium=Email&utm_campaign=MM!_Greece_2017
+    link: https://www.secretescapes.com/thalatta-seaside-hotel-evia-greek-islands/sale?gce_urgv3=0&utm_source=SE&utm_medium=Greece&utm_campaign=MM!_2017
+
+  - title: Boutique Hotel Camvillia Resort
+    category: the-mainland
+    location: 5* resort retreat on the Messenian Gulf, Greece
+    description: Seventh heaven at a luxury spa hotel in a lush setting on the Peloponnese Peninsula
+    price: 164
+    price-description: per person per night
+    saved: 40
+    link: https://www.secretescapes.com/boutique-hotel-camvillia-resort-5-star-resort-retreat-on-the-messinian-gulf-greece/sale?gce_urgv3=0&utm_source=SE&utm_medium=Greece&utm_campaign=MM!_2017
+
+  - title: Peloponnese escape at a beachfront hotel
+    category: the-mainland
+    location: Filoxenia Kalamata, Greece
+    description: A beautiful beach stay on Greece's Peloponnese peninsula
+    price: 359
+    price-description: per person for 4 nights
+    saved: 21
+    link: https://www.secretescapes.com/filoxenia-hotel-kalamata-half-board-kalamata-getaway-4-7n-klamata-greece/sale?gce_urgv3=0&utm_source=SE&utm_medium=Greece&utm_campaign=MM!_2017
 
 ## OTHER
 ## =======================================
@@ -129,3 +93,10 @@
     saved: 22
     link: https://www.secretescapes.com/ilio-mare-relaxing-retreat-in-sun-soaked-thassos-greece/sale?utm_source=SE&utm_medium=Email&utm_campaign=MM!_Greece_2017
 
+  - title: 5* lush Greek Island getaway
+    location: Ilio Mare, Thassos
+    description: A beautifully designed, five-star hideaway with bohemian vibe on northwest Thassos, plus travel
+    price: 549
+    price-description: per person for 7 nights
+    saved: 33
+    link: https://www.secretescapes.com/5-star-lush-greek-island-getaway-ilio-mare-thassos/sale?gce_urgv3=0&utm_source=SE&utm_medium=Greece&utm_campaign=MM!_2017
