@@ -4,15 +4,42 @@
   &--white { background-color: $white; }
   &--light { background-color: $grey-lightest; }
   &--dark  { background-color: $grey-dark; }
+  &--blue  { background-color: $g-blue; }
   &--img   { @include background-attributes; }
+  &--pattern {
+    background-image: url('../img/pattern.png');
+    background-color: $g-cyan;
+  }
   &__fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: $z-background;
-    @include background-attributes;
-    background-color: $grey-darker;
+    position: relative;
+    &-wrap {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: $z-background;
+      width: 100%;
+      height: 100%;
+      .svgclippaths & { clip: rect(0, auto, auto, 0); }
+    }
+    &-img {
+      position: absolute;
+      z-index: $z-background;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      .svgclippaths & {
+        position: fixed;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        transform: translateZ(0);
+        will-change: transform;
+      }
+    }
   }
 }

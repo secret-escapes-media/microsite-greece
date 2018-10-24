@@ -24,5 +24,23 @@
       {% endif %}
     {% endfor %}
 
+    {% for section in page.sections %}
+      {% if section.pois %}
+        {% for poi in section.pois %}
+          <div class="modal modal--series is-closed" data-modal-id="{{poi.id}}" data-modal-group="{{section.id}}">
+            <div class="js-close-modal modal__close"></div>
+            <div class="js-modal-nav modal__nav modal__nav--next" data-nav-direction="next"></div>
+            <div class="js-modal-nav modal__nav modal__nav--previous" data-nav-direction="previous"></div>
+            <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}.jpg');"></div>
+            <div class="modal__content">
+              <div class="title title--sm">{{poi.title}}</div>
+              <div class="space--xs"></div>
+              <p>{{poi.description}}</p>
+            </div>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+
   </div>
 </div>

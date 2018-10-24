@@ -17,6 +17,11 @@
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
   }
+  &--white {
+    color: $g-cyan;
+    background-color: rgba($white,.75);
+    &:hover { background-color: $white; }
+  }
   &--outline {
     color: inherit;
     &:before {

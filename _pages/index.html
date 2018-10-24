@@ -4,54 +4,63 @@ id: overview
 nav: true
 nav-order: 1
 title: Overview
-intro: this is my home page
+
+banner:
+  title-sup: Discover
+  title: Greece
+
+topics:
+  - id: island-outposts
+    title: Island Outposts
+    opening-para: A country scattered across the Aegean and Ionian offers a sprawl of islands to explore, each harbouring a unique identity amongst the rocky outcrops that dot the seas.
+    para: From volcanic landscapes to hidden private coves with crystal-clear waters, Greece’s islands are breathtaking in their beauty and endless in their charms. Pick an island that matches your mood, or island hop on the extensive ferry network for a truly intrepid experience.
+  - id: mediterranean-feasts
+    title: Mediter&shy;ranean Feasts
+    opening-para: Fresh octopus on Mykonos, Feta from Kefalonia, healthy splashes of olive oil and acclaimed wine in Santorini – Greece is a terrific foodie destination.
+    para: Each island harbours its own flavours, styles and tastes, governed by location, produce and tradition. The famed Mediterranean diet permeates island life, from fresh salads packed with local olives, cheeses and delicious tomatoes, to fresh fish brought in on the trawlers each day. Richer dishes like spanakopita and moussaka are set to indulge, whilst souvlaki and gyros still prove to be some of the best street food bites in the world.
+  - id: myths-legends
+    title: Myths & Legends
+    opening-para: From Socrates to Alexander the Great and from Odysseus to the Minotaur, ancient Greece is steeped in a myriad of legends and myths that still permeate the stories in our modern world.
+    para: A remarkable collection of oft-warring city-states gave us the greatest civilization of ancient times, one that has left an indelible mark on history. Explore breathtaking archaeology that helps bring the ancient Greeks to life – whether it’s the stunning Mount Parnassus ruins of Delphi, home to the famous oracle, or the thick ancient walls and Lion’s Gate of Mycenae, home of Agamemnon, the myths and legends whisper across the crumbling edifices of these ancient cities.
 ---
 
-<div class="container vpad--xxl">
-
-  <div class="title title--lg text--center">Bob layout</div>
-
-  <div class="space--lg"></div>
-
-  <div class="bob">
-    <div class="bob__img">
-      <a href="#image-link">
-        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
-      </a>
+<div class="vpad--xl bg--blue text--white text--normal">
+  <div class="container">
+    <div class="width width--lg text--center text--xl">
+      <p>{{site.description}}</p>
     </div>
-    <div class="bob__text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
-    </div>
-  </div>
-  <div class="bob bob--swap">
-    <div class="bob__img">
-      <a href="#image-link">
-        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
-      </a>
-    </div>
-    <div class="bob__text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
-    </div>
-  </div>
-
-</div>
-
-<div class="title title--lg vpad--lg text--center">Harvey layout</div>
-
-<div class="harvey">
-  <div class="harvey__img" style="background-image: url({{site.img}}/img.jpg);">
-    <a class="harvey__link" href="#image-link"></a>
-  </div>
-  <div class="harvey__text">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
   </div>
 </div>
 
-<div class="harvey harvey--swap">
-  <div class="harvey__img" style="background-image: url({{site.img}}/img.jpg);">
-    <a class="harvey__link" href="#image-link"></a>
+<div class="bg__fixed">
+  <div class="bg__fixed-wrap">
+    <div class="bg--dark bg__fixed-img" style="background-image: url('{{site.img}}/content/{{page.id}}/fixed.jpg');"></div>
   </div>
-  <div class="harvey__text">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
+  <div class="vpad--xxxl js-bg-fade">
+    <div class="container text--center text--white">
+      <div class="width width--xl">
+        <div class="serif-title">A Mythical & Enchanting Destination</div>
+      </div>
+    </div>
   </div>
 </div>
+
+<div class="vpad--xl">
+  <div class="container">
+    {% for topic in page.topics %}
+      <div class="bob{% cycle '', ' bob--swap' %}">
+        <div class="bob__img">
+          <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/content/{{page.id}}/{{topic.id}}.jpg');"></div>
+        </div>
+        <div class="bob__text">
+          <h3 class="title title--color title--sm">{{topic.title}}</h3>
+          <p class="text--xxl">{{topic.opening-para}}</p>
+          <p>{{topic.para}}</p>
+        </div>
+      </div>
+      {% unless forloop.last %}<div class="space--xxxl"></div>{% endunless %}
+    {% endfor %}
+  </div>
+</div>
+
+{% include page/banner-explore.html %}

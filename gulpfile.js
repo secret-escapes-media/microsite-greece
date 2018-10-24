@@ -39,7 +39,7 @@ gulp.task('serve', ['build-jekyll'], function() {
     server: {
       baseDir: '_site/',
       routes: {
-        '/template': '_site/'
+        '/greece': '_site/'
       }
     }
   });
@@ -107,6 +107,7 @@ gulp.task('build-main-js', function(cb) {
   // --------------------
 
     // plugins
+    './_assets/js/_components/modernizr.js',
     './node_modules/jquery/dist/jquery.min.js',
     './node_modules/jquery-countdown/dist/jquery.countdown.min.js',
     // './node_modules/waypoints/lib/jquery.waypoints.min.js',
@@ -119,6 +120,7 @@ gulp.task('build-main-js', function(cb) {
     './_assets/js/_components/offer-countdown.js',
     './_assets/js/_components/modal.js',
     './_assets/js/_components/modal-nav.js',
+    './_assets/js/_components/page-nav.js',
     // './_assets/js/_components/sticky-nav.js',
 
     // custom js for project
@@ -180,7 +182,7 @@ gulp.task('compress-js', function () {
 // compress images files for live
 gulp.task('compress-images', function () {
   return gulp.src('./_site/_assets/img/**/*')
-  .pipe(image())
+  .pipe(image({'svgo': ['--disable', 'removeViewBox']}))
   .pipe(gulp.dest('./_site/_assets/img'));
 })
 

@@ -38,4 +38,5 @@
     @include transition;
   }
   &:hover &__bg-overlay { background-color: rgba($black,.6); }
+  &:hover &__bg-overlay--no-hover { background-color: rgba($black,.4); }  
 }

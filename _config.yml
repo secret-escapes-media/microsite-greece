@@ -1,18 +1,18 @@
 # Site settings
-title: Template
+title: Greece
 client:
-  name: Client Name
-  link: "#client-name"
+  name: Visit Greece
+  link: http://www.visitgreece.gr/
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Greece, a mythical and enchanting destination that deserves a lifetime of exploration. From kicking back on famous beaches, with soft golden sands and iconic azure waters, to indulging in delicious Greek cuisine in a host of charming tavernas, a holiday to Greece caters easily to all tastes. A myriad of islands, bastions of their unique traditions, cultures, landscapes and flavours, act as stepping stones on an itinerary framed by diversity and intrepid adventuring.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/template" # the subpath of your site, e.g. /blog/
-img:     "/template/_assets/img"
-css:     "/template/_assets/css"
-js:      "/template/_assets/js"
+baseurl: "/greece" # the subpath of your site, e.g. /blog/
+img:     "/greece/_assets/img"
+css:     "/greece/_assets/css"
+js:      "/greece/_assets/js"
 
 
 # Build settings

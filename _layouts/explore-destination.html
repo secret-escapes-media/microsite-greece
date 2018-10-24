@@ -1,0 +1,149 @@
+---
+layout: default
+---
+
+<div class="vpad--xxl bg--blue text--white text--normal">
+  <div class="container">
+    <div class="width width--xl text--center text--xl">
+      <p>{{page.intro}}</p>
+    </div>
+  </div>
+</div>
+
+{% include nav/page.html content=page.sections %}
+
+{% assign large-sections = page.sections | where: 'type', 'large' %}
+{% for section in large-sections %}
+  <div id="{{section.id}}" class="vpad--xxl {% cycle '', ' bg--light' %}">
+    <div class="container">
+      <div class="bob">
+        <div class="bob__img">
+          <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/main.jpg');"></div>
+        </div>
+        <div class="bob__text">
+          <h2 class="title title--lg">{{section.title}}</h2>
+          <p class="text--lg">{{section.description}}</p>
+        </div>
+      </div>
+      <div class="space--xxl"></div>
+      <div class="row {% cycle 'row--4-4-4', 'row--3-3-3-3' %}">
+        {% for poi in section.pois %}
+          <div class="col">
+            <div class="card">
+              <a class="card__link js-open-modal" data-open-modal="{{poi.id}}"></a>
+              <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}.jpg');"></div>
+              <div class="boxpad--lg">
+                <div class="title title--xxxs title--no-kern">{{poi.title}}</div>
+                <p class="text--sm">{{poi.description | truncatewords: 15}}</p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+{% assign day-sections = page.sections | where: 'type', 'day' %}
+{% for section in day-sections %}
+  <div id="{{section.id}}" class="vpad--xxl {% cycle '', ' bg--light' %}">
+    <div class="container text--center">
+      <h2 class="title title--xxl">{{section.title}}</h2>
+      <div class="space--sm"></div>
+      <h3 class="sub-title">{{section.subtitle}}</h3>
+      <div class="space--xxl"></div>
+      <div class="width width--xxl">
+        <div class="row row--4-4-4">
+          {% for poi in section.pois %}
+            <div class="col">
+              <div class="card">
+                <a class="card__link js-open-modal" data-open-modal="{{poi.id}}"></a>
+                <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}.jpg');"></div>
+                <div class="boxpad--lg">
+                  <div class="title title--xxxs title--no-kern">{{poi.title}}</div>
+                  <p class="text--sm">{{poi.description | truncatewords: 15}}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+{% assign medium-sections = page.sections | where: 'type', 'medium' %}
+{% for section in medium-sections %}
+  <div id="{{section.id}}" class="bg__fixed">
+    <div class="bg__fixed-wrap">
+      <div class="bg--dark bg__fixed-img" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/bg.jpg');"></div>
+    </div>
+    <div class="vpad--xxxl js-bg-fade">
+      <div class="container text--center text--white">
+        {% if page.id =="athens" %}<div class="banner-title-sub banner-title-sub--sm">Nearby</div>{% endif %}
+        <div class="space--md"></div>
+        <h2 class="title title--xl">{{section.title}}</h2>
+        {% unless page.id =="athens" %}
+          <div class="space--sm"></div>
+          <div class="banner-title-sub banner-title-sub--sm">{{section.subtitle}}</div>
+        {% endunless %}
+        <div class="space--md"></div>
+        <div class="width width--xl text--normal">
+          {% if section.content %}
+          {{section.content}}
+          {% else %}
+          <p class="text--xl">{{section.description}}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+{% assign small-sections = page.sections | where: 'type', 'small' %}
+{% if small-sections.size > 0 %}
+  <div class="vpad--xxl">
+    <div class="container">
+      <div class="row row--4-4-4">
+        {% for section in small-sections %}
+        <div class="col">
+          <div id="{{section.id}}" class="guide bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/bg.jpg');">
+            <div class="bg-img__bg-overlay bg-img__bg-overlay--no-hover"></div>
+            <div class="bg-img__content">
+              <h2 class="title title--sm">{{section.title}}</h2>
+            </div>
+          </div>
+          <p>{{section.description}}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% assign page-offers = site.data.offers | where: 'category', page.id %}
+{% if page-offers.size > 0 %}
+  <div class="bg--light vpad--xl">
+    <div class="container">
+      <div class=" text--center">
+        <h3 class="title title--lg">{{page.title}} Offers</h3>
+      </div>
+      <div class="space--lg"></div>
+      <div class="row row--xl-6-6 row--gutters-lg">
+        {% for offer in page-offers %}
+          <div class="col">
+            {% include offer/offer.html %}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="space--xl text--center">
+        <a href="{{site.baseurl}}/offers" class="btn btn--orange">See All offers</a>
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+
+
+
+{% include page/banner-explore.html %}
