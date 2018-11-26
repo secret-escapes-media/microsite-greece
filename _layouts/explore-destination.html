@@ -26,7 +26,15 @@ layout: default
         </div>
       </div>
       <div class="space--xxl"></div>
-      <div class="row {% cycle 'row--4-4-4', 'row--3-3-3-3' %}">
+      <!-- sets the columns for the pois depending on the amount in array -->
+      {% assign number-of-pois = section.pois | size %}
+      {% assign poi-odd-columns = number-of-pois | modulo:3  %}
+      {% if poi-odd-columns == 1 %}
+        {% assign poi-columns = "row--3-3-3-3" %}
+      {% else %}
+        {% assign poi-columns = "row--4-4-4" %}
+      {% endif %}
+      <div class="row {{poi-columns}}">
         {% for poi in section.pois %}
           <div class="col">
             <div class="card">
@@ -40,6 +48,17 @@ layout: default
           </div>
         {% endfor %}
       </div>
+      {% if page.id == "secret" %}
+        <div class="space--xxl"></div>
+        {% assign section-offers = site.data.offers | where: section.id, "true" %}
+        <div class="row row--xl-6-6 row--gutters-lg">
+          {% for offer in section-offers %}
+            <div class="col">
+              {% include offer/offer.html %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
     </div>
   </div>
 {% endfor %}

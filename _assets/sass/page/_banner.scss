@@ -46,6 +46,9 @@
       bottom: 0;
       background-color: rgba($grey-darkest,.15);
     }
+    &--no-overlay {
+      &:before { display: none; }
+    }
   }
   &__nav {
     // optional container for navigation include
