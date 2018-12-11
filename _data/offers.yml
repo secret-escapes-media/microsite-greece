@@ -57,7 +57,6 @@
   saved: 33
   expires: 2020/04/20
   link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
-  sifnos: true
 
 - title: First Hotel Marin
   id: first-hotel-marin
@@ -68,7 +67,6 @@
   saved: 43
   expires: 2020/04/20
   link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
-  sifnos: true
 
 - title: Magic Hotel
   id: magic-hotel
@@ -79,7 +77,6 @@
   saved: 55
   expires: 2020/04/20
   link: https://www.secretescapes.com/magic-hotel-bergen-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=14_Norway_201704
-  syros: true
 
 - title: Sola Strand Hotel
   id: sola-strand-hotel
@@ -90,4 +87,3 @@
   saved: 47
   expires: 2020/04/20
   link: https://www.secretescapes.com/sola-strand-hotel-sola-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=15_Norway_201704
-  syros: true

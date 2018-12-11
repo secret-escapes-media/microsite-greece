@@ -15,7 +15,7 @@ $group-nav-color:  $white;
   @include transition;
   transform: scaleY(0);
   transform-origin: top center;
-  @include bp($nav-width-bp){
+  @include bp(770px){
     .no-touch & { display: flex; }
     .site-nav__item:hover & { transform: scaleY(1); }
   }
@@ -37,10 +37,10 @@ $group-nav-color:  $white;
     text-transform: uppercase;
     letter-spacing: .15em;
     color: $grey-dark;
-    background-color: rgba($group-nav-color,.5);
+    background-color: rgba($group-nav-color,.75);
     @include transition;
     &.is-current      {
-      background-color: rgba($group-nav-color,.85); }
-    .no-touch &:hover { background-color: rgba($group-nav-color,.9); }
+      background-color: rgba($group-nav-color,.9); }
+    .no-touch &:hover { background-color: $group-nav-color; }
   }
 }

@@ -30,16 +30,16 @@ layout: default
       {% assign number-of-pois = section.pois | size %}
       {% assign poi-odd-columns = number-of-pois | modulo:3  %}
       {% if poi-odd-columns == 1 %}
-        {% assign poi-columns = "row--3-3-3-3" %}
+        {% assign poi-columns = "row--md-6-6 row--xl-4-4-4 row--xxl-3-3-3-3" %}
       {% else %}
-        {% assign poi-columns = "row--4-4-4" %}
+        {% assign poi-columns = "row--md-6-6 row--xl-4-4-4" %}
       {% endif %}
       <div class="row {{poi-columns}}">
         {% for poi in section.pois %}
           <div class="col">
             <div class="card">
               <a class="card__link js-open-modal" data-open-modal="{{poi.id}}"></a>
-              <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}.jpg');"></div>
+              <div class="bg-img bg-img--16-9 bg-img--md-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}.jpg');"></div>
               <div class="boxpad--lg">
                 <div class="title title--xxxs title--no-kern">{{poi.title}}</div>
                 <p class="text--sm">{{poi.description | truncatewords: 15}}</p>
@@ -48,17 +48,6 @@ layout: default
           </div>
         {% endfor %}
       </div>
-      {% if page.id == "secret" %}
-        <div class="space--xxl"></div>
-        {% assign section-offers = site.data.offers | where: section.id, "true" %}
-        <div class="row row--xl-6-6 row--gutters-lg">
-          {% for offer in section-offers %}
-            <div class="col">
-              {% include offer/offer.html %}
-            </div>
-          {% endfor %}
-        </div>
-      {% endif %}
     </div>
   </div>
 {% endfor %}
@@ -67,9 +56,11 @@ layout: default
 {% for section in day-sections %}
   <div id="{{section.id}}" class="vpad--xxl {% cycle '', ' bg--light' %}">
     <div class="container text--center">
-      <h2 class="title title--xxl">{{section.title}}</h2>
+      <h2 class="title title--xl">{{section.title}}</h2>
       <div class="space--sm"></div>
-      <h3 class="sub-title">{{section.subtitle}}</h3>
+      <div class="sub-title__wrap">
+        <h3 class="sub-title">{{section.subtitle}}</h3>
+      </div>
       <div class="space--xxl"></div>
       <div class="width width--xxl">
         <div class="row row--4-4-4">
@@ -99,12 +90,18 @@ layout: default
     </div>
     <div class="vpad--xxxl js-bg-fade">
       <div class="container text--center text--white">
-        {% if page.id =="athens" %}<div class="banner-title-sub banner-title-sub--sm">Nearby</div>{% endif %}
+        {% if page.id =="athens" %}
+          <div class="banner-title-sub__wrap">
+            <div class="banner-title-sub banner-title-sub--sm">Nearby</div>
+          </div>
+        {% endif %}
         <div class="space--md"></div>
         <h2 class="title title--xl">{{section.title}}</h2>
         {% unless page.id =="athens" %}
           <div class="space--sm"></div>
-          <div class="banner-title-sub banner-title-sub--sm">{{section.subtitle}}</div>
+          <div class="banner-title-sub__wrap">
+            <div class="banner-title-sub banner-title-sub--sm">{{section.subtitle}}</div>
+          </div>
         {% endunless %}
         <div class="space--md"></div>
         <div class="width width--xl text--normal">
@@ -123,10 +120,10 @@ layout: default
 {% if small-sections.size > 0 %}
   <div class="vpad--xxl">
     <div class="container">
-      <div class="row row--4-4-4">
+      <div class="row row--6-6 row--xl-4-4-4">
         {% for section in small-sections %}
         <div class="col">
-          <div id="{{section.id}}" class="guide bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/bg.jpg');">
+          <div id="{{section.id}}" class="guide bg-img bg-img--16-9 bg-img--lg-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/bg.jpg');">
             <div class="bg-img__bg-overlay bg-img__bg-overlay--no-hover"></div>
             <div class="bg-img__content">
               <h2 class="title title--sm">{{section.title}}</h2>
@@ -161,8 +158,5 @@ layout: default
     </div>
   </div>
 {% endif %}
-
-
-
 
 {% include page/banner-explore.html %}

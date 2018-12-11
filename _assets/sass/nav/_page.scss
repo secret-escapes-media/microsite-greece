@@ -2,7 +2,7 @@
 
 $page-nav-height:    56px;
 $page-nav-height-sm: 44px;
-$page-nav-width-bp:  740px;
+$page-nav-width-bp:  670px;
 $page-nav-color:     $grey-lightest;
 
 
@@ -39,7 +39,7 @@ $page-nav-color:     $grey-lightest;
     bottom: 0;
     z-index: $z-nav-upper;
     width: $page-nav-height-sm;
-    background-image: url("../img/icons/nav-arrow-light.svg");
+    background-image: url("../img/icons/nav-arrow-page.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: $page-nav-height-sm auto;

@@ -5,25 +5,26 @@
 //       Background overlay fade
 ///////////////////////////////////////
 
-function overlay_bg(){
-	var st = $(document).scrollTop();
-	var wh = $(window).height();
-
+function bgFade(){
+	var scrollPosition = $(document).scrollTop();
+	var windowHeight   = $(window).height();
   $('.js-bg-fade').each(function(){
-
-    var distance = $(this).offset().top;
-    var start = distance - wh;
-    var progress = st - start;
-
-    $(this).css({
-      "background-color": "rgba(26,26,26,.7)",
-      "opacity": st / wh + 0.15
-    });
-
+    var targetScrollPosition = $(this).offset().top;
+    var fadeStart = targetScrollPosition - windowHeight;
+    var position = scrollPosition - fadeStart;
+    // transition only happens when target section is at the bottom of the viewport
+    if (position > 0) {
+      $(this).css({
+        "opacity": position / windowHeight + 0.15
+      });
+    }
   });
 
 }
 
+// run on page load
+bgFade();
+// run on page scroll
 $(document).scroll(function() {
-	overlay_bg();
+	bgFade();
 });

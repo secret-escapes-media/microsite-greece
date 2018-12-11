@@ -12,27 +12,25 @@ layout: default
 
 <div class="bg--light vpad--xxl">
   <div class="container">
-    <div class="row row--4-4-4">
+    <div class="row row--6-6 row--xxl-4-4-4">
       {% assign explore-pages = site.html_pages | where: 'group-parent', 'explore' | sort: 'group-order' %}
       {% for page in explore-pages %}
         {% if forloop.index > 2 %}{% assign first-two = true %}{% endif %}
-
-        <div class="col {% unless first-two %} col--6{% endunless %}">
-          <div class="guide guide--hover bg-img bg-img--2-3{% unless first-two %} bg-img--1-1{% endunless %}" style="background-image: url('{{site.img}}/content/{{page.id}}/nav.jpg');">
+        <div class="col{% unless first-two %} col--xxl-6{% endunless %}">
+          <div class="guide guide--hover bg-img bg-img--1-1 bg-img--md-4-3 bg-img--lg-2-3{% unless first-two %} bg-img--xxl-1-1{% endunless %}" style="background-image: url('{{site.img}}/content/{{page.id}}/nav-lg.jpg');">
             <a href="{{site.baseurl}}{{page.url}}" class="bg-img__link"></a>
             <div class="bg-img__bg-overlay"></div>
             <div class="bg-img__content">
               <div>
                 <div class="title title--xxxs">Our guide to</div>
                 <hr class="hr">
-                <div class="title{% unless first-two %} title--lg {% else %} title--sm{% endunless %}">{{page.title}}</div>
+                <div class="title title--lg{% if first-two %} title--bpxxl-sm{% endif %}">{{page.title}}</div>
                 <hr class="hr">
                 <div class="text--normal"><strong>Great for:</strong> {{page.great-for}}</div>
               </div>
             </div>
           </div>
         </div>
-
       {% endfor %}
     </div>
   </div>

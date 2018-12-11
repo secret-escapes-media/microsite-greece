@@ -1,9 +1,10 @@
 ///////////////////////////////////////
 //      smooth-scrolling - http://css-tricks.com/snippets/jquery/smooth-scrolling/
 ///////////////////////////////////////
+// also includes an exception to the specific scroll behaviour below
 $(function() {
   $('a[href*=\\#]:not([href=\\#])').click(function() {
-    if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+    if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname && !($(this).hasClass('js-small-section-scroll'))) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
@@ -15,6 +16,19 @@ $(function() {
     }
   });
 });
+
+// a very specific scroll behaviour for the small cities in each guide. It basically stops the page nav from overlapping the content when it scrolls to that content.
+$('.js-small-section-scroll').on('click', function(e) {
+  e.preventDefault();
+  var navHeight = $(this).height();
+  var targetId = $(this).attr('href').split('#').pop();
+  var targetScrollPosition = $('#' + targetId).offset().top;
+  var peanutclusters = targetScrollPosition - navHeight;
+  $('html,body').animate({
+    scrollTop: peanutclusters
+  }, 500);
+  return false;
+})
 
 
 ///////////////////////////////////////

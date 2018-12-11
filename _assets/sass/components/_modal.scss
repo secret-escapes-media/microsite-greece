@@ -13,7 +13,6 @@
     align-items: center;
     justify-content: center;
     min-height: 100%;
-    margin-bottom: ($icon-size * 6);
   }
   &__bg {
     position: fixed;
@@ -118,14 +117,12 @@
     }
   }
   @include bp($md) {
-
     margin-left: $icon-size;
     margin-right: $icon-size;
-    &__wrap { margin-bottom: 0; }
   }
   @include bp($lg){
     &__content {
-      padding: $s4 $s6;
+      padding: $s4;
     }
   };
 }
