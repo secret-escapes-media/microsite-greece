@@ -1,109 +1,194 @@
-- title: 5* Corfu holiday at a stylish hotel on a private peninsula
-  id: 5-corfu-holiday-at-a-stylish-hotel-on-a-private-peninsula
-  location: Grecotel Corfu Imperial, Greece
-  description: Five-star luxury on a private peninsula in Corfu
-  price: 539
-  price-description: per person for 5 nights
-  saved: 42
-  expires: 2018/12/24
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/48197/2f635c35_ca4f_4cea_aa40_9dd13cc70a93.jpg
-  link: https://www.secretescapes.com/5-star-corfu-holiday-at-a-stylish-hotel-on-a-private-peninsula-grecotel-corfu-imperial-greece/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=December2018
 
-- title: Contemporary charm & beachfront adults-only relaxation in Crete
-  id: contemporary-charm-and-beachfront-adults-only-relaxation-in-crete
-  location: Enorme Lifestyle Beach Resort, Greece
-  description: Tranquil adults-only Crete beach holiday
-  price: 345
-  price-description: per person for 5 nights
-  saved: 50
-  expires: 2018/12/24
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/83666/fec57853_1105_46a5_9080_427c6dbcd5da.jpg
-  link: https://www.secretescapes.com/contemporary-charm-and-beachfront-relaxation-in-crete-enorme-lifestyle-beach-resort-greece/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=December2018
 
-- title: Creta Palace
-  id: creta-palace
-  location: Crete, Greece
-  description: Succumb to sunny Greece with a five-star hotel stay in Crete
-  price: 156
-  price-description: per room per night
-  saved: 50
-  expires: 2018/12/24
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/63621/e4da3776_5850_46ad_908f_95f443fa7d2e.jpg
-  link: https://www.secretescapes.com/creta-palace-crete-greece12/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=December2018
+- title: All-inclusive Corfu escape with beautiful sea views
+  location: Lux Me Daphnila Bay Dassia, Greece
+  description: Enjoy an all-inclusive Corfu escape with glorious sea views
+  price: 599
+  price-description: per person. Based on 2 people for 5 nights
+  saved: 25
+  expires: 2019/11/17
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/15/13335197_2688_4a84_b52d_be48229f6587.jpg?auto=format,compress
+  link: https://www.secretescapes.com/all-inclusive-crete-escape-with-beautiful-sea-views-lux-me-daphnila-bay-dassia-greece/sale-ihp
 
-- title: Saint John Mykonos Hotel
-  id: saint-john-mykonos-hotel
-  location: Mykonos, Greek Islands
-  description: A five-star Mykonos beach pad with sublime sea views
-  price: 180
-  price-description: per room per night
-  saved: 50
-  expires: 2018/12/24
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/25334/0cf31280_4487_4140_b18b_65cc964458a8.jpg
-  link: https://www.secretescapes.com/saint-john-mykonos-hotel-mykonos-greek-islands987/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=December2018
+- title: Relaxing Halkidiki holiday with optional private pool room
+  location: Kappa Resort, Greece
+  description: Chic Halkidiki resort with your own private pool
+  price: 499
+  price-description: per person. Based on 2 people for 5 nights
+  saved:
+  expires: 2019/11/18
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/695/58af4a16_5b34_4403_bf39_c62e2b60e5e3.jpg?auto=format,compress
+  link: https://www.secretescapes.com/kappa-resort-halkidiki-greece1/sale-ihp
 
-- title: 5* luxury Crete summer holiday
-  id: 5-luxury-crete-summer-holiday
-  location: Amirandes, Grecotel Exclusive Resort, Greece
-  description: Beach bliss at a Crete resort ranked best in the region on TripAdvisor
-  price: 549
-  price-description: per person for 5 nights
-  saved: 49
-  expires: 2018/12/24
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84328/7bb436c8_ecf0_4b7b_af56_56d630dd21bb.jpg
-  link: https://www.secretescapes.com/5-star-luxury-crete-summer-holiday-amirandes-grecotel-exclusive-resort-greece/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=December2018
+- title: 5* adults-only Kos beach getaway with 2020 dates
+  location: Diamond Deluxe Hotel, Greece
+  description: Five-star, adults-only Kos beachfront holiday
+  price: 449
+  price-description: per person. Based on 2 people for 4 nights
+  saved: 46
+  expires: 2019/11/22
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/83/046bf53b_a3dd_4cc5_bf85_d26653306099.jpg?auto=format,compress
+  link: https://www.secretescapes.com/diamond-deluxe-hotel-kos-greece/sale-ihp
 
-- title: Mythical Blue Luxury Suites
-  id: mythical-blue-luxury-suites
-  location: Santorini, Greece
-  description: A stylish jacuzzi suite in idyllic Santorini
-  price: 189
-  price-description: per suite per night
-  saved: 40
-  expires: 2018/12/24
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/84589/3623984d_f8d6_4561_b08d_4f5ab33ecf9e.jpg
-  link: https://www.secretescapes.com/mythical-blue-santorini-greece/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=December2018
+- title: 5* exceptional adults-only Corfu escape
+  location: Domes Miramare Corfu, Greece
+  description: An ultra-chic five-star escape for adults in Corfu
+  price: 529
+  price-description: per person. Based on 2 people for 5 nights
+  saved: 19
+  expires: 2019/11/25
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/241/1a162de1_8563_464a_9662_0d9503eef270.jpg?auto=format,compress
+  link: https://www.secretescapes.com/domes-miramare-corfu-greece/sale-ihp
 
-- title: Kefalonia Grand
-  id: kefalonia-grand
-  location: Kefalonia, Greece
-  description: A beautiful boutique retreat in scenic Kefalonia
-  price: 101
-  price-description: per room per night
-  saved: 63
-  expires: 2018/12/24
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/55315/d1337d77_97ee_4939_a410_4c082d0ce728.jpg
-  link: https://www.secretescapes.com/kefalonia-grand-kefalonia-greece-uk/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=December2018
+- title: 5* all-inclusive luxury Crete beach escape
+  location: Ikaros Beach Resort & Spa, Greece
+  description: Five-star village-style getaway in charming Crete
+  price: 399
+  price-description: per person. Based on 2 people for 5 nights
+  saved: 36
+  expires: 2019/11/22
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/58/0b1477e7_2131_4ba6_a602_e0dd2c4f0c2b.jpg?auto=format,compress
+  link: https://www.secretescapes.com/ikaros-beach-resort-spa-crete-greece/sale-ihp
 
-- title: Grecotel Pallas Athena
-  id: grecotel-pallas-athena
+- title: Relaxing Crete beach holiday with an optional private Jacuzzi room
+  location: Theartemis Palace Hotel, Greek Islands
+  description: Greek island chic on a Crete beach break
+  price: 475
+  price-description: per person. Based on 2 people for 7 nights
+  saved: 39
+  expires: 2019/11/18
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/700/5bd66cd3_7c2b_4844_9918_e673bd205b64.jpg?auto=format,compress
+  link: https://www.secretescapes.com/chic-crete-beach-holiday-with-an-optional-private-jacuzzi-theartemis-palace-crete-greeke-islands/sale-ihp
+
+- title: All-inclusive Crete holiday at a tranquil beachfront hotel
+  location: Santa Marina Beach Hotel, Greek Islands
+  description: All-inclusive Crete beach break in a serene village
+  price: 319
+  price-description: per person. Based on 2 people for 4 nights
+  saved: 20
+  expires: 2019/11/18
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/413/ad22543a_27c0_435c_bcad_b9acf4f5c9cf.jpg?auto=format,compress
+  link: https://www.secretescapes.com/santa-marina-beach-hotel-crete-greek-islands/sale-ihp
+
+- title: Grand Hyatt Athens
   location: Athens, Greece
-  description: Contemporary and central boutique base in historic Athens
-  price: 85
+  description: Convenient Athens pad in city centre for culture thrills
+  price: 103
   price-description: per room per night
-  saved: 47
-  expires: 2018/12/24
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/29721/4ab537f0_766c_492d_831c_106cc32eaf86.jpg
-  link: https://www.secretescapes.com/grecotel-pallas-athena-athens-greece-uk/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=December2018
+  saved: 56
+  expires: 2019/09/30
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/98389/2942a0bd_60a6_4cd6_a348_c48c008765e9.jpg?auto=format,compress
+  link: https://www.secretescapes.com/grand-hyatt-athens-athens-greece/sale
 
-- title: Kalyves Beach Hotel
-  id: kalyves-beach-hotel
-  location: Crete, Greek Islands
-  description: Beachside charm and all-inclusive perks in Crete
+- title: Mr & Mrs White Crete
+  location: Crete, Greece
+  description: Revamped Crete resort with sea views
+  price: 68
+  price-description: per room per night
+  saved: 61
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/101459/d83a2447_d361_49b6_ab27_11b7187f1721.jpg?auto=format,compress
+  link: https://www.secretescapes.com/mr-and-mrs-white-crete-crete-greece/sale
+
+- title: Sesa Boutique Hotel
+  location: Preveza, Greece
+  description: Stylish Greece beachfront stay on the scenic Ionian Coast
   price: 67
   price-description: per room per night
-  saved: 58
-  expires: 2018/12/24
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/50067/ff3a15eb_d9d8_47eb_91f8_4ec60493b8f7.jpg
-  link: https://www.secretescapes.com/kalyves-beach-hotel-crete-greek-islands1234/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=December2018
+  saved: 65
+  expires: 2019/09/30
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/93748/9ebc3e5a_6df7_454a_8389_842188b0722d.jpg?auto=format,compress
+  link: https://www.secretescapes.com/sesa-boutique-hotel-preveza-greece/sale
 
-- title: 5* sun-kissed Halkidiki beach holiday
-  id: 5-sun-kissed-halkidiki-beach-holiday
-  location: Cronwell Resort Sermilia, Greece
-  description: A gleaming five-star resort on Halkidiki's unspoilt coast
-  price: 349
-  price-description: per person for 5 nights
-  saved: 41
-  expires: 2019/01/02
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/69966/da76de25_7d74_417c_a705_7082d4f9c8a2.jpg
-  link: https://www.secretescapes.com/5-star-sun-kissed-halkidiki-beach-holiday-cronwell-resort-sermilia-greece1/sale?utm_source=SE_media&utm_medium=Greece&utm_campaign=December2018
+- title: Santorini Dream Villas
+  location: Santorini, Greece
+  description: Santorini suite escape with beautiful sea views
+  price: 235
+  price-description: per suite per night
+  saved: 51
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/101835/3872d215_9a25_4dea_b2fd_90aac45ce11b.jpg?auto=format,compress
+  link: https://www.secretescapes.com/santorini-dream-villas-santorini-greece/sale
+
+- title: Xenia Ouranoupolis
+  location: Halkidiki, Greece
+  description: Idyllic Greece beachfront escape with a sea-view room
+  price: 68
+  price-description: per room per night
+  saved: 62
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/101950/17eb6ea3_c79d_4444_9e91_8ecb847e6bb8.jpg?auto=format,compress
+  link: https://www.secretescapes.com/xenia-ouranoupolis-halkidiki-greece/sale
+
+- title: Electra Palace Hotel Rhodes
+  location: Ialysos, Greece
+  description: All-inclusive Rhodes luxury beachfront idyll
+  price: 96
+  price-description: per room per night
+  saved: 65
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/98453/f4b48af5_bbf6_4c14_8982_da4a1d8a2f0a.jpg?auto=format,compress
+  link: https://www.secretescapes.com/electra-palace-hotel-rhodes-ialysos-greece/sale
+
+- title: Ammos Resort
+  location: Kos, Greek Islands
+  description: Beachside bliss in Kos at a chic all-inclusive resort
+  price: 61
+  price-description: per room per night
+  saved: 58
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/84165/97253164_a38c_4690_9fd8_0e18882f4bb1.jpg?auto=format,compress
+  link: https://www.secretescapes.com/ammos-resort-kos-greek-islands-uk-sale/sale
+
+- title: 5* stylish Rhodes all-inclusive holiday with seaview room option
+  location: Olympic Palace Hotel, Rhodes
+  description: All-inclusive five-star beach escape to Rhodes
+  price: 499
+  price-description: per person. Based on 2 people for 5 nights
+  saved: 33
+  expires: 2019/11/11
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/101448/204a2edf_aa80_4314_816e_a13a8d380c79.jpg?auto=format,compress
+  link: https://www.secretescapes.com/olympic-palace-hotel-rhodes-greece/sale
+
+- title: Contessina Hotel
+  location: Zakynthos, Greek Islands
+  description: Gorgeous boutique Zakynthos hotel on the coast
+  price: 70
+  price-description: per room per night
+  saved: 64
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102045/69cf985b_3774_4671_9560_d57f91435ef6.jpg?auto=format,compress
+  link: https://www.secretescapes.com/contessina-hotel-zakynthos-greek-islands/sale
+
+- title: Sentido Vasia Resort & Spa
+  location: Crete, Greek Islands
+  description: All-inclusive Crete stay near the sparkling coast
+  price: 71
+  price-description: per room per night
+  saved: 45
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102188/d839fa9b_a53a_45ae_8038_8d654e3149f4.jpg?auto=format,compress
+  link: https://www.secretescapes.com/sentido-vasia-resort-and-spa-sissi-crete/sale
+
+- title: 5* all-inclusive Crete beach holiday with sea views
+  location: Knossos Royal Beach Resort, Greek Islands
+  description: Five-star all-inclusive Crete holiday
+  price: 569
+  price-description: per person. Based on 2 people for 5 nights
+  saved: 33
+  expires: 2019/11/26
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/94011/af7339c8_8f53_4476_b7e3_910a2d07540f.jpg?auto=format,compress
+  link: https://www.secretescapes.com/knossos-royal-beach-resort-crete-greek-islands/sale
+
+- title: Discover the secrets of Historic Athens
+  id: discover-the-secrets-of-historic-athens
+  location: Greece
+  description: Delve into the ancient history of Greece on an Athens city trip incl. hotel, breakfast, Mediterranean cooking class and return flights
+  price: 259
+  price-description: per person
+  saved:
+  expires:
+  image: https://travelbird-images.imgix.net/94/9c/949cad9e8bc4dc2ae4f51e2bd4ac1086?auto=compress%2Cformat&crop=faces%2Cedges%2Ccenter&dpr=2&fit=crop&h=700&w=1050
+  link: https://co.uk.sales.secretescapes.com/114641/discover-historical-athens/
+
+

@@ -108,13 +108,13 @@
   @include bp($sm){ font-size: $s7; letter-spacing: 1rem;  }
   @include bp($md){ font-size: $s8; letter-spacing: 1.5rem; }
   @include bp($lg){ font-size: $s9; letter-spacing: 1.66rem; }
-  @include bp($xl){ font-size: $s10; }
+  @include bp($xl){ font-size: $s9; }
   &--lg {
     font-size: $s8;
     @include bp(410px){ font-size: $s9; letter-spacing: 1rem;  }
     @include bp(530px){ font-size: $s10; letter-spacing: 1.5rem; }
-    @include bp($lg){ font-size: $s11; letter-spacing: 2rem; }
-    @include bp($xl){ font-size: $s12; }
+    @include bp($lg){ font-size: $s10; letter-spacing: 2rem; }
+    @include bp($xl){ font-size: $s11; }
   }
 }
 
