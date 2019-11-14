@@ -7,6 +7,7 @@
   line-height: 1.2;
   letter-spacing: .25rem;
   text-transform: uppercase;
+  &--serif { font-family: $font-title-02; }
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
   &--xl     { font-size: $s6; }
@@ -17,7 +18,7 @@
   &--xxs    { font-size: $s1; }
   &--xxxs   { font-size: $s0; }
   @include bp($lg){
-    letter-spacing: .5rem;
+    letter-spacing: .35rem;
     &--xxxl  { font-size: $s9; }
     &--xxl   { font-size: $s8; }
     &--xl    { font-size: $s7; }
@@ -100,14 +101,14 @@
 .banner-title {
   // custom banner headline
   font-family: $font-title-01;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: .5rem;
   line-height: 1.1;
   text-transform: uppercase;
   font-size: $s6;
   @include bp($sm){ font-size: $s7; letter-spacing: 1rem;  }
-  @include bp($md){ font-size: $s8; letter-spacing: 1.5rem; }
-  @include bp($lg){ font-size: $s9; letter-spacing: 1.66rem; }
+  @include bp($md){ font-size: $s8; letter-spacing: 1rem; }
+  @include bp($lg){ font-size: $s9; letter-spacing: 1rem; }
   @include bp($xl){ font-size: $s9; }
   &--lg {
     font-size: $s8;
@@ -127,6 +128,7 @@
   letter-spacing: .5rem;
   line-height: 1.2;
   font-size: $s2;
+  margin-bottom: $s0;
   @include bp($md){ font-size: $s3; }
   @include bp($xl){ font-size: $s4; }
   // lines either side of title
@@ -139,7 +141,7 @@
     width: 100px;
     margin-left: $s2;
     margin-right: $s2;
-    margin-top: -6px;
+    margin-top: -0px;
     border-top: 1px solid rgba($white,0.5);
     border-bottom: 1px solid rgba($white,0.5);
   }

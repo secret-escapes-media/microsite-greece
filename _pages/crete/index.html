@@ -1,0 +1,128 @@
+---
+layout: default
+id: crete
+nav: true
+nav-order: 2
+title: Spotlight on Crete
+
+banner:
+  title-sup: Spotlight on
+  title: Crete
+
+intro: The Cretan landscape is one of contrasts. Wild and rugged peaks lie south, dotted with a patchwork of idyllic mountain villages, whereas close to shore, ancient harbour towns buzz with activity and stunning coastlines shelter irresistible beaches. Its size is a unique asset, making it a truly diverse island getaway. A big island with a bigger heart, you’ll find treasures like the sublime Samaria Gorge, the pink beaches of Elafonisi, and delectable dining crafted with local artisanal produce. From bustling cities to laid-back coastal towns, Crete has a little something for everyone.
+great-for: History, Adventure, Beaches
+
+
+sections:
+
+  - id: towns
+    title: Towns
+    description:
+    pois:
+      - title: Rethymno
+        id: rethymno
+        description: Labyrinthine streets are shrouded by canopies of flowering vines, with Ottoman minarets and Venetian balconies completing a picturesque scene. Rethymno is filled with fine restaurants, bars and boutiques, hidden amongst pretty narrow alleyways. A student population ensures a network of cool bars with live music, drawing crowds that spill out onto the streets after sunset. It’s one of the island’s finest cities.
+      - title: Agios Nikolaos
+        id: agios-nikolaos
+        description: A stylish town built around an enchanting lagoon, Agios Nikolaos has long been a firm favourite of jet-set holiday-makers. With luxury boutiques contending with rustic tavernas and buzzing bars, there’s no shortage of activity from day to well into the night. Dine right next to the water, under the lights of the bars and restaurants that fringe the lagoon.
+      - title: Chania
+        id: chania
+        description: Chania life revolves around the pastel-hued Venetian harbour. It’s a gorgeous place for al fresco dining at one of many waterfront eateries, followed by sundown struts along the promenade. In the old town you can explore narrow streets heavy with medieval stylings, Ottoman touches, and bustling shops turning a trade in authentic, traditional goods.
+
+  - id: landscapes
+    title: Landscapes
+    description:
+    pois:
+      - title: Elafonisi
+        id: elafonisi
+        description: At the western tip of Crete lies a rather special island, once known only to locals. Elafonisi, a small spit of land cast along a lagoon, is perfect for shallow dips in remarkably clear waters – at low tide, you can walk along a shallow sandbank to reach it. Yet the true marvel lies in the sublime pink hues that its beaches emanate – a technicolour wonder, which is by all accounts stupendously rare; it has to be seen to be believed.
+      - title: Samaria Gorge
+        id: samaria-gorge
+        description: In the heart of Crete’s White Mountains, a deep scar carves its way through the forested landscape to the sea. The Samaria Gorge is a beguiling outdoor spectacle, dizzyingly deep, and fills any visitor with a welcomed sense of adventure. A trail follows the entire route, with craggy stone walls rising to lofty heights on either side. A full trek is 16km long, with plenty of wildlife encounters, incredible outdoor scenes and forgotten villages to discover.
+      - title: Balos
+        id: balos
+        description: A sublime beauty spot, Balos is an isolated lagoon beach where shallow, transparent waters wash over soft white sands. To reach it, a boat excursion or a trip in a 4x4 along dusty paths is necessary. The journey is worth it and certainly thrilling in its own right, whilst the twisting lagoon makes for a perfect day of beach lounging in idyllic surroundings.
+
+  - id: culture
+    title: Culture
+    description:
+    pois:
+      - title: Minoan Heritage
+        id: minoan-heritage
+        description: Crete was the home of Europe’s first advanced civilization – the Minoans. Their history can be found across the island, in palaces and settlements that are startlingly ancient. From the marvel of Europe’s oldest city, Knossos, where myths of the minotaur still reverberate around the palace walls, to the remarkable palace at Phaistos, the Minoans leave a mythical mark on the culture of Crete.
+      - title: Iraklio Wine Country
+        id: iraklio-wine-country
+        description: This famed wine region is home to a cluster of must-visit wine estates. Cretan grape varieties produce wines known for their refined and sumptuous qualities, slowly garnering deserved recognition outside of Crete. Hop from cellar-door tasting to cellar-door tasting, stopping off at a string of acclaimed restaurants as you discover this irresistible part of Cretan life.
+      - title: Village Life
+        id: village-life
+        description: The best way to get under the skin of the Cretan life is to village-hop across the island. Step off-the-beaten-path and explore sleepy fishing villages and mountain hideaways. Choria Skafia makes for perfect respite after exploring the White Mountains, with more coastal delights found further afield in Loutro and myth-filled Matala; spot trawlers bringing in fresh catches, filling the local tavernas. Inland, Episkopi’s cottage industry is in olive oil and old frescoed churches, whilst mountainous Anogia offers gorgeous grilled lamb and museums of local folk art. FInally, don’t miss Margarites, a picture-perfect Cretan village with Byzantine churches and great rustic dining to boot.
+
+
+---
+
+
+
+
+<div class="vpad--xxl bg--blue text--white text--normal">
+  <div class="container">
+    <div class="width width--xl text--center text--xl">
+      <p>{{page.intro}}</p>
+    </div>
+  </div>
+</div>
+
+{% include nav/page.html content=page.sections %}
+
+
+
+
+{% for section in page.sections %}
+  <div id="{{section.id}}" class="vpad--xxl {% cycle '', ' bg--light' %}">
+    <div class="container">
+      <div class="text--center">
+        <h2 class="title title--xl title--serif">{{section.title}}</h2>
+        <p class="text--lg">{{section.description}}</p>
+      </div>
+      <div class="space--xxl"></div>
+
+      {% for poi in section.pois %}
+      <div class="bob {% cycle '',' bob--swap' %}">
+        <div class="bob__img">
+          <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}.jpg');"></div>
+        </div>
+        <div class="bob__text">
+          <div class="title title--sm">{{poi.title}}</div>
+          <p class="text--lg">{{poi.description}}</p>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+{% endfor %}
+
+
+
+{% assign page-offers = site.data.offers | where: 'category', page.id %}
+{% if page-offers.size > 0 %}
+  <div class="bg--light vpad--xl">
+    <div class="container">
+      <div class=" text--center">
+        <h3 class="title title--lg">{{page.title}} Offers</h3>
+      </div>
+      <div class="space--lg"></div>
+      <div class="row row--xl-6-6 row--gutters-lg">
+        {% for offer in page-offers %}
+          <div class="col">
+            {% include offer/offer.html %}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="space--xl text--center">
+        <a href="{{site.baseurl}}/offers" class="btn btn--orange">See All offers</a>
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% include page/banner-explore.html %}

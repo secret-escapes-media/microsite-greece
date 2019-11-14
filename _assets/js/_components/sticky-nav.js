@@ -3,16 +3,18 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 // elements and classes
-var stickyNavClass     = '.js-sticky-nav';
+var stickyNavTrigger     = '.js-sticky-page-nav-wrap';
+var stickyNavClass     = '.js-sticky-page-nav';
 var stickyNavContainer = '.banner';
 var stickyNavModifier  = 'is-stuck';
 
 function stickyNav(){
 
   var scrollTop = $(document).scrollTop();
+  var trigger   = $(stickyNavTrigger);
   var nav       = $(stickyNavClass);
-  var navHeight = nav.outerHeight();
-  var distance  = $(stickyNavContainer).outerHeight() - navHeight;
+  var navHeight = $(stickyNavClass).outerHeight();
+  var distance  = trigger.offset().top;
 
   if( scrollTop > distance ){
     nav.addClass(stickyNavModifier);

@@ -5,14 +5,14 @@ client:
   link: http://www.visitgreece.gr/
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
-  Greece is one of those places that deserves a lifetime of exploration. An endless sea of bewitching islands and a mainland of mountains, myths and myriad adventures await. Yes, the beaches are gorgeous, some of the best in Europe in fact, and yes, the landscapes are uniquely beautiful; but behind the azure waters and olive-grove valleys there’s a culture as old as time waiting to be unpicked, presenting itself in the local fare of roadside tavernas, in the hidden ruins of lost civilizations, and in the warm hospitality of the Greek people, your local guides to the idiosyncrasies of each tempting destination. 
+  Greece is one of those places that deserves a lifetime of exploration. An endless sea of bewitching islands and a mainland of mountains, myths and myriad adventures await. Yes, the beaches are gorgeous, some of the best in Europe in fact, and yes, the landscapes are uniquely beautiful; but behind the azure waters and olive-grove valleys there’s a culture as old as time waiting to be unpicked, presenting itself in the local fare of roadside tavernas, in the hidden ruins of lost civilizations, and in the warm hospitality of the Greek people, your local guides to the idiosyncrasies of each tempting destination.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/greece" # the subpath of your site, e.g. /blog/
-img:     "/greece/_assets/img"
-css:     "/greece/_assets/css"
-js:      "/greece/_assets/js"
+baseurl: "/2019/greece" # the subpath of your site, e.g. /blog/
+img:     "/2019/greece/_assets/img"
+css:     "/2019/greece/_assets/css"
+js:      "/2019/greece/_assets/js"
 
 
 # Build settings

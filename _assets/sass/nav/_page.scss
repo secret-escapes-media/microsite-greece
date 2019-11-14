@@ -3,7 +3,7 @@
 $page-nav-height:    56px;
 $page-nav-height-sm: 44px;
 $page-nav-width-bp:  670px;
-$page-nav-color:     $grey-lightest;
+$page-nav-color:     $g-blue;
 
 
 // global page nav height
@@ -18,7 +18,7 @@ $page-nav-color:     $grey-lightest;
 
 .page-nav {
   position: relative;
-  background-color: rgba($page-nav-color,.8);
+  background-color: rgba($page-nav-color,.9);
   text-align: center;
 
   // NEEDS EXPLAINING LIKE THE CORE NAV OFFSET
@@ -87,18 +87,18 @@ $page-nav-color:     $grey-lightest;
     padding-left: $s4;
     padding-right: $s4;
     font-family: $font-core;
-    font-weight: 700;
-    font-size: 11px;
-    letter-spacing: .2em;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: .15em;
     text-transform: uppercase;
-    color: $grey-dark;
+    color: $white;
     transition: background-color $transition-time ease;
     white-space: nowrap;
     // &.is-current {
     //   background-color: rgba($grey-lighter,.5);
     // }
     .no-touch &:hover {
-      background-color: rgba($grey-lighter,.4);
+      background-color: darken($g-blue,5);
     }
     @include bp($page-nav-width-bp){
       padding-left: $s0;
