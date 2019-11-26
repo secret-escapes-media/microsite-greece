@@ -9,10 +9,10 @@ description: >
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/2019/greece" # the subpath of your site, e.g. /blog/
-img:     "/2019/greece/_assets/img"
-css:     "/2019/greece/_assets/css"
-js:      "/2019/greece/_assets/js"
+baseurl: "/greece" # the subpath of your site, e.g. /blog/
+img:     "/greece/_assets/img"
+css:     "/greece/_assets/css"
+js:      "/greece/_assets/js"
 
 
 # Build settings
