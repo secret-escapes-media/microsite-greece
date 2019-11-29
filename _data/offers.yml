@@ -10,16 +10,6 @@
   image: https://travelbird-images.imgix.net/53/0b/530b8eb66bd745c73544c60c4c57cec5?auto=compress%2Cformat&crop=faces%2Cedges%2Ccenter&dpr=2&fit=crop&h=700&w=1050
   link: https://co.uk.sales.secretescapes.com/115104/roundtrip-crete-wine-tasting/
 
-- title: 5* luxury beachside Corfu getaway with beautiful sea views
-  location: Grecotel Corfu Imperial, Greece
-  description: Super-chic five-star Corfu hotel on a private peninsula
-  price: 525
-  price-description: per person. Based on 2 people for 5 nights
-  saved: 21
-  expires: 2019/11/26
-  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/193/8a1d9ab0_4c6c_4b7e_8ce6_b6da3bbdd714.jpg?auto=format,compress
-  link: https://www.secretescapes.com/grecotel-corfu-imperial-corfu-greece/sale-ihp
-
 - title: 5* all-inclusive Crete getaway to a sleek village-style resort
   location: Ikaros Beach Luxury Resort & Spa, Greece
   description: Sophisticated five-star getaway in Crete
@@ -40,16 +30,6 @@
   image: https://travelbird-images.imgix.net/f6/1b/f61b16848e84557202ad125e43a256d5?auto=compress%2Cformat&crop=faces%2Cedges%2Ccenter&dpr=2&fit=crop&h=700&rect=0%2C46%2C1827%2C1218&w=1050
   link: https://co.uk.sales.secretescapes.com/115259/aegea-blue-cycladic-uk/
 
-- title: Stylish waterfront Kefalonia holiday in a tranquil setting with sea views
-  location: Kefalonia Grand Hotel, Greek Islands
-  description: Chic Kefalonia break with sea views
-  price: 329
-  price-description: per person. Based on 2 people for 5 nights
-  saved: 49
-  expires: 2019/11/26
-  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/556/9e9953ac_d50d_413a_b0a0_5916c7f8a74b.jpg?auto=format,compress
-  link: https://www.secretescapes.com/kefalonia-grand-hotel-kefalonia-greek-islands/sale-ihp
-
 - title: 5* ultra all-inclusive Corfu holiday with stunning sea views
   location: MarBella Corfu, Greek Islands
   description: Five-star bliss at a Corfu beachside hideaway
@@ -59,16 +39,6 @@
   expires: 2019/12/02
   image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/425/5677f2b8_4263_423c_9b37_9f1112e80b3d.jpg?auto=format,compress
   link: https://www.secretescapes.com/marbella-corfu-corfu-greek-islands/sale-ihp
-
-- title: 5* Halkidiki escape to chic hotel with private beach
-  location: Sani Dunes, Greece
-  description: Five-star Greece bliss with private beach access
-  price: 549
-  price-description: per person. Based on 2 people for 5 nights
-  saved: 30
-  expires: 2019/11/26
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/105277/b4d195e6_c385_4c53_90ff_277a164ef923.jpg?auto=format,compress
-  link: https://www.secretescapes.com/sani-dunes-halkidiki-greece/sale
 
 - title: Miraggio Thermal Spa Resort
   location: Halkidiki, Greece
