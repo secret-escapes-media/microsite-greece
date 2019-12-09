@@ -10,46 +10,6 @@
   image: https://travelbird-images.imgix.net/53/0b/530b8eb66bd745c73544c60c4c57cec5?auto=compress%2Cformat&crop=faces%2Cedges%2Ccenter&dpr=2&fit=crop&h=700&w=1050
   link: https://co.uk.sales.secretescapes.com/115104/roundtrip-crete-wine-tasting/
 
-- title: Nikki Beach Resort & Spa Santorini
-  location: Santorini, Greek Islands
-  description: New Nikki Beach property in sun-soaked Santorini
-  price: 182
-  price-description: per room per night
-  saved: 23
-  expires: 2019/12/09
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/101123/47d8a935_d8e4_4234_ae80_19c9ae293fa3.jpg?auto=format,compress
-  link: https://www.secretescapes.com/nikki-beach-resort-and-spa-santorini-santorini-greek-islands-uk/sale
-
-- title: Dreamy Rhodes escape to an adults-only base
-  location: Lindos Village Resort & Spa, Greece
-  description: A relaxing Greek beach escape to a beautiful Rhodes base
-  price: 399
-  price-description: per person. Based on 2 people for 4 nights
-  saved: 29
-  expires: 2020/02/02
-  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/475/bcee24e5_8626_4566_8252_6c2f1fa44de8.jpg?auto=format,compress
-  link: https://www.secretescapes.com/lindos-village-resort-and-spa-greece/sale-ihp
-
-- title: Indulgent all-inclusive beachfront break to Halkidiki
-  location: Elinotel Apolamare, Greece
-  description: Five-star beach hotel in heavenly Halkidiki
-  price: 369
-  price-description: per person. Based on 2 people for 5 nights
-  saved:
-  expires: 2020/02/03
-  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/981/ba7862aa_f7ca_42e8_9557_cc35b7c8a8e5.jpg?auto=format,compress
-  link: https://www.secretescapes.com/elinotel-apolamare-halkidiki-greece/sale-ihp
-
-- title: 5* exceptional adults-only Corfu escape
-  location: Domes Miramare, a Luxury Collection Resort, Greece
-  description: An ultra-chic five-star Corfu escape for adults
-  price: 499
-  price-description: per person. Based on 2 people for 5 nights
-  saved:
-  expires: 2019/12/06
-  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/241/545204db_40b5_4485_8e64_c57be3df9db9.jpg?auto=format,compress
-  link: https://www.secretescapes.com/domes-miramare-corfu-greece/sale-ihp
-
 - title: Explore the treasures of the Cyclades
   location: Greece
   description: Experience the best of the Greek Cyclades from Athens to Mykonos, Paros & Naxos
@@ -109,3 +69,84 @@
   expires: 2019/12/16
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/95833/24266009_dab7_4769_b5fb_b7fe5224063d.jpg?auto=format,compress
   link: https://www.secretescapes.com/grecotel-lux-me-rhodos-rhodes-greek-islands/sale
+
+- title: Sleek all-inclusive adults-only Rhodes escape with optional swim-up room
+  location: Mayia Exclusive Resort & Spa, Greece
+  description: Unwind at an adults-only, all-inclusive coastal hideout in Rhodes
+  price: 749
+  price-description: per person. Based on 2 people for 5 nights
+  saved: 22
+  expires: 2020/02/10
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/371/d36d6caf_29e1_4bcd_b0b4_b25e21229ef9.jpg?auto=format,compress
+  link: https://www.secretescapes.com/mayia-exclusive-resort-and-spa-rhodes-greece/sale-ihp
+
+- title: 5* luxury Crete summer holiday
+  location: Amirandes Grecotel Exclusive Resort, Greece
+  description: Five-star bliss at a chic Crete beach retreat
+  price: 449
+  price-description: per person. Based on 2 people for 4 nights
+  saved: 44
+  expires: 2020/02/10
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/1010/5f3f6d10_3117_4a78_845d_9469c9ef3123.jpg?auto=format,compress
+  link: https://www.secretescapes.com/amirandes-grecotel-exclusive-resort-crete-greece/sale-ihp
+
+- title: Chic Greece beachfront getaway at brand new digs
+  location: Grecotel Margo Bay & Club Turquoise, Halkidiki
+  description: Greece beach escape to a new Halkidiki pad
+  price: 469
+  price-description: per person. Based on 2 people for 4 nights
+  saved:
+  expires: 2020/02/10
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/1009/dc690020_8b93_42fc_9d54_aa50adb1e658.jpg?auto=format,compress
+  link: https://www.secretescapes.com/grecotel-margo-bay-club-turquoise-halkidiki-greece1/sale-ihp
+
+- title: 5* Corfu all-inclusive secluded beach retreat for summer 2020
+  location: Eva Palace Grecotel Luxury Resort, Greek Islands
+  description: Escape to a five-star Corfu beach retreat
+  price: 429
+  price-description: per person. Based on 2 people for 5 nights
+  saved: 48
+  expires: 2020/02/10
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/332/bfdaeaa7_10da_4739_8e2f_0cb432e3d78a.jpg?auto=format,compress
+  link: https://www.secretescapes.com/grecotel-eva-palace-corfu-greek-islands/sale-ihp
+
+- title: Adults-only Crete beach holiday at a stylish new retreat
+  location: Pepper Sea Club, Greek Islands
+  description: Greek island bliss at a chic new Crete beach pad
+  price: 519
+  price-description: per person. Based on 2 people for 7 nights
+  saved: 33
+  expires: 2020/01/13
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/1004/bda9dea6_3a7a_481e_ac88_637d76774f61.jpg?auto=format,compress
+  link: https://www.secretescapes.com/adults-only-crete-beach-holiday-at-a-stylish-new-retreat-pepper-sea-club-greek-islands/sale-ihp
+
+- title: Ultra-all-inclusive Greek Island beachfront escape
+  location: Amaronda Resort & Spa, Evia Island
+  description: Chic ultra-all-inclusive Greek island beach holiday
+  price: 379
+  price-description: per person. Based on 2 people for 5 nights
+  saved: 33
+  expires: 2020/02/03
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/106381/86b8478a_db47_4577_982a_1d2794b6da0d.jpg?auto=format,compress
+  link: https://www.secretescapes.com/amaronda-resort-and-spa-eretria-greece-uk/sale
+
+- title: Creta Blue Boutique Hotel & Suites
+  location: Crete, Greek Islands
+  description: Crete super-luxe suite with added sea views
+  price: 100
+  price-description: per suite per night
+  saved: 45
+  expires: 2019/12/23
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/106758/6472ebd4_3395_41cd_b9df_1a44d8986309.jpg?auto=format,compress
+  link: https://www.secretescapes.com/creta-blue-boutique-hotel-and-suites-crete-greece/sale
+
+- title: Diamond Deluxe Hotel
+  location: Kos, Greek Islands
+  description: Five-star, adults-only Kos beachfront hotel
+  price: 95
+  price-description: per room per night
+  saved: 51
+  expires: 2019/12/23
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/77974/db3b1756_3c4d_4643_a329_4c8781acee14.jpg?auto=format,compress
+  link: https://www.secretescapes.com/diamond-deluxe-hotel-kos-greek-islands/sale
+

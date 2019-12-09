@@ -27,7 +27,7 @@ function browserSyncServe() {
     server: {
       baseDir: '_site/',
       routes: {
-        '/greece': '_site/'
+        '/2019/greece': '_site/'
       }
     }
   });
