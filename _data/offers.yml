@@ -20,16 +20,6 @@
   image: https://travelbird-images.imgix.net/5e/37/5e37b84747dde041d9232ecddef9dccc?auto=compress
   link: https://co.uk.sales.secretescapes.com/115283/known-cyclades-greece/
 
-- title: 5* Crete escape to a glitzy beachfront spa retreat
-  location: I-Resort Beach Hotel & Spa, Greek Islands
-  description: Five-star beachside luxury at a sleek Crete spa resort
-  price: 399
-  price-description: per person. Based on 2 people for 5 nights
-  saved: 16
-  expires: 2020/02/03
-  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/985/07c0e9f4_7641_497c_8a57_f9faf28c50d9.jpg?auto=format,compress
-  link: https://www.secretescapes.com/five-star-crete-escape-to-a-glitzy-beachfront-spa-retreat-i-resort-beach-hotel-and-spa-greek-islands/sale-ihp
-
 - title: Kalyves Beach Hotel
   location: Crete, Greece
   description: Cretan charm by a Blue-Flag beach
@@ -40,16 +30,6 @@
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/102950/7d95ad51_f976_4555_8f6d_36efd46bb15a.jpg?auto=format,compress
   link: https://www.secretescapes.com/kalyves-beach-hotel-crete-greece-uk-sale/sale
 
-- title: Grecotel Pallas Athena
-  location: Athens, Greece
-  description: Contemporary boutique base in historic Athens
-  price: 84
-  price-description: per room per night
-  saved: 44
-  expires: 2019/12/16
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/84505/da20747b_62fb_4a8e_b250_96d75d4679ad.jpg?auto=format,compress
-  link: https://www.secretescapes.com/grecotel-pallas-athena-athens-greece/sale
-
 - title: Epic Greek Island cruise around the Aegean with Athens stay
   location: Athens, Ios, Santorini, Mykonos & more
   description: "Greek Island cruise: Santorini, Mykonos, Kythnos & more"
@@ -59,36 +39,6 @@
   expires: 2020/01/06
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/106190/c1e4f0cc_7ff9_4e21_9d34_7f38e2642fa8.jpg?auto=format,compress
   link: https://www.secretescapes.com/epic-greek-island-cruise-around-the-aegean-with-athens-stay-athens-ios-santorini-mykonos-and-more/sale
-
-- title: Grecotel Lux Me Rhodos
-  location: Rhodes, Greek Islands
-  description: Stylish, all-inclusive Rhodes beach hotel with a blissful spa
-  price: 152
-  price-description: per room per night
-  saved: 53
-  expires: 2019/12/16
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/95833/24266009_dab7_4769_b5fb_b7fe5224063d.jpg?auto=format,compress
-  link: https://www.secretescapes.com/grecotel-lux-me-rhodos-rhodes-greek-islands/sale
-
-- title: Chic Greece beachfront getaway at brand new digs
-  location: Grecotel Margo Bay & Club Turquoise, Halkidiki
-  description: Greece beach escape to a new Halkidiki pad
-  price: 469
-  price-description: per person. Based on 2 people for 4 nights
-  saved:
-  expires: 2020/02/10
-  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/1009/dc690020_8b93_42fc_9d54_aa50adb1e658.jpg?auto=format,compress
-  link: https://www.secretescapes.com/grecotel-margo-bay-club-turquoise-halkidiki-greece1/sale-ihp
-
-- title: Ultra-all-inclusive Greek Island beachfront escape
-  location: Amaronda Resort & Spa, Evia Island
-  description: Chic ultra-all-inclusive Greek island beach holiday
-  price: 379
-  price-description: per person. Based on 2 people for 5 nights
-  saved: 33
-  expires: 2020/02/03
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/106381/86b8478a_db47_4577_982a_1d2794b6da0d.jpg?auto=format,compress
-  link: https://www.secretescapes.com/amaronda-resort-and-spa-eretria-greece-uk/sale
 
 - title: Creta Blue Boutique Hotel & Suites
   location: Crete, Greek Islands
@@ -110,3 +60,82 @@
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/77974/db3b1756_3c4d_4643_a329_4c8781acee14.jpg?auto=format,compress
   link: https://www.secretescapes.com/diamond-deluxe-hotel-kos-greek-islands/sale
 
+- title: 5* stylish Athens city break with Acropolis views
+  location: Radisson Blu Park Hotel, Athens, Greece
+  description: Luxury Athens getaway with panoramic city views
+  price: 165
+  price-description: per person. Based on 2 people for 2 nights
+  saved: 27
+  expires: 2020/02/17
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/1037/6c3d80fc_cc48_4a4a_a846_6b166755a55c.jpg?auto=format,compress
+  link: https://www.secretescapes.com/5-star-stylish-athens-city-break-radisson-blu-park-hotel-athens-greece/sale-ihp
+
+- title: 5* ultra all-inclusive escape to sun-kissed Rhodes
+  location: Lindos Breeze Beach Hotel, Greek Islands
+  description: Ultra all-inclusive bliss at a five-star Rhodes hotel
+  price: 479
+  price-description: per person. Based on 2 people for 5 nights
+  saved: 31
+  expires: 2020/02/10
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/593/57d804c2_277e_46be_946a_477de3df3842.jpg?auto=format,compress
+  link: https://www.secretescapes.com/lindos-breeze-beach-hotel-rhodes-greece/sale-ihp
+
+- title: Dreamy beachfront Crete break with private pool option
+  location: The Royal Senses Resort & Spa, Greek Islands
+  description: Idyllic Crete beach break at a sleek new hotel
+  price: 499
+  price-description: per person. Based on 2 people for 5 nights
+  saved: 58
+  expires: 2020/02/17
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/1027/8a747b73_0822_4190_bf7f_a96a6fa727f2.jpg?auto=format,compress
+  link: https://www.secretescapes.com/the-royal-senses-resort-and-spa-crete-greece1/sale-ihp
+
+- title: 5* Halkidiki spa & beach escape with a suite stay
+  location: Miraggio Thermal Spa Resort, Greek Islands
+  description: Greek five-star suite stay at a Halkidiki spa resort
+  price: 449
+  price-description: per person. Based on 2 people for 5 nights
+  saved: 34
+  expires: 2020/02/17
+  image: https://d2g6qre7voj6kv.cloudfront.net/inHousePackages/32/2fd91cce_b098_4c9d_8e4a_b531dbc3ea93.jpg?auto=format,compress
+  link: https://www.secretescapes.com/miraggio-thermal-spa-resort-halkidiki-greece/sale-ihp
+
+- title: 5* luxurious Mykonos beach escape
+  location: Boheme Mykonos, Greece
+  description: Five-star Mykonos suites with sea views
+  price: 449
+  price-description: per person. Based on 2 people for 4 nights
+  saved: 35
+  expires: 2020/02/17
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/106613/56c27ab7_5577_474d_bce0_a33396b8d974.jpg?auto=format,compress
+  link: https://www.secretescapes.com/hotel-boheme-mykonos-mykonos-greece/sale
+
+- title: Diana Palace
+  location: Zakynthos, Greece
+  description: Escape to Zakynthos for all-inclusive luxe and dazzling sunshine
+  price: 90
+  price-description: per room per night
+  saved: 45
+  expires: 2020/01/13
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/106934/ef0632d9_eb31_4474_aadb_9bdf8fab6c31.jpg?auto=format,compress
+  link: https://www.secretescapes.com/diana-palace-zakynthos-greece-uk/sale
+
+- title: Meli Palace
+  location: Crete, Greece
+  description: All-inclusive Crete stay at a family-friendly resort
+  price: 94
+  price-description: per room per night
+  saved: 40
+  expires: 2020/01/13
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/17121/193118ef_2394_4e7c_812b_e297ceb7c06f.jpg?auto=format,compress
+  link: https://www.secretescapes.com/meli-palace-crete-greece/sale
+
+- title: Mythic Exclusive Retreat
+  location: Paros, Greek Islands
+  description: Luxury Paros suites with ocean views
+  price: 130
+  price-description: per room per night
+  saved: 49
+  expires: 2020/01/13
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/107211/63d982de_20b4_4dca_96a5_815948635fa0.jpg?auto=format,compress
+  link: https://www.secretescapes.com/mythic-exclusive-retreat-paros-greece/sale
