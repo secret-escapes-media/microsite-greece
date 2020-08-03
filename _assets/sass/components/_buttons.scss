@@ -22,6 +22,11 @@
     background-color: rgba($white,.75);
     &:hover { background-color: $white; }
   }
+  &--blue {
+    color: $white;
+    background-color: $g-cyan;
+    &:hover { background-color: darken($g-cyan,10); }
+  }
   &--outline {
     color: inherit;
     &:before {
