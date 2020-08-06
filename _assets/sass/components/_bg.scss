@@ -31,7 +31,9 @@
       background-size: cover;
       background-position: center top;
       background-repeat: no-repeat;
-      background-attachment: fixed;
+      @include bp($lg){
+        background-attachment: fixed;
+      }
       .svgclippaths & {
         position: fixed;
         background-size: cover;
