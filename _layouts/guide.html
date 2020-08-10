@@ -4,8 +4,8 @@ layout: default
 
 <div class="vpad--xxl bg--blue text--white text--normal">
   <div class="container">
-    <div class="width width--xl text--center text--xl">
-      <p>{{page.intro}}</p>
+    <div class="width width--xl text--center">
+      <p class="text--xxl">{{page.intro}}</p>
     </div>
   </div>
 </div>
@@ -42,7 +42,7 @@ layout: default
               <div class="bg-img bg-img--16-9 bg-img--md-3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}.jpg');"></div>
               <div class="boxpad--lg">
                 <div class="title title--xxxs title--no-kern">{{poi.title}}</div>
-                <p class="text--sm">{{poi.description | truncatewords: 15}}</p>
+                <p class="text--sm">{{poi.description | truncate: 72}} <span class="text--link">Read more</span></p>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ layout: default
                 <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}.jpg');"></div>
                 <div class="boxpad--lg">
                   <div class="title title--xxxs title--no-kern">{{poi.title}}</div>
-                  <p class="text--sm">{{poi.description | truncatewords: 15}}</p>
+                  <p class="text--sm">{{poi.description | truncate: 72}} <span class="text--link">Read more</span></p>
                 </div>
               </div>
             </div>

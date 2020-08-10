@@ -5,7 +5,7 @@
   &--xxl { font-size: 1.2rem; line-height: 1.6; letter-spacing: 0; }
   &--xl  { font-size: 1.1rem; line-height: 1.6; letter-spacing: 0; }
   &--lg  { font-size: 1.05rem; letter-spacing: 0; }
-  &--sm  { font-size: .8rem; }
+  &--sm  { font-size: .9rem; }
 
   // styles
   &--italic       { font-style: italic; }
@@ -29,5 +29,10 @@
     &--bp-left   { text-align: left; }
     &--bp-right  { text-align: right; }
     &--bp-center { text-align: center; }
+  }
+
+  &--link {
+    color: $orange;
+    font-weight: 600;
   }
 }
