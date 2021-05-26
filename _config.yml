@@ -8,17 +8,17 @@ description: >
   After waiting patiently, Greece is finally open again! Whether you’re rediscovering this mythical and enchanting destination, or visiting for the first time, Greece is a country that will quickly capture your heart. From laid-back beaches, with soft golden sands and iconic azure waters, to indulging in delicious Greek cuisine in a host of charming tavernas, a holiday to Greece caters easily to all tastes. A myriad of islands, bastions of their unique traditions, cultures, landscapes and flavours, act as stepping stones on an itinerary framed by diversity and intrepid adventuring.
 
 # file paths
-url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/uk/2020/greece" # the subpath of your site, e.g. /blog/
-img:     "/uk/2020/greece/_assets/img"
-css:     "/uk/2020/greece/_assets/css"
-js:      "/uk/2020/greece/_assets/js"
-
+url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/uk/2021/greece" # the subpath of your site, e.g. /blog/
+img: "/uk/2021/greece/_assets/img"
+css: "/uk/2021/greece/_assets/css"
+js: "/uk/2021/greece/_assets/js"
 
 # Build settings
 markdown: kramdown
-exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+exclude:
+  [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
 keep_files: [_assets]
 sass:
-    sass_dir: css
-    style: compressed
+  sass_dir: css
+  style: compressed
