@@ -1,0 +1,13 @@
+{% assign spotlight-page = site.html_pages | where: 'id', 'ionian' | first %}
+<div class="harvey bg--pattern text--white">
+  <div class="harvey__text text--center">
+    <div class="title title--xxs">Spotlight On:</div>
+    <div class="serif-title serif-title--lg" style="line-height: 1; margin-top: .5rem;">{{spotlight-page.title}}</div>
+    <p class="text--xxl text--normal">{{spotlight-page.intro | truncatewords: 30}}</p>
+    <div class="space--sm"></div>
+    <a href="{{site.baseurl}}{{spotlight-page.url}}" class="btn btn--white">Discover {{spotlight-page.title}}</a>
+  </div>
+  <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{spotlight-page.id}}/bg.jpg')"">
+    <a class="harvey__link" href="{{site.baseurl}}{{spotlight-page.url}}"></a>
+  </div>
+</div>

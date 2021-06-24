@@ -5,6 +5,7 @@ layout: default
 <div class="vpad--xxl bg--blue text--white text--normal">
   <div class="container">
     <div class="width width--xl text--center">
+      {% if page.pre-intro %}<p class="text--xxl">{{page.pre-intro}}</p>{% endif %}
       <p class="text--xxl">{{page.intro}}</p>
     </div>
   </div>

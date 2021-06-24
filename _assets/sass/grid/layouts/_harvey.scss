@@ -22,7 +22,9 @@
     max-width: $lg;
     margin-left: auto;
     margin-right: auto;
-    padding-top: $s4;
+    padding-top: $s8;
+    padding-left: $s2;
+    padding-right: $s2;
     padding-bottom: $s8;
     @include bp($bp) {
       padding-top: $s12;
